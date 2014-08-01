@@ -1,0 +1,39 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 039ff120.tex
+% Pt.120. Right.  ( 9, 9 )
+\PGset[0.8em]
+\begin{picture}   ( 9, 9 )
+\drawline  ( 1, 2 )( 8.5, 2 )( 8.5, 8 )( 1, 2 )    %Right
+\put       ( 3.5, 0.2 ){{\footnotesize Right.}}
+\end{picture}
+\PGrestore
+%
+% 039gg120.tex
+% Pt.120. Obtuse.  (13, 6 )
+\PGset[0.8em]
+\begin{picture}    (13, 6 )
+\drawline  ( 1, 2 )(12.2, 2 )( 5.2, 5.5 )( 1, 2 )    %Obtuse
+\put       ( 4.7, 0.2 ){{\footnotesize Obtuse.}}
+\end{picture}
+\PGrestore
+%
+% 039hh120.tex
+% Pt.120. Acute.   ( 8,10 )
+\PGset[0.8em]
+\begin{picture}    ( 8,10 )
+%\drawline  ( 1, 2 )( 8, 2 )( 5, 9 )( 1, 2 )    %Acute
+\drawline  ( 1, 2 )( 7.5, 2 )( 4.9, 9.8 )( 1, 2 )    %Acute
+\put       ( 3, 0.2 ){{\footnotesize Acute.}}
+\end{picture}
+\PGrestore
+%
+% 039ii120.tex
+% Pt.120. Equiangular.  (10,10 )
+% *** Same as Pt.119. Fig.e. ***
+\PGset[0.8em]
+\begin{picture}         (10,10 )
+\drawline  ( 1, 2 )( 9, 2 )( 5, 8.93 )( 1, 2 )    %Equiangular
+\put       ( 2.3, 0.2 ){{\footnotesize Equiangular.}}
+\end{picture}
+\PGrestore

@@ -1,0 +1,30 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 056aa166.tex
+% Pt.166. Trapezium.  (11, 7.5 )
+\PGset[0.8em]
+\begin{picture}       (11, 7.5 )
+\drawline  ( 0, 1.5 )(11, 1.5 )( 7.5, 6.5 )( 1.5 , 7.5 )( 0, 1.5 )    %Trapezium
+\put       ( 3, 0.2 ){{\footnotesize Trapezium.}}
+\end{picture}
+\PGrestore
+%
+\quad
+% 056bb166.tex
+% Pt.166. Trapezoid.  (10, 6.5 )
+\PGset[0.8em]
+\begin{picture}       (10, 6.5 )
+\drawline  ( 0, 1.5 )(10, 1.5 )( 6.5, 6.5 )( 1.25 , 6.5 )( 0, 1.5 )    %Trapezoid
+\put       ( 2.5, 0.2 ){{\footnotesize Trapezoid.}}
+\end{picture}
+\PGrestore
+%
+\quad
+% 056cc166.tex
+% Pt.166. Parallelogram.  (12, 6.5 )
+\PGset[0.8em]
+\begin{picture}           (12, 6.5 )
+\drawline  ( 0, 1.5 )( 8, 1.5 )(12, 6.5 )( 4, 6.5 )( 0, 1.5 )    %Parallelogram
+\put       ( 3, 0.2 ){{\footnotesize Parallelogram.}}
+\end{picture}
+\PGrestore

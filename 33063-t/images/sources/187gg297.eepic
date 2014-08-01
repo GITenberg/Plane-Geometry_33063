@@ -1,0 +1,38 @@
+\PGset[0.8em]
+\begin{picture}(7,9)
+
+% P in the arc subtended by chord AB s.t. PA:PB = m:n (= AD:DB?)
+
+% r = 3.5
+
+% Ellipse:  u = 4.5  v = 4.5  a = 3.5  b = 3.5  phi = 0.0 Grad
+\qbezier(8.0, 4.5)(8.0, 5.9497)(6.9749, 6.9749)
+\qbezier(6.9749, 6.9749)(5.9497, 8.0)(4.5, 8.0)
+\qbezier(4.5, 8.0)(3.0503, 8.0)(2.0251, 6.9749)
+\qbezier(2.0251, 6.9749)(1.0, 5.9497)(1.0, 4.5)
+\qbezier(1.0, 4.5)(1.0, 3.0503)(2.0251, 2.0251)
+\qbezier(2.0251, 2.0251)(3.0503, 1.0)(4.5, 1.0)
+\qbezier(4.5, 1.0)(5.9497, 1.0)(6.9749, 2.0251)
+\qbezier(6.9749, 2.0251)(8.0, 3.0503)(8.0, 4.5)
+
+% y = 2.3
+% A = 1.778, 2.3
+% B = 7.222, 2.3
+\drawline(1.778,2.3)(7.222,2.3) % AB
+
+% E = 4.5,2.3
+% C = 4.5,8
+% mCP = -4.222
+% P = 6.07, 1.372
+\dashline[80]{0.2}(4.5,2.3)(4.5,8)(6.07,1.372)(1.778,2.3) % ECPA
+
+\put( 1.2, 1.6){$\scriptstyle A$}
+\put( 7.2, 1.6){$\scriptstyle B$}
+\put( 4.2, 8.1){$\scriptstyle C$}
+\put( 5.9, 2.4){$\scriptstyle D$}
+\put( 3.6, 2.4){$\scriptstyle E$}
+\put( 3.8, 4.2){$\scriptstyle O$}
+\put( 6.0, 0.6){$\scriptstyle P$}
+
+\end{picture}
+\PGrestore

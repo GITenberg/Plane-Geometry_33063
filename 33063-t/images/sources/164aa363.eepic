@@ -1,0 +1,28 @@
+\PGset[0.8em]
+\begin{picture}(11,12)
+
+% 10x10
+\drawline(1,1)(11,1)    % AE
+\drawline(3.2,5)(9.2,5) % BF
+
+\drawline(3.2,5)(1,1)     % BA
+\drawline(5.5,5)(4.833,1) % DC
+\drawline(9.2,5)(11,1)    % FE
+
+\dashline[80]{0.2}(6.5,11)(3.2,5) % OB
+\dashline[80]{0.2}(6.5,11)(5.5,5) % OD
+\dashline[80]{0.2}(6.5,11)(9.2,5) % OF
+
+
+
+\put( 0.7,  0.2 ){$\scriptstyle A$}
+\put( 2.4,  4.7 ){$\scriptstyle B$}
+\put( 4.4,  0.2 ){$\scriptstyle C$}
+\put( 5.6,  5.1 ){$\scriptstyle D$}
+\put(10.3,  0.2 ){$\scriptstyle E$}
+\put( 9.4,  4.7 ){$\scriptstyle F$}
+\put( 6.3, 11.2 ){$\scriptstyle O$}
+
+
+\end{picture}
+\PGrestore

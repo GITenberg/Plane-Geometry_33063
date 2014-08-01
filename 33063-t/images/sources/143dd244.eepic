@@ -1,0 +1,23 @@
+\PGset[0.8em]
+\begin{picture}(10,8)
+
+\drawline(1,3)(10,3) % AB
+
+\dashline[80]{0.2}(2.5,5)(2.5,1)(9.7,6) % PDQ mDQ = .694
+
+\dashline[80]{0.2}(2.5,5)(5.38,3) % PE
+\dashline[80]{0.2}(2.5,1)(8,3)(9.7,6) % DFQ
+\dashline[80]{0.2}(2.5,5)(8,3) % PF
+
+
+\put( 0.6, 2.2){$\scriptstyle A$}
+\put( 9.4, 2.2){$\scriptstyle B$}
+\put( 1.7, 2.2){$\scriptstyle C$}
+\put( 2.1, 0.2){$\scriptstyle D$}
+\put( 5.2, 2.2){$\scriptstyle E$}
+\put( 7.7, 2.2){$\scriptstyle F$}
+\put( 2.2, 5.2){$\scriptstyle P$}
+\put( 9.8, 5.8){$\scriptstyle Q$}
+
+\end{picture}
+\PGrestore

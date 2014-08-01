@@ -1,0 +1,18 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 064aa188.tex
+% Pt.188. Fig.a.  (13,10 )
+\PGset[0.8em]
+\begin{picture}   (13,10 )
+\drawline     ( 4.5, 9 )( 0.5, 1 )(12.5, 1 )( 4.5, 9 ) %A(D)B(F)C(E)A
+\drawline(2.5,5)(8.5,5) % DE
+\dashline[80]{0.2}( 6.5, 1   )( 8.5, 5   )                 %FE
+\dashline[80]{0.2}( 0.5, 9   )(10.5, 9   )                 %horiz (A)
+\put( 4.1   ,  9.2 ){$\scriptstyle A$}   %A
+\put( 0     ,  0.2 ){$\scriptstyle B$}   %B
+\put(12     ,  0.2 ){$\scriptstyle C$}   %C
+\put( 1.6   ,  4.9 ){$\scriptstyle D$}   %D
+\put( 8.6   ,  5   ){$\scriptstyle E$}   %E
+\put( 6     ,  0.2 ){$\scriptstyle F$}   %F
+\end{picture}
+\PGrestore

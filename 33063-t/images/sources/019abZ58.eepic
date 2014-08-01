@@ -1,0 +1,31 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 019aaZ58.tex
+% Pt.58. Fig.8. ( 8, 9 )
+\PGset[0.6em]
+\begin{picture} ( 8, 8 )
+\drawline( 2,  7   )( 4, 3 )( 6, 7 )         %CAB
+\put( 1     ,  3   ){\line  ( 1, 0 ){6   }}  %E(A)F
+\put( 4     ,  3   ){\line  ( 0, 1 ){4   }}  %AD
+\put( 3.6   ,  2.2 ){$\scriptstyle A$}   %A
+\put( 5.7   ,  7.1 ){$\scriptstyle B$}   %B
+\put( 1.6   ,  7.1 ){$\scriptstyle C$}   %C
+\put( 3.6   ,  7.1 ){$\scriptstyle D$}   %D
+\put( 0.6   ,  2.2 ){$\scriptstyle E$}   %E
+\put( 6.6   ,  2.2 ){$\scriptstyle F$}   %F
+\put( 2.5   ,  1   ){{\footnotesize \textsc{Fig. 8.}}}
+\end{picture}
+\newline
+\begin{picture} (11, 8 )%
+\drawline( 2.5,  6 )( 5.5, 3 )( 8.5, 6 )     %vee shape
+\put( 1     ,  3   ){\line  ( 1, 0 ){9   }}  %AB
+\put( 5.5   ,  3   ){\line  ( 0, 1 ){4   }}  %vertical
+\put( 0.8   ,  2.2 ){$\scriptstyle A$}   %A
+\put( 9.0   ,  2.2 ){$\scriptstyle B$}   %B
+\put( 6.5   ,  3.2 ){\emph{a}}   %a
+\put( 5.8   ,  4.2 ){\emph{b}}   %b
+\put( 4.5   ,  4.2 ){\emph{c}}   %c
+\put( 3.5   ,  3.2 ){\emph{d}}   %d
+\put( 4     ,  1   ){{\footnotesize \textsc{Fig. 9.}}}
+\end{picture}%
+\PGrestore

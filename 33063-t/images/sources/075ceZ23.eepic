@@ -1,0 +1,38 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 075ccZ23.tex
+% Ex.23. Fig.c.  ( 9, 6 )
+\PGset[0.8em]
+\begin{picture}  ( 9, 6 )
+\drawline     ( 1, 1 )( 8, 1 )( 3, 5 )( 1, 1 )   %A(D)BCA
+\dashline[80]{0.2}( 3, 5 )( 5, 1 )           %CD
+\put( 0.6   ,  0.2 ){$\scriptstyle A$}   %A
+\put( 7.8   ,  0.2 ){$\scriptstyle B$}   %B
+\put( 2.7   ,  5.2 ){$\scriptstyle C$}   %C
+\put( 4.6   ,  0.2 ){$\scriptstyle D$}   %D
+\end{picture}
+\PGrestore
+%
+\quad
+% 075ddZ23.tex
+% Ex.23. Fig.d.  ( 9, 6 )
+\PGset[0.8em]
+\begin{picture}  ( 9, 6 )
+\drawline     ( 1, 1 )( 8, 1 )( 3, 5 )( 1, 1 )   %A'B'C'A'
+\put( 0.6   ,  0.15 ){$\scriptstyle A'$}   %A'
+\put( 7.8   ,  0.2 ){$\scriptstyle B'$}   %B'
+\put( 2.7   ,  5.1 ){$\scriptstyle C'$}   %C'
+\end{picture}
+\PGrestore
+%
+\quad
+% 075eeZ23.tex
+% Ex.23. Fig.e.  ( 7, 6 )
+\PGset[0.8em]
+\begin{picture}  ( 7, 6 )
+\drawline     ( 3, 1 )( 6, 1 )( 1, 5 )( 3, 1 )   %A'B'C'A'
+\put( 2.6   ,  0.15 ){$\scriptstyle A'$}   %A'
+\put( 5.8   ,  0.2 ){$\scriptstyle B'$}   %B'
+\put( 0.7   ,  5.1 ){$\scriptstyle C'$}   %C'
+\end{picture}
+\PGrestore

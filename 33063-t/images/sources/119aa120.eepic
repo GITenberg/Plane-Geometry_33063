@@ -1,0 +1,39 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  &  eepic  packages   ***
+% 119aa120.tex
+% Ex.120. Fig.a.   (11.2, 7.5 )
+\PGset[0.8em]
+\begin{picture}    (11.2, 7.5 )
+
+% Ellipse:  u = 3.5  v = 3.6  a = 3.2  b = 3.2  phi = 0.0 Grad
+\qbezier(6.7, 3.6)(6.7, 4.9255)(5.7627, 5.8627)
+\qbezier(5.7627, 5.8627)(4.8255, 6.8)(3.5, 6.8)
+\qbezier(3.5, 6.8)(2.1745, 6.8)(1.2373, 5.8627)
+\qbezier(1.2373, 5.8627)(0.3, 4.9255)(0.3, 3.6)
+\qbezier(0.3, 3.6)(0.3, 2.2745)(1.2373, 1.3373)
+\qbezier(1.2373, 1.3373)(2.1745, 0.4)(3.5, 0.4)
+\qbezier(3.5, 0.4)(4.8255, 0.4)(5.7627, 1.3373)
+\qbezier(5.7627, 1.3373)(6.7, 2.2745)(6.7, 3.6)
+
+% Ellipse:  u = 8.8  v = 3.6  a = 2.1  b = 2.1  phi = 0.0 Grad
+\qbezier(10.9, 3.6)(10.9, 4.4698)(10.2849, 5.0849)
+\qbezier(10.2849, 5.0849)(9.6698, 5.7)(8.8, 5.7)
+\qbezier(8.8, 5.7)(7.9302, 5.7)(7.3151, 5.0849)
+\qbezier(7.3151, 5.0849)(6.7, 4.4698)(6.7, 3.6)
+\qbezier(6.7, 3.6)(6.7, 2.7302)(7.3151, 2.1151)
+\qbezier(7.3151, 2.1151)(7.9302, 1.5)(8.8, 1.5)
+\qbezier(8.8, 1.5)(9.6698, 1.5)(10.2849, 2.1151)
+\qbezier(10.2849, 2.1151)(10.9, 2.7302)(10.9, 3.6)
+
+\drawline     ( 0.94 , 5.52  )(10.48 , 2.34  )(10.06 , 5.28  )  %A(P)BD
+\drawline     ( 0.94 , 5.52  )( 1.58 , 1.04  )(10.06 , 5.28  )  %AC(P)D
+\dashline[80]{0.2}( 6.7  , 0.1   )( 6.7  , 7.4   )                  %M(P)N 
+\put(  0.1 ,  5.5 ){$\scriptstyle A$}   %A
+\put( 10.4 ,  1.6 ){$\scriptstyle B$}   %B
+\put(  1   ,  0.1 ){$\scriptstyle C$}   %C
+\put( 10   ,  5.5 ){$\scriptstyle D$}   %D
+\put(  6.8 ,  0.1 ){$\scriptstyle M$}   %M
+\put(  5.8 ,  6.8 ){$\scriptstyle N$}   %N
+\put(  5.55,  4.2 ){$\scriptstyle P$}   %P
+\end{picture}
+\PGrestore

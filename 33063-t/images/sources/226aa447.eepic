@@ -1,0 +1,41 @@
+
+\PGset[0.8em]
+\begin{picture}(20.5,15.5)
+
+% small r = 4, large r = 5
+% x=5+4cos(theta), y=5+4sin(theta) for theta=225+72
+% ABCDEA
+\drawline(2.6484,1.7640)(7.3504,1.7640)(8.8044,6.2360)(5.0004,8.9996)(1.1964,6.2360)(2.6484,1.7640)
+% x=15+5cos(theta), y=5+5sin(theta) for theta=225+72
+% ABCDEA
+\drawline(12.0605,.9550)(17.9380,.9550)(19.7555,6.5450)(15.0005,9.9995)(10.2455,6.5450)(12.0605,.9550)
+
+\dashline[80]{0.2}(5,5)(2.6484,1.7640) % OA
+\dashline[80]{0.2}(5,5)(5.0,   1.7640) % OM
+\dashline[80]{0.2}(5,5)(7.3504,1.7640) % OB
+
+\dashline[80]{0.2}(15,5)(12.0605,0.9550) % OA
+\dashline[80]{0.2}(15,5)(15.0,   0.9550) % OM
+\dashline[80]{0.2}(15,5)(17.9380,0.9550) % OB
+
+
+\put(2.2, 1.0){$\scriptstyle A$}
+\put(6.9, 1.0){$\scriptstyle B$}
+\put(8.8, 5.8){$\scriptstyle C$}
+\put(4.7, 9.1){$\scriptstyle D$}
+\put(0.6, 5.9){$\scriptstyle E$}
+\put(4.7, 5.2){$\scriptstyle O$}
+\put(4.4, 1.0){$\scriptstyle M$}
+
+\put(12.0,  .2){$\scriptstyle A'$}
+\put(17.1,  .2){$\scriptstyle B'$}
+\put(19.9, 6.6){$\scriptstyle C'$}
+\put(14.8,10.2){$\scriptstyle D'$}
+\put( 9.4, 6.6){$\scriptstyle E'$}
+\put(14.8, 5.2){$\scriptstyle O'$}
+\put(14.5, 0.2){$\scriptstyle M'$}
+
+
+
+\end{picture}
+\PGrestore

@@ -1,0 +1,24 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% 034bb109.tex
+% Pt.109. Fig.b.  (18,14 )
+\PGset[0.8em]
+\begin{picture}   (18,14 )
+\put( 1     , 11   ){\line  ( 1, 0 ){16   }}      %AB
+\put( 1     ,  3   ){\line  ( 4, 1 ){16   }}      %CD
+\put( 7     ,  1   ){\line  ( 1, 3 ){ 4   }}      %FE
+\put( 0.1   , 10.7 ){$\scriptstyle A$}   %A
+\put(17     , 10.7 ){$\scriptstyle B$}   %B
+\put( 0.2   ,  2.6 ){$\scriptstyle C$}   %C
+\put(17     ,  6.7 ){$\scriptstyle D$}   %D
+\put(10.6   , 13.1 ){$\scriptstyle E$}   %E
+\put( 6.5   ,  0.1 ){$\scriptstyle F$}   %F
+\put( 9.1   , 10.1 ){\emph{a}}   %a
+\put( 9.6   , 11.2 ){\emph{b}}   %b
+\put(10.7   , 11.2 ){\emph{c}}   %c
+\put(10.2   ,  9.9 ){\emph{d}}   %d
+\put( 7.2   ,  3.8 ){\emph{e}}   %e
+\put( 7.7   ,  5.2 ){\emph{f}}   %f
+\put( 8.7   ,  5.4 ){\emph{g}}   %g
+\put( 8.2   ,  3.7 ){\emph{h}}   %h
+\end{picture}
+\PGrestore

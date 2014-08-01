@@ -1,0 +1,23 @@
+\PGset[0.8em]
+
+\begin{picture}   (9, 9.5)
+
+\drawline     ( 1, 7.5 )( 7.5, 7.5 ) % AC
+
+\dashline[80]{0.2}( 1, 7.5 )(   1,   1 )( 7.5, 1)(7.5, 7.5) % AKGC
+\dashline[80]{0.2}( 5, 7.5 )(5,1)   % BH
+\dashline[80]{0.2}( 1, 3.5 )(7.5,3.5) % DF
+
+\put(  .7  , 7.7 ) {$\scriptstyle A$}
+\put(  4.5  , 7.7 ) {$\scriptstyle B$}
+\put(  7  , 7.7 ) {$\scriptstyle C$}
+\put(  .2  , 3.2 ) {$\scriptstyle D$}
+\put(  5.2  , 2.7 ) {$\scriptstyle E$}
+\put(  7.7  , 3.2 ) {$\scriptstyle F$}
+\put(  .7  , .3 ) {$\scriptstyle K$}
+\put(  4.5  , .3 ) {$\scriptstyle H$}
+\put(  7  , .3 ) {$\scriptstyle G$}
+
+\end{picture}
+
+\PGrestore

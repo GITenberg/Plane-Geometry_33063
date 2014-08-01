@@ -1,0 +1,40 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 066aa203.tex
+% Pt.203. Fig.a.  ( 8, 8 )
+\PGset[0.8em]
+\begin{picture}   ( 8, 8 )
+\drawline     ( 0, 1.5 )( 0.5, 8 )( 5, 7.5 )( 8, 1.5 )( 0, 1.5 ) %ll-ul-ur-lr-ll
+\put( 2.5   ,  0.2 ){{\footnotesize \textsc{Fig. 4.}}}
+\end{picture}
+\PGrestore
+%
+\quad
+% 066bb203.tex
+% Pt.203. Fig.b.  ( 8, 5 )
+\PGset[0.8em]
+\begin{picture}   ( 8, 5 )
+\drawline     ( 0, 1.5 )( 0.38, 5 )( 6.60, 4.31 )( 8, 1.5 )( 0, 1.5 ) %ll-ul-ur-lr-ll
+\put( 2.5   ,  0.2 ){{\footnotesize \textsc{Fig. 5.}}}
+\end{picture}
+\PGrestore
+%
+\quad
+% 066cc203.tex
+% Pt.203. Fig.c.  ( 8, 7 )
+\PGset[0.8em]
+\begin{picture}   ( 8, 7 )
+\drawline     ( 0, 1.5 )( 3, 7 )( 8, 6.8 )( 7, 1.5 )( 0, 1.5 ) %ll-ul-ur-lr-ll
+\put( 2     ,  0.2 ){{\footnotesize \textsc{Fig. 6.}}}
+\end{picture}
+\PGrestore
+%
+\quad
+% 066dd203.tex
+% Pt.203. Fig.d.  ( 7, 8 )
+\PGset[0.8em]
+\begin{picture}   ( 7, 8 )
+\drawline     ( 0, 1.5 )( 1, 7.7 )( 6, 6.8 )( 7, 1.5 )( 0, 1.5 ) %ll-ul-ur-lr-ll
+\put( 2     ,  0.2 ){{\footnotesize \textsc{Fig. 7.}}}
+\end{picture}
+\PGrestore

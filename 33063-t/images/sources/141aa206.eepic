@@ -1,0 +1,17 @@
+\PGset[0.8em]
+\begin{picture}(8,6)
+
+\dashline[80]{0.2}(3.5,6.7)(1,6.7)(5.2,5) % AEB
+\drawline(3.5,6.7)(6.9,6.7) % AC
+
+\dashline[80]{0.4}(3.5,6.7)(5.2,5)(6.9,6.7)(4.9,8.7) % ABCD
+\dashline[80]{0.4}(5.5,8.7)(3.5,6.7) % DA
+
+\put( 2.9, 6.8){$\scriptstyle A$}
+\put( 4.8, 4.2){$\scriptstyle B$}
+\put( 7.0, 6.4){$\scriptstyle C$}
+\put( 4.9, 8.7){$\scriptstyle D$}
+\put( 0.5, 6.8){$\scriptstyle E$}
+
+\end{picture}
+\PGrestore

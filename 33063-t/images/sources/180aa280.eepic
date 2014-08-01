@@ -1,0 +1,26 @@
+\PGset[0.8em]
+\begin{picture}( 5, 6)
+
+% 133x100
+% 5x4
+
+\drawline(2.5,4.5)(4,4)(5,1)(1,1)(2.5,4.5) % ABCDA
+
+\drawline(2.5,4.5)(5,1) % AC
+\drawline(4,4)(1,1) % BD
+
+% E = midpoint of AC
+\dashline[80]{0.2}(4,4)(3.75,2.75)(1,1) % BED
+
+% F = midpoint of BD
+\drawline(3.75,2.75)(2.5,2.5) % EF
+
+\put(2.2, 4.6){$\scriptstyle A$}
+\put(3.8, 4.2){$\scriptstyle B$}
+\put(4.5, 0.2){$\scriptstyle C$}
+\put(0.5, 0.2){$\scriptstyle D$}
+\put(3.3, 1.8){$\scriptstyle E$}
+\put(1.8, 2.4){$\scriptstyle F$}
+
+\end{picture}
+\PGrestore

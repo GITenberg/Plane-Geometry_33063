@@ -1,0 +1,30 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  &  eepic  packages   ***
+% 092aa249.tex
+% Pt.249. Fig.a.   (13.4,12.4 )
+\PGset[0.8em]
+\begin{picture}    (13.4,12.4 )
+
+% Ellipse:  u = 6.7  v = 6.2  a = 5.7  b = 5.7  phi = 0.0 Grad
+\qbezier(12.4, 6.2)(12.4, 8.561)(10.7305, 10.2305)
+\qbezier(10.7305, 10.2305)(9.061, 11.9)(6.7, 11.9)
+\qbezier(6.7, 11.9)(4.339, 11.9)(2.6695, 10.2305)
+\qbezier(2.6695, 10.2305)(1.0, 8.561)(1.0, 6.2)
+\qbezier(1.0, 6.2)(1.0, 3.839)(2.6695, 2.1695)
+\qbezier(2.6695, 2.1695)(4.339, 0.5)(6.7, 0.5)
+\qbezier(6.7, 0.5)(9.061, 0.5)(10.7305, 2.1695)
+\qbezier(10.7305, 2.1695)(12.4, 3.839)(12.4, 6.2)
+
+\drawline     ( 1.495, 8.524 )(10.610,10.347 )                 %A(P)B
+\drawline     ( 2.052, 2.9   )(11.348, 2.9   )                 %C(H)F
+\dashline[80]{0.2}( 1.495, 8.524 )( 6.7  , 6.2   )( 6.053, 9.436 ) %AOP
+\dashline[80]{0.2}( 2.052, 2.9   )( 6.7  , 6.2   )( 6.7  , 2.9   ) %COH
+\put(  0.7 ,  8.5 ){$\scriptstyle A$}   %A
+\put( 10.7 , 10.3 ){$\scriptstyle B$}   %B
+\put(  1   ,  2.2 ){$\scriptstyle C$}   %C
+\put( 11.5 ,  2.2 ){$\scriptstyle F$}   %F
+\put(  6.2 ,  2.0 ){$\scriptstyle H$}   %H
+\put(  6.9 ,  5.9 ){$\scriptstyle O$}   %O
+\put(  5.7 ,  9.6 ){$\scriptstyle P$}   %P
+\end{picture}
+\PGrestore

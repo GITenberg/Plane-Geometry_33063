@@ -1,0 +1,12 @@
+\PGset[0.8em]
+\begin{picture}   (14,14 )
+\drawline     ( 13,13 )( 1, 1 )(13, 1 )( 13,13 )    %A(D)BC(E)A
+\drawline     (  7, 7 )( 13, 4 )              %DE
+\dashline[80]{0.2} ( 13, 4 )(  1, 1 )              %EB
+\put( 12.5  , 13.2 ){$\scriptstyle A$}   %A
+\put( 0.7   ,  0.2 ){$\scriptstyle B$}   %B
+\put(13.3   ,  0.7 ){$\scriptstyle C$}   %C
+\put( 6.3   ,  7   ){$\scriptstyle D$}   %D
+\put(13.3   ,  3.7 ){$\scriptstyle E$}   %E
+\end{picture}
+\PGrestore

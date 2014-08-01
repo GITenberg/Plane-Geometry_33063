@@ -1,0 +1,23 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 124aa304.tex
+% Pt.304. Fig.a.   ( 16 ,18.7 )
+\PGset[0.8em]
+\begin{picture}    ( 16 ,18.7 )
+\qbezier[40]  ( 8    ,12.5   )( 3.858,12.5   )( 0.929, 9.571 ) %arc AC 3rd octant
+\qbezier[40]  (15.071, 9.571 )(12.142,12.5   )( 8    ,12.5   ) %arc CB 2nd octant
+\drawline     ( 0.9  , 9.6   )( 8    , 2.5   )(15.1  , 9.6   ) %upperleft(A)E(B)upperright
+\dashline[80]{0.2}( 7.2  , 1.7   )( 8    , 2.5   )                 %lowleft -E(B)
+\dashline[80]{0.2}( 8.831, 1.67  )( 8    , 2.5   )                 %lowright-E(A)
+\dashline[80]{0.2}( 8    , 0.1   )( 8    ,18.3   )                 %bottom(ECD)top
+\dottedline[.]{0.4}( 6.6  ,17.943 )( 7.3  ,17.424 )( 8    ,16.8   ) %A left  arc @ D
+\dottedline[.]{0.4}( 8    ,16.8   )( 8.522,16.25  )( 8.972,15.7   ) %A right arc @ D
+\dottedline[.]{0.4}( 6.7  ,15.244 )( 7.35 ,16.101 )( 8    ,16.8   ) %B left  arc @ D
+\dottedline[.]{0.4}( 8    ,16.8   )( 8.550,17.3   )( 9.194,17.8   ) %B right arc @ D
+\put(  0.1 ,  9.6 ){$\scriptstyle A$}   %A
+\put( 15.2 ,  9.6 ){$\scriptstyle B$}   %B
+\put(  8.2 , 12.9 ){$\scriptstyle C$}   %C
+\put(  8.3 , 18   ){$\scriptstyle D$}   %D
+\put(  8.6 ,  2.3 ){$\scriptstyle E$}   %E
+\end{picture}
+\PGrestore

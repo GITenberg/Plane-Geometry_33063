@@ -1,0 +1,26 @@
+\PGset[0.8em]
+\begin{picture}(14,13)
+
+% radius = 6
+\drawline(13.0000,7.0000)(10.0006,12.1960)(4.0012,12.1960)(1.0006,7.0000)(3.9994,1.8040)(9.9988,1.8040)(13.0000,7.0000)
+
+\dashline[80]{0.2}(7,7)(4, 1.804) % OA
+\dashline[80]{0.2}(7,7)(10,1.804) % OB
+\dashline[80]{0.2}(7,7)(13,7)     % OC
+\dashline[80]{0.2}(7,7)(10, 12.196) % OD
+\dashline[80]{0.2}(7,7)(4, 12.196)  % OE
+\dashline[80]{0.2}(7,7)(1, 7)       % OF
+
+\drawline(7,7)(7,1.804) % OM
+
+\put( 3.9, 0.9){$\scriptstyle A$}
+\put( 9.2, 0.9){$\scriptstyle B$}
+\put(13.1, 6.7){$\scriptstyle C$}
+\put( 9.2,12.3){$\scriptstyle D$}
+\put( 3.9,12.3){$\scriptstyle E$}
+\put( 0.3, 6.7){$\scriptstyle F$}
+\put( 6.7, 7.4){$\scriptstyle O$}
+\put( 6.5, 0.9){$\scriptstyle M$}
+
+\end{picture}
+\PGrestore

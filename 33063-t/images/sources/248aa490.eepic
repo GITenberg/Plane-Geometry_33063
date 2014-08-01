@@ -1,0 +1,33 @@
+\PGset[0.8em]
+\begin{picture}(21,9)
+
+% 235x190
+% 8x7
+
+\drawline(1,1)(9,1)(5,8)(1,1) % ABC
+
+% C = 5,8
+% D = 6.5,1
+% AD = CE = 5.5
+% CD = DE = 7.1589
+% (x-5)^2+(y-8)^2 = 5.5^2
+% (x-7)^2+(y-1)^2 = 7.159^2
+% E = 0.756, 4.502
+\dashline[80]{0.2}(5,8)(6.5,1)(0.756,4.502)(5,8) % CDEC
+
+
+\drawline(14,1)(20,1)(20,7)(14,7)(14,1) % Q'
+
+\put(  0.5,  0.2 ){$\scriptstyle A$}
+\put(  8.5,  0.2 ){$\scriptstyle B$}
+\put(  4.7,  8.2 ){$\scriptstyle C$}
+\put(  6.0,  0.2 ){$\scriptstyle D$}
+\put(  0.0,  4.2 ){$\scriptstyle E$}
+
+\put(  4.7,  3.8 ){$\scriptstyle Q$}
+\put( 16.7,  3.7 ){$\scriptstyle Q'$}
+
+
+
+\end{picture}
+\PGrestore

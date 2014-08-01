@@ -1,0 +1,29 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 039cc119.tex
+% Pt.119. Scalene.  (13, 8 )
+\PGset[0.8em]
+\begin{picture}     (13, 8 )
+\drawline  ( 1, 2 )(12, 2 )( 4, 7 )( 1, 2 )    %Scalene
+\put       ( 4, 0.2 ){{\footnotesize Scalene.}}
+\end{picture}
+\PGrestore
+%
+% 039dd119.tex
+% Pt.119. Isosceles.  ( 7,10 )
+\PGset[0.8em]
+\begin{picture}       ( 7,10 )
+%\drawline  ( 1, 2 )( 7, 2 )( 4, 9 )( 1, 2 )    %Isosceles
+\drawline  ( 1, 2 )( 5.8, 2 )( 3.4, 9.2 )( 1, 2 )    %Isosceles
+\put       ( 1.5, 0.2 ){{\footnotesize Isosceles.}}
+\end{picture}
+\PGrestore
+%
+% 039ee119.tex
+% Pt.119. Equilateral.  (10,10 )
+\PGset[0.8em]
+\begin{picture}         (10,10 )
+\drawline  ( 1, 2 )( 9, 2 )( 5, 8.93 )( 1, 2 )    %Equilateral
+\put       ( 2.5, 0.2 ){{\footnotesize Equilateral.}}
+\end{picture}
+\PGrestore

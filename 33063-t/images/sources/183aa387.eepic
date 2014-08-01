@@ -1,0 +1,28 @@
+\PGset[0.8em]
+\begin{picture}(21,13)
+
+% m = 5.2
+% n = 6.2
+% m+n = 11.4
+\drawline(14,9)(19.2,9) % m
+\drawline(14,7)(20.2,7) % n
+
+
+% mAC = 1.219
+\dashline[80]{0.2}(1,1)(5.233,11.585)(13.906,1)(1,1) % DAED
+
+\dashline[80]{0.2}(2.931,5.828)(9.956,5.828) % BC
+
+
+
+\put( 4.9,11.7){$\scriptstyle A$}
+\put( 2.2, 5.6){$\scriptstyle B$}
+\put(10.2, 5.6){$\scriptstyle C$}
+\put( 0.2, 0.7){$\scriptstyle D$}
+\put(14.0, 0.7){$\scriptstyle E$}
+
+\put(16.6, 9.2){$\scriptstyle m$}
+\put(17.1, 7.2){$\scriptstyle n$}
+
+\end{picture}
+\PGrestore

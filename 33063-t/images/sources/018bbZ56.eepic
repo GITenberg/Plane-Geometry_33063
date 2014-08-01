@@ -1,0 +1,19 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% 018bbZ56.tex
+% Pt.56. Fig.6. (22, 4 )
+\PGset[0.7em]
+\begin{picture} (22, 4 )
+\put( 1     ,  2   ){\line  ( 1, 0 ){20  }}  %A(BCD)E
+\put( 1     ,  1.7 ){\line  ( 0, 1 ){0.6 }}  %tick A
+\put( 6     ,  1.7 ){\line  ( 0, 1 ){0.6 }}  %tick B
+\put(11     ,  1.7 ){\line  ( 0, 1 ){0.6 }}  %tick C
+\put(16     ,  1.7 ){\line  ( 0, 1 ){0.6 }}  %tick D
+\put(21     ,  1.7 ){\line  ( 0, 1 ){0.6 }}  %tick E
+\put( 0.6   ,  2.5 ){$\scriptstyle A$}   %A
+\put( 5.6   ,  2.5 ){$\scriptstyle B$}   %B
+\put(10.6   ,  2.5 ){$\scriptstyle C$}   %C
+\put(15.6   ,  2.5 ){$\scriptstyle D$}   %D
+\put(20.6   ,  2.5 ){$\scriptstyle E$}   %E
+\put( 9.5   ,  0.2 ){{\footnotesize \textsc{Fig. 6.}}}
+\end{picture}
+\PGrestore

@@ -1,0 +1,18 @@
+\PGset[0.8em]
+\begin{picture}(14,8)
+
+\drawline(1,1)(13,1) % AB
+\drawline(3.14,6.5)(10.2,3.7) % CD
+\dashline[80]{0.2}(3.14,6.5)(3.14,1)
+\dashline[80]{0.2}(10.2,3.7)(10.2,1)
+
+\put( 0.2, 0.7 ){$\scriptstyle A$}
+\put(13.1, 0.7 ){$\scriptstyle B$}
+\put( 2.8, 6.6 ){$\scriptstyle C$}
+\put( 9.8, 3.9 ){$\scriptstyle D$}
+\put( 2.8, 0.2 ){$\scriptstyle P$}
+\put( 9.8, 0.2 ){$\scriptstyle R$}
+
+
+\end{picture}
+\PGrestore

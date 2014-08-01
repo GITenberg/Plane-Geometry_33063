@@ -1,0 +1,28 @@
+\PGset[0.8em]
+\begin{picture}(18,10)
+
+% 450x238
+% 16x9
+
+% C = 7.5,7
+% A = 11,1
+
+\drawline(11,1)(17,1)(7.5,7)(11,1) % ABCA
+
+% mAF = mM'C = .923, A=11,1
+% mBC = -.6315, B = 17,1
+\dashline[80]{0.2}(1,1)(11,1)(13.437,3.25) % M'AF
+
+% Ex = 4, Ey = 9.21
+\drawline(1,1)(7.5,7)(4,9.21) % M'CE
+
+
+\put( 10.6,  0.2 ){$\scriptstyle A$}
+\put( 17.1,  0.9 ){$\scriptstyle B$}
+\put(  7.6,  7.1 ){$\scriptstyle C$}
+\put(  3.2,  9.0 ){$\scriptstyle E$}
+\put( 13.4,  3.4 ){$\scriptstyle F$}
+\put(  0.0,  0.9 ){$\scriptstyle M'$}
+
+\end{picture}
+\PGrestore

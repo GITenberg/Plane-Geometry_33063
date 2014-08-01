@@ -1,0 +1,18 @@
+\PGset[0.8em]
+\begin{picture}(17,12)
+
+% 436x290
+% 15(5.5)x10
+\drawline(1,11)(6.5,1)(16,1)(1,11) % ACBA
+
+\dashline[80]{0.2}(1,11)(1,1)(6.5,1) % ADC
+
+
+\put(0.7,11.1 ){$\scriptstyle A$}
+\put(6.2, 0.2 ){$\scriptstyle C$}
+\put(16.1, 0.8 ){$\scriptstyle B$}
+\put(0.7, 0.2 ){$\scriptstyle D$}
+
+
+\end{picture}
+\PGrestore

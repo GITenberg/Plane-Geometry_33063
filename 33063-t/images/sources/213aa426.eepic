@@ -1,0 +1,33 @@
+\PGset[0.7em]
+\begin{picture}   (10, 10)
+
+\drawline     (2.5,1)(1,6)(5,9)(9,6)(7.5,1)(2.5,1) % P
+
+\put( 4.2  , 4.2){$\scriptstyle P$}
+\put( 2.2  , 0.2){$\scriptstyle A$}
+\put( 6.7  , 0.2){$\scriptstyle B$}
+
+\end{picture}
+\quad
+\PGset[0.8em]
+\begin{picture}   (10, 9)
+% 260x230
+% 8x8
+
+\drawline     (2.5,1)(1,4.5)(2.5,8)(7.5,8)(9,4.5)(7.5,1)(2.5,1)
+
+\put ( 4.7  , 4.2){$\scriptstyle Q$}
+
+\end{picture}
+\quad
+\begin{picture}   (10, 10)
+
+\dashline[80]{0.4}(2.5,1)(1,6)(5,9)(9,6)(7.5,1)(2.5,1) % P
+
+\put( 4.2  , 4.2){$\scriptstyle P'$}
+\put( 2.2  , 0.2){$\scriptstyle A'$}
+\put( 6.7  , 0.2){$\scriptstyle B'$}
+
+\end{picture}
+
+\PGrestore

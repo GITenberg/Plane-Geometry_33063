@@ -1,0 +1,15 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% 058bb181.tex
+% Pt.181. Fig.b.  (20, 7 )
+\PGset[0.8em]
+\begin{picture}   (20, 7 )
+\put( 0    ,  1   ){\line  ( 1, 0 ){20 }}                %lower horiz
+\put( 0    ,  6   ){\line  ( 1, 0 ){20 }}                %upper horiz
+\put( 5    ,  1   ){\line  ( 0, 1 ){ 5 }}                %DA
+\put(15    ,  1   ){\line  ( 0, 1 ){ 5 }}                %CB
+\put( 4.6   ,  6.2 ){$\scriptstyle A$}   %A
+\put(14.7   ,  6.2 ){$\scriptstyle B$}   %B
+\put(14.6   ,  0.2 ){$\scriptstyle C$}   %C
+\put( 4.6   ,  0.2 ){$\scriptstyle D$}   %D
+\end{picture}
+\PGrestore

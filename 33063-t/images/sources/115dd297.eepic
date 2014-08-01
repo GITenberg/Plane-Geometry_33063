@@ -1,0 +1,14 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% 115dd297.tex
+% Pt.297. Fig.d.   (10,10 )
+\PGset[0.8em]
+\begin{picture}    (10,10 )
+\drawline(1,5)(9,5)
+\drawline(5,1)(5,9)
+\put(  9.0 ,  4.8 ){$\scriptstyle A$}   %A
+\put(  4.6 ,  9.2 ){$\scriptstyle B$}   %B
+\put(  0.1 ,  4.7 ){$\scriptstyle C$}   %C
+\put(  4.6 ,  0.1 ){$\scriptstyle D$}   %D
+\put(  5.2 ,  4.15){$\scriptstyle O$}   %O
+\end{picture}
+\PGrestore

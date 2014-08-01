@@ -1,0 +1,46 @@
+\PGset[0.8em]
+\begin{picture}(10.5,10.5)
+
+% In a given circle let AOB be a diameter, OC any radius, CD the
+% perpendicular from C to AB.  Upon OC take OM equal to CD.  Find the
+% locus of the point M as OC turns about O.
+
+% r = 4.25
+% Ellipse:  u = 5.25  v = 5.25  a = 4.25  b = 4.25  phi = 0.0 Grad
+\qbezier(9.5, 5.25)(9.5, 7.0104)(8.2552, 8.2552)
+\qbezier(8.2552, 8.2552)(7.0104, 9.5)(5.25, 9.5)
+\qbezier(5.25, 9.5)(3.4896, 9.5)(2.2448, 8.2552)
+\qbezier(2.2448, 8.2552)(1.0, 7.0104)(1.0, 5.25)
+\qbezier(1.0, 5.25)(1.0, 3.4896)(2.2448, 2.2448)
+\qbezier(2.2448, 2.2448)(3.4896, 1.0)(5.25, 1.0)
+\qbezier(5.25, 1.0)(7.0104, 1.0)(8.2552, 2.2448)
+\qbezier(8.2552, 2.2448)(9.5, 3.4896)(9.5, 5.25)
+
+\drawline(1,5.25)(9.5,5.25) % BA
+\dashline[80]{0.2}(5.25,1)(5.25,9.5) % EO
+\drawline(5.25,5.25)(8.255,8.255)(8.255,5.25) % OCD
+
+% Ellipse:  u = 5.25  v = 7.375  a = 2.125  b = 2.125  phi = 0.0 Grad
+\qbezier[10](7.375, 7.375)(7.375, 8.2552)(6.7526, 8.8776)
+\qbezier[10](6.7526, 8.8776)(6.1302, 9.5)(5.25, 9.5)
+\qbezier[10](5.25, 9.5)(4.3698, 9.5)(3.7474, 8.8776)
+\qbezier[10](3.7474, 8.8776)(3.125, 8.2552)(3.125, 7.375)
+\qbezier[10](3.125, 7.375)(3.125, 6.4948)(3.7474, 5.8724)
+\qbezier[10](3.7474, 5.8724)(4.3698, 5.25)(5.25, 5.25)
+\qbezier[10](5.25, 5.25)(6.1302, 5.25)(6.7526, 5.8724)
+\qbezier[10](6.7526, 5.8724)(7.375, 6.4948)(7.375, 7.375)
+
+\dashline[80]{0.2}(5.25,9.5)(7.375,7.375) % EM
+
+\put( 9.5, 5.0){$\scriptstyle A$}
+\put( 0.2, 5.0){$\scriptstyle B$}
+\put( 8.3, 8.3){$\scriptstyle C$}
+\put( 7.8, 4.5){$\scriptstyle D$}
+\put( 5.0, 9.6){$\scriptstyle E$}
+\put( 5.3, 4.5){$\scriptstyle O$}
+\put( 7.3, 6.7){$\scriptstyle M$}
+
+
+
+\end{picture}
+\PGrestore

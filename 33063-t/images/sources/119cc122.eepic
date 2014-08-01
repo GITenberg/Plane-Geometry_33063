@@ -1,0 +1,39 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  &  eepic  packages   ***
+% 119cc122.tex
+% Ex.122. Fig.c.   ( 7.8, 5.2 )
+\PGset[0.8em]
+\begin{picture}    ( 7.8, 5.2 )
+
+% Ellipse:  u = 2.8  v = 2.6  a = 2.3  b = 2.3  phi = 0.0 Grad
+\qbezier(5.1, 2.6)(5.1, 3.5527)(4.4263, 4.2263)
+\qbezier(4.4263, 4.2263)(3.7527, 4.9)(2.8, 4.9)
+\qbezier(2.8, 4.9)(1.8473, 4.9)(1.1737, 4.2263)
+\qbezier(1.1737, 4.2263)(0.5, 3.5527)(0.5, 2.6)
+\qbezier(0.5, 2.6)(0.5, 1.6473)(1.1737, 0.9737)
+\qbezier(1.1737, 0.9737)(1.8473, 0.3)(2.8, 0.3)
+\qbezier(2.8, 0.3)(3.7527, 0.3)(4.4263, 0.9737)
+\qbezier(4.4263, 0.9737)(5.1, 1.6473)(5.1, 2.6)
+
+% Ellipse:  u = 5.9  v = 2.6  a = 1.8  b = 1.8  phi = 0.0 Grad
+\qbezier(7.7, 2.6)(7.7, 3.3456)(7.1728, 3.8728)
+\qbezier(7.1728, 3.8728)(6.6456, 4.4)(5.9, 4.4)
+\qbezier(5.9, 4.4)(5.1544, 4.4)(4.6272, 3.8728)
+\qbezier(4.6272, 3.8728)(4.1, 3.3456)(4.1, 2.6)
+\qbezier(4.1, 2.6)(4.1, 1.8544)(4.6272, 1.3272)
+\qbezier(4.6272, 1.3272)(5.1544, 0.8)(5.9, 0.8)
+\qbezier(5.9, 0.8)(6.6456, 0.8)(7.1728, 1.3272)
+\qbezier(7.1728, 1.3272)(7.7, 1.8544)(7.7, 2.6)
+
+\put          ( 2.8  , 2.6   ){\circle*{ 0.2}}     %circle left  center dot
+\put          ( 5.9  , 2.6   ){\circle*{ 0.2}}     %circle right center dot
+\drawline     ( 0.919, 1.276 )( 7.119, 1.276 )( 4.681, 3.924 )( 0.919, 1.276 )  %C(B)D(O')A(O)C
+\dashline[80]{0.2}( 4.681, 1.276 )( 4.681, 3.924 )     %BA
+\put(  4.4 ,  4.5){$\scriptstyle A$}   %A
+\put(  4.3 ,  0.1 ){$\scriptstyle B$}   %B
+\put(  0.1 ,  0.5 ){$\scriptstyle C$}   %C
+\put(  6.9 ,  0.5 ){$\scriptstyle D$}   %D
+\put(  2   ,  2.7 ){$\scriptstyle O$}   %O
+\put(  6   ,  2.7 ){$\scriptstyle O'$}   %O'
+\end{picture}
+\PGrestore

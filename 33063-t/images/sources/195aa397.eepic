@@ -1,0 +1,22 @@
+\PGset[0.8em]
+\begin{picture}(38,8)
+
+\drawline(1,1)(11,1)(11,8)(1,8)(1,1) % R
+\drawline(15,1)(22,1)(22,6)(15,6)(15,1) % R'
+\drawline(26,1)(36,1)(36,6)(26,6)(26,1) % S
+
+\put( 5.5, 4.2){$\scriptstyle R$}
+\put(18.2, 3.2){$\scriptstyle R'$}
+\put(30.5, 3.2){$\scriptstyle S$}
+
+\put( 0.2, 4.2){$\scriptstyle a$}
+\put( 5.7, 0.3){$\scriptstyle b$}
+
+\put(14.2, 3.2){$\scriptstyle a'$}
+\put(18.4, 0.3){$\scriptstyle b'$}
+
+\put(25.2, 3.2){$\scriptstyle a'$}
+\put(30.7, 0.3){$\scriptstyle b$}
+
+\end{picture}
+\PGrestore

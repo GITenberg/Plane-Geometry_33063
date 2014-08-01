@@ -1,0 +1,50 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  &  eepic  packages   ***
+% 087aa236.tex
+% Pt.236. Fig.a.   (12.5,11.5 )
+\PGset[0.8em]
+\begin{picture}    (12.5,11.5 )
+
+% Ellipse:  u = 6.0  v = 5.5  a = 5.0  b = 5.0  phi = 0.0 Grad
+\qbezier(11.0, 5.5)(11.0, 7.5711)(9.5355, 9.0355)
+\qbezier(9.5355, 9.0355)(8.0711, 10.5)(6.0, 10.5)
+\qbezier(6.0, 10.5)(3.9289, 10.5)(2.4645, 9.0355)
+\qbezier(2.4645, 9.0355)(1.0, 7.5711)(1.0, 5.5)
+\qbezier(1.0, 5.5)(1.0, 3.4289)(2.4645, 1.9645)
+\qbezier(2.4645, 1.9645)(3.9289, 0.5)(6.0, 0.5)
+\qbezier(6.0, 0.5)(8.0711, 0.5)(9.5355, 1.9645)
+\qbezier(9.5355, 1.9645)(11.0, 3.4289)(11.0, 5.5)
+
+\drawline(11, 5.5 )( 6, 5.5 )( 8.9, 9.573 )     %AOB
+\drawline          ( 6, 5.5 )( 7  ,10.399 )     %OC
+\put( 11.1 ,  5.2 ){$\scriptstyle A$}   %A
+\put(  8.9 ,  9.7 ){$\scriptstyle B$}   %B
+\put(  6.7 , 10.6 ){$\scriptstyle C$}   %C
+\put(  5.6 ,  4.7 ){$\scriptstyle O$}   %O
+\put(  0.2 ,  3.7 ){$\scriptstyle P$}   %P
+\end{picture}
+\PGrestore
+%
+\qquad
+% 087bb236.tex
+% Pt.236. Fig.b.   (12.5,11.5 )
+\PGset[0.8em]
+\begin{picture}    (12.5,11.5 )
+
+% Ellipse:  u = 6.0  v = 5.5  a = 5.0  b = 5.0  phi = 0.0 Grad
+\qbezier(11.0, 5.5)(11.0, 7.5711)(9.5355, 9.0355)
+\qbezier(9.5355, 9.0355)(8.0711, 10.5)(6.0, 10.5)
+\qbezier(6.0, 10.5)(3.9289, 10.5)(2.4645, 9.0355)
+\qbezier(2.4645, 9.0355)(1.0, 7.5711)(1.0, 5.5)
+\qbezier(1.0, 5.5)(1.0, 3.4289)(2.4645, 1.9645)
+\qbezier(2.4645, 1.9645)(3.9289, 0.5)(6.0, 0.5)
+\qbezier(6.0, 0.5)(8.0711, 0.5)(9.5355, 1.9645)
+\qbezier(9.5355, 1.9645)(11.0, 3.4289)(11.0, 5.5)
+
+\drawline(11, 5.5 )( 6, 5.5 )( 8.9, 9.573 )     %A'O'B'
+\put( 11.1 ,  5.2 ){$\scriptstyle A'$}   %A'
+\put(  8.9 ,  9.7 ){$\scriptstyle B'$}   %B'
+\put(  5.6 ,  4.5 ){$\scriptstyle O'$}   %O'
+\put(  0.2 ,  2.7 ){$\scriptstyle P'$}   %P'
+\end{picture}
+\PGrestore

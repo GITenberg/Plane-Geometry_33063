@@ -1,0 +1,41 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 129aa311.tex
+% Pt.311. Fig.a.   ( 9,11.7 )
+\PGset[0.8em]
+\begin{picture}    ( 9,11.7 )
+\drawline     ( 8    ,11.6   )( 1.9  , 6.9   )( 8.2  , 6.9   ) %ur-A-lr
+\drawline     ( 0.1  , 4.3   )( 8.3  , 4.3   )                 %left-b
+\drawline     ( 2.1  , 1.6   )( 8.3  , 1.6   )                 %left-a
+\put(  1.1 ,  6.8 ){$\scriptstyle A$}   %A
+\put(  8.3 ,  1.4 ){\emph{a}}           %a
+\put(  8.3 ,  4.1 ){\emph{b}}           %b
+\end{picture}
+\PGrestore
+%
+\qquad
+\qquad
+\quad
+% 129bb311.tex
+% Pt.311. Fig.b.   (16,11.7 )
+\PGset[0.8em]
+\begin{picture}    (16,11.7 )
+\drawline          ( 0.1  , 1.3   )(15    , 1.3   ) %left(AC')E
+\dashline[80]{0.4}     ( 4.4  , 1.3   )(11.07 , 7.046 ) %AB
+\dashline[80]{0.2}(11.07 , 7.046 )(15.1  ,10.517 ) %BD
+\dashline[80]{0.4}     (13.4  , 1.3   )(11.07 , 7.046 ) %CB
+\dashline[80]{0.4}     ( 8.74 , 1.3   )(11.07 , 7.046 ) %C'B
+\qbezier[10]  (15.9  , 3.158 )(14.891, 1.905 )(13.4  , 1.3   ) %arc from B - right  part
+\qbezier[12]  (13.4  , 1.3   )(11.07 , 0.355 )( 8.74 , 1.3   ) %arc from B - middle part
+\qbezier[ 4]  ( 8.74 , 1.3   )( 8.217, 1.512 )( 7.74 , 1.816 ) %arc from B - left   part (short)
+\put(  4   ,  0.4 ){$\scriptstyle A$}   %A
+\put( 10.4 ,  7.2 ){$\scriptstyle B$}   %B
+\put( 12.8 ,  0.3 ){$\scriptstyle C$}   %C
+\put(  8   ,  0.3 ){$\scriptstyle C'$}   %C'
+\put( 14.6 , 10.7 ){$\scriptstyle D$}   %D
+\put( 15.1 ,  1   ){$\scriptstyle E$}   %E
+\put( 12.4 ,  3.9 ){\emph{a}}           %a on BC
+\put(  9.6 ,  3   ){\emph{a}}           %a on BC'
+\put(  6.9 ,  4.1 ){\emph{b}}           %b
+\end{picture}
+\PGrestore

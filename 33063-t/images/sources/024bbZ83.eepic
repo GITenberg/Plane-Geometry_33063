@@ -1,0 +1,10 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% 024bbZ83.tex
+% Pt.83. Fig.b. (10,11 )
+\PGset[0.8em]
+\begin{picture} (10,9 )
+\put( 1     ,  1   ){\line  ( 1, 0 ){ 8  }}    %horiz
+\put( 5     ,  1   ){\line  ( 0, 1 ){ 7  }}    %vert
+\put( 5     ,  1   ){\line  ( 1, 3 ){ 2  }}    %diag
+\end{picture}
+\PGrestore

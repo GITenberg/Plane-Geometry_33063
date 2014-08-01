@@ -1,0 +1,29 @@
+\PGset[0.8em]
+\begin{picture}   (12,12)
+
+% sum of angles = 1260 deg., each angle = 140deg (40deg. at center)
+% so, we need 9 points spaced 40 deg. apart around a circle
+% radius = 5
+
+% x=6-5cos(theta), y=6-5sin(theta) for theta=0-360 by 40deg
+\drawline(1, 6)(2.170, 2.786)(5.132, 1.076)(8.5, 1.670)(10.699, 4.290)
+ (10.699, 7.710)(8.5, 10.330)(5.132, 10.924)(2.170, 9.214)(1,6)
+
+\put( 0.3, 5.5 ){$\scriptstyle A$}
+\put( 1.1, 9.0 ){$\scriptstyle B$}
+\put( 4.8,11.0 ){$\scriptstyle C$}
+\put( 8.5,10.5 ){$\scriptstyle D$}
+\put(10.7, 3.7 ){$\scriptstyle F$}
+
+% Ellipse:  u = 6.0  v = 6.0  a = 5.0  b = 5.0  phi = 0.0 Grad
+\qbezier(11.0, 6.0)(11.0, 8.0711)(9.5355, 9.5355)
+\qbezier(9.5355, 9.5355)(8.0711, 11.0)(6.0, 11.0)
+\qbezier(6.0, 11.0)(3.9289, 11.0)(2.4645, 9.5355)
+\qbezier(2.4645, 9.5355)(1.0, 8.0711)(1.0, 6.0)
+\qbezier(1.0, 6.0)(1.0, 3.9289)(2.4645, 2.4645)
+\qbezier(2.4645, 2.4645)(3.9289, 1.0)(6.0, 1.0)
+\qbezier(6.0, 1.0)(8.0711, 1.0)(9.5355, 2.4645)
+\qbezier(9.5355, 2.4645)(11.0, 3.9289)(11.0, 6.0)
+
+\end{picture}
+\PGrestore

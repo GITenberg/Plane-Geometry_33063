@@ -1,0 +1,23 @@
+\PGset[0.8em]
+\begin{picture}(16,9)
+
+% 312x206
+% 11x7
+\drawline(1,1)(12,1)(12,8)(1,1) % AFCA
+
+% -1/mAC = -1.571
+\drawline(12,1)(16.456,1)(12,8) % FBC
+
+
+\put( 0.7, 0.2 ){$\scriptstyle A$}
+\put(15.8, 0.2 ){$\scriptstyle B$}
+\put(11.7, 8.1 ){$\scriptstyle C$}
+\put(11.7, 0.2 ){$\scriptstyle F$}
+
+\put(12.2, 6.5 ){$\scriptstyle a$}
+\put(15.5, 1.2 ){$\scriptstyle b$}
+\put( 2.4, 1.2 ){$\scriptstyle a'$}
+\put(11.0, 6.5 ){$\scriptstyle b'$}
+
+\end{picture}
+\PGrestore

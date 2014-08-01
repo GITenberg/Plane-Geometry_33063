@@ -1,0 +1,43 @@
+\PGset[0.8em]
+\begin{picture}(16,18)
+
+% AB = 14, AE=EB=7
+% CE = 4
+% H=+17, P = 1, A=9
+
+\drawline(1,9)(8,13)(15,9)(1,9) % ACB
+
+\dashline[80]{0.2}(8,13)(8,9) % CE
+\dashline[80]{0.2}(8,13)(15,17)(15,13) % CHK
+\dashline[80]{0.2}(8,13)(15,13)(15,1.8063)  % CKP
+
+% perim = 14+2*8.0622 = 30.1244
+% 16.1244 = AD+DB
+% AD = 11.1244, DB = 5
+% A = 1,9, B = 15,9
+
+% (x-1)^2+(y-9)^2 = 11.1244^2
+% (x-15)^2+(y-9)^2 = 5^2
+% x = 11.5269, y = 5.40315
+
+\drawline(1,9)(11.5269,5.40315)(15,9) % ADB
+
+\dashline[80]{0.2}(11.5269,9)(11.5269,5.40315)(15,5.40315) % FDM
+
+\dashline[80]{0.2}(11.5269,5.40315)(15,1.8063)(1,9) % DPA
+
+
+
+\put( 0.2, 8.6 ){$\scriptstyle A$}
+\put(15.1, 8.6 ){$\scriptstyle B$}
+\put( 7.6,13.2 ){$\scriptstyle C$}
+\put(11.0, 4.7 ){$\scriptstyle D$}
+\put( 7.7, 8.1 ){$\scriptstyle E$}
+\put(11.2, 9.2 ){$\scriptstyle F$}
+\put(15.1,16.8 ){$\scriptstyle H$}
+\put(15.1,12.7 ){$\scriptstyle K$}
+\put(15.1, 5.1 ){$\scriptstyle M$}
+\put(15.1, 1.4 ){$\scriptstyle P$}
+
+\end{picture}
+\PGrestore

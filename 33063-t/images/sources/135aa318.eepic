@@ -1,0 +1,39 @@
+\PGset[0.8em]
+\begin{picture}(16.5,11)
+
+\drawline(1,4.5)(4.643,4.5)(1.893,1.15) % M, m=1.218
+
+\drawline(6,4.5)(12,4.5) % AB
+\dashline[80]{0.2}(9,0.846)(15,8.154) % EB
+
+% F = 9,4.5
+% O = 9, 6.963
+\dashline[80]{0.2}(9,4.5)(9,6.963)(12,4.5) % FOB, OB = 3.882
+
+% Ellipse:  u = 9.0  v = 6.963  a = 3.882  b = 3.882  phi = 0.0 Grad
+\qbezier[20](12.882, 6.963)(12.882, 8.571)(11.745, 9.708)
+\qbezier[20](11.745, 9.708)(10.608, 10.845)(9.0, 10.845)
+\qbezier[20](9.0, 10.845)(7.392, 10.845)(6.255, 9.708)
+\qbezier[20](6.255, 9.708)(5.118, 8.571)(5.118, 6.963)
+\qbezier[20](5.118, 6.963)(5.118, 5.355)(6.255, 4.218)
+\qbezier[20](6.255, 4.218)(7.392, 3.081)(9.0, 3.081)
+\qbezier[20](9.0, 3.081)(10.608, 3.081)(11.745, 4.218)
+\qbezier[20](11.745, 4.218)(12.882, 5.355)(12.882, 6.963)
+
+% given AB and circle O, there is only one point K on O s.t. AKB = M = 50.6deg
+% how do I find that point?
+
+% 50.6 = atan((x-6)/(y-4.5)) + atan((12-x)/(y-4.5))
+\dashline[80]{0.2}(6,4.5)(10.86,10.37)(12,4.5) % AKB
+
+\put( 5.4, 3.8){$\scriptstyle A$}
+\put(11.8, 3.8){$\scriptstyle B$}
+\put( 9.9, 1.4){$\scriptstyle E$}
+\put( 8.6, 3.8){$\scriptstyle F$}
+\put( 8.8, 7.1){$\scriptstyle O$}
+\put( 3.2, 3.8){$\scriptstyle M$}
+\put(10.9,10.4){$\scriptstyle K$}
+
+
+\end{picture}
+\PGrestore

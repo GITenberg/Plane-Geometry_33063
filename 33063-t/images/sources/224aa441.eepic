@@ -1,0 +1,55 @@
+\PGset[0.8em]
+\begin{picture}(12,12)
+
+% outer radius = 5
+% x=6+5cos(theta), y=6+5sin(theta) for theta=234+72
+% ABCDEA
+\drawline(3.060,1.955)(8.935,1.960)(10.755,7.545)(6.000,11.000)(1.250,7.540)(3.060,1.955)
+
+\drawline(6,6)(3.060,1.955)
+\drawline(6,6)(8.935,1.960)
+\drawline(6,6)(10.755,7.545)
+\drawline(6,6)(6.000,11.000)
+\drawline(6,6)(1.250,7.540)
+
+% inner radius = 4.045
+% x=6+4.045cos(theta), y=6+4.045sin(theta) for theta=234+72
+% FGHJKF
+\drawline(3.622,2.728)(8.374,2.732)(9.846,7.249)(6.000,10.045)(2.158,7.245)(3.622,2.728)
+
+\drawline(6,11)(6,1.955)
+\drawline(1.25,7.54)(9.842,4.755)
+
+\put ( 2.8, 1.2 ){$\scriptstyle A'$}
+\put ( 8.5, 1.2 ){$\scriptstyle B'$}
+\put (11.0, 7.2 ){$\scriptstyle C'$}
+\put ( 5.8,11.1 ){$\scriptstyle D'$}
+\put ( 0.4, 7.2 ){$\scriptstyle E'$}
+
+\put ( 6.2, 6.2 ){$\scriptstyle O$}
+
+\put ( 3.4, 2.0 ){$\scriptscriptstyle A$}
+\put ( 8.0, 2.0 ){$\scriptscriptstyle B$}
+\put ( 9.8, 7.4 ){$\scriptscriptstyle C$}
+\put ( 6.0,10.2 ){$\scriptscriptstyle D$}
+\put ( 1.6, 7.4 ){$\scriptscriptstyle E$}
+
+\put ( 5.6, 1.2 ){$\scriptstyle M$}
+\put ( 9.9, 4.4 ){$\scriptstyle N$}
+\put ( 8.5, 9.3 ){$\scriptstyle P$}
+\put ( 2.8, 9.3 ){$\scriptstyle Q$}
+\put ( 1.2, 4.4 ){$\scriptstyle R$}
+
+% Ellipse:  u = 6.0  v = 6.0  a = 4.045  b = 4.045  phi = 0.0 Grad
+\qbezier(10.045, 6.0)(10.045, 7.6755)(8.8602, 8.8602)
+\qbezier(8.8602, 8.8602)(7.6755, 10.045)(6.0, 10.045)
+\qbezier(6.0, 10.045)(4.3245, 10.045)(3.1398, 8.8602)
+\qbezier(3.1398, 8.8602)(1.955, 7.6755)(1.955, 6.0)
+\qbezier(1.955, 6.0)(1.955, 4.3245)(3.1398, 3.1398)
+\qbezier(3.1398, 3.1398)(4.3245, 1.955)(6.0, 1.955)
+\qbezier(6.0, 1.955)(7.6755, 1.955)(8.8602, 3.1398)
+\qbezier(8.8602, 3.1398)(10.045, 4.3245)(10.045, 6.0)
+
+
+\end{picture}
+\PGrestore

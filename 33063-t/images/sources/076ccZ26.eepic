@@ -1,0 +1,23 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 076ccZ26.tex
+% Ex.26. Fig.c.  (13.3, 9 )
+\PGset[0.8em]
+\begin{picture}  (13.3, 9 )
+\dashline[80]{0.2}( 1  , 8 )(12    , 8     )( 8.333, 0.667 )( 1  , 8 )   %C'(A)B'(C)A'(B)C'
+\drawline     ( 6.5, 8 )( 4.667, 4.333 )(10.167, 4.333 )( 6.5, 8 )   %A(K)B(H)C(P)A
+\drawline     ( 6.5  , 8     )( 6.5   , 4.333   )               %AH
+\drawline     ( 4.667, 4.333 )( 7.417 , 7.083   )               %BP
+\drawline     (10.167, 4.333 )( 5.767 , 6.533   )               %CK
+\put( 6.1   ,  8.2 ){$\scriptstyle A$}   %A
+\put( 3.8   ,  3.5 ){$\scriptstyle B$}   %B
+\put(10.2   ,  3.6 ){$\scriptstyle C$}   %C
+\put( 6     ,  3.5 ){$\scriptstyle H$}   %H
+\put( 4.9   ,  6.3 ){$\scriptstyle K$}   %K
+\put( 6.6   ,  5   ){$\scriptstyle O$}   %O 6.5, 6.166...
+\put( 7.6   ,  7   ){$\scriptstyle P$}   %P
+\put( 8.3   ,  0.1 ){$\scriptstyle A'$}   %A'
+\put(12.1   ,  7.7 ){$\scriptstyle B'$}   %B'
+\put( 0     ,  7.8 ){$\scriptstyle C'$}   %C'
+\end{picture}
+\PGrestore

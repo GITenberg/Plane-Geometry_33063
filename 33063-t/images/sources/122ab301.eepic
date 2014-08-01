@@ -1,0 +1,54 @@
+%figshell.tex  or  0.tex  REMOVE this line for actual diagram file
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% ***  Uses  epic  &  eepic  packages   ***
+% 122aa301.tex
+% Pt.301. Fig.a.   (16.9,10.7 )
+\PGset[0.8em]
+\begin{picture}    (16.9,10.7 )
+\drawline     ( 0.9  , 2     )(15.9  , 2     ) %A(HOB)C
+\dashline[80]{0.4}( 8.4  , 2     )( 8.4  ,10.6   ) %O(R)top
+\qbezier[8]  ( 5.1  , 2     )( 5.1  , 3.367 )( 6.067, 4.333 ) %left  lower arc 4th octant
+\qbezier[8]  ( 6.067, 4.333 )( 7.033, 5.3   )( 8.4  , 5.3   ) %right lower arc 3rd octant
+\qbezier[8]  ( 8.4  , 5.3   )( 9.767, 5.3   )(10.733, 4.333 ) %left  lower arc 2nd octant
+\qbezier[8]  (10.733, 4.333 )(11.7  , 3.367 )(11.7  , 2     ) %right lower arc 1st octant
+%\dottedline[.]{0.4}( 6.734, 9.288 )( 8.4  , 8.7   )(10.042, 7.6   ) %H arc @ R
+%\dottedline[.]{0.4}( 6.734, 7.758 )( 8.4  , 8.7   )(10.122, 9.3   ) %K arc @ R
+\dottedline[.]{0.4}( 6.734, 9.288 )( 7.567, 9.049 )( 8.4  , 8.7   ) %H left  arc @ R
+\dottedline[.]{0.4}( 8.4  , 8.7   )( 9.338, 8.15  )(10.042, 7.6   ) %H right arc @ R
+\dottedline[.]{0.4}( 6.734, 7.758 )( 7.567, 8.221 )( 8.4  , 8.7   ) %K left  arc @ R
+\dottedline[.]{0.4}( 8.4  , 8.7   )( 9.096, 9     )(10.122, 9.3   ) %K right arc @ R
+\put(  0.1 ,  1.8 ){$\scriptstyle A$}   %A
+\put( 11.2 ,  1.2 ){$\scriptstyle B$}   %B
+\put( 16   ,  1.8 ){$\scriptstyle C$}   %C
+\put(  4.6 ,  1.2 ){$\scriptstyle H$}   %H
+\put(  8   ,  1.2 ){$\scriptstyle O$}   %O
+\put(  7.5 ,  7   ){$\scriptstyle R$}   %R
+\put(  7   ,  0.1 ){$\scriptstyle \textsc{Fig.~1.}$}
+\end{picture}
+\PGrestore
+%
+\qquad
+\qquad
+\quad
+% 122bb301.tex
+% Pt.301. Fig.b.   (11.9,13.4 )
+\PGset[0.8em]
+\begin{picture}    (11.9,13.4 )
+\drawline     ( 1    , 2.7   )(10    , 2.7   ) %A(E)B
+\dashline[80]{0.4}(10    , 2.7   )(10    ,13.3   ) %B(D)top
+\qbezier[10]       (11.842, 6.6   )(11.842, 8.692 )(10.363,10.171 ) %Octant 1
+\qbezier[10]       (10.363,10.171 )( 8.884,11.65  )( 6.792,11.65  ) %Octant 2
+\qbezier[10]       ( 1.742, 6.6   )( 1.742, 4.508 )( 3.221, 3.029 ) %Octant 5
+\qbezier[10]       ( 3.221, 3.029 )( 4.700, 1.55  )( 6.792, 1.55  ) %Octant 6
+\qbezier[10]       ( 6.792, 1.55  )( 8.884, 1.55  )(10.363, 3.029 ) %Octant 7
+\qbezier[10]       (10.363, 3.029 )(11.842, 4.508 )(11.842, 6.6   ) %Octant 8
+\dashline[80]{0.2}( 3.584, 2.7   )(10    ,10.5   )                 %E(C)D
+\put(  0.1 ,  2.6 ){$\scriptstyle A$}   %A
+\put( 10.2 ,  2   ){$\scriptstyle B$}   %B
+\put(  6   ,  6.7 ){$\scriptstyle C$}   %C
+\put( 10.2 , 10.5 ){$\scriptstyle D$}   %D
+\put(  2.7 ,  1.8 ){$\scriptstyle E$}   %E
+\put(  5   ,  0.1 ){$\scriptstyle \textsc{Fig.~2.}$}
+\end{picture}
+\PGrestore

@@ -1,0 +1,56 @@
+\PGset[0.8em]
+\begin{picture}(29,11)
+
+% 374x273
+% 13x10
+
+\drawline(1,1)(14,1) % AE
+\drawline(2,4)(13,4) % A'E'
+
+\drawline(8,11)(1,1)
+\drawline(8,11)(4,1)
+\drawline(8,11)(7,1)
+\drawline(8,11)(11,1)
+\drawline(8,11)(14,1)
+
+\put( 0.7,  0.2 ){$\scriptstyle A$}
+\put( 3.7,  0.2 ){$\scriptstyle B$}
+\put( 6.6,  0.2 ){$\scriptstyle C$}
+\put(10.6,  0.2 ){$\scriptstyle D$}
+\put(13.5,  0.2 ){$\scriptstyle E$}
+
+\put( 3.0,  3.2 ){$\scriptstyle A'$}
+\put( 5.2,  3.2 ){$\scriptstyle B'$}
+\put( 7.4,  3.2 ){$\scriptstyle C'$}
+\put(10.4,  3.2 ){$\scriptstyle D'$}
+\put(12.8,  3.2 ){$\scriptstyle E'$}
+
+% 350x237
+% 12x9
+
+\drawline(18,1)(29,1) % AE
+\drawline(18,10)(29,10) % E'A'
+
+\drawline(18,1)(29,10) % AA'
+\drawline(21,1)(26,10) % BB'
+\drawline(24,1)(23,10) % CC'
+\drawline(27,1)(20,10) % DD'
+\drawline(29,1)(18,10) % EE'
+
+\put(17.7,  0.2 ){$\scriptstyle A$}
+\put(20.7,  0.2 ){$\scriptstyle B$}
+\put(23.6,  0.2 ){$\scriptstyle C$}
+\put(26.6,  0.2 ){$\scriptstyle D$}
+\put(28.5,  0.2 ){$\scriptstyle E$}
+
+\put(28.7, 10.2 ){$\scriptstyle A'$}
+\put(25.7, 10.2 ){$\scriptstyle B'$}
+\put(22.7, 10.2 ){$\scriptstyle C'$}
+\put(19.7, 10.2 ){$\scriptstyle D'$}
+\put(17.7, 10.2 ){$\scriptstyle E'$}
+
+\put(24.0,  5.2 ){$\scriptstyle O$}
+
+
+\end{picture}
+\PGrestore

@@ -1,0 +1,23 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 121aa300.tex
+% Pt.300. Fig.a.   (21.7,12.8 )
+\PGset[0.8em]
+\begin{picture}    (21.7,12.8 )
+\drawline     ( 0.9  , 1.75  )(20.9  , 1.75  ) %A(HMK)B
+\dashline[80]{0.4}(10.9  , 1.75  )(10.9  ,12.1   ) %M(O)C
+\qbezier[40]  ( 2.369, 3.569 )( 5.903, 0.035 )(10.9  , 0.035 ) %left  lower arc
+\qbezier[40]  (10.9  , 0.035 )(15.897, 0.035 )(19.431, 3.569 ) %right lower arc
+%\dashline{0.2}( 9.615,10     )(10.9  , 9.083 )(12.31 , 7.607 ) %H arc @ O
+%\dashline{0.2}( 9.567, 7.706 )(10.9  , 9.083 )(12.631,10.25  ) %K arc @ O
+\dottedline[.]{0.4}( 9.615,10     )(10.9  , 9.083 )(12.31 , 7.607 ) %H arc @ O
+\dottedline[.]{0.4}( 9.567, 7.706 )(10.9  , 9.083 )(12.631,10.25  ) %K arc @ O
+\put(  0.1 ,  1.4 ){$\scriptstyle A$}   %A
+\put( 20.9 ,  1.4 ){$\scriptstyle B$}   %B
+\put( 10.6 , 12.15){$\scriptstyle C$}   %C
+\put(  4   ,  0.8 ){$\scriptstyle H$}   %H
+\put( 16.9 ,  0.8 ){$\scriptstyle K$}   %K
+\put( 10.4 ,  0.8 ){$\scriptstyle M$}   %M
+\put( 11.4 ,  8.7 ){$\scriptstyle O$}   %O
+\end{picture}
+\PGrestore

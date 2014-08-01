@@ -1,0 +1,55 @@
+\PGset[0.8em]
+\begin{picture}   (9, 9)
+
+\drawline     (1,1)(8,1)(8,8)(1,8)(1,1) % R
+
+\put( 4.2  , 4.2){$\scriptstyle R$}
+
+\end{picture}
+\quad
+% diam = 8
+\begin{picture}   (10, 13)
+
+% Ellipse:  u = 5.0  v = 5.0  a = 4.0  b = 4.0  phi = 0.0 Grad
+\qbezier(9.0, 5.0)(9.0, 6.6569)(7.8284, 7.8284)
+\qbezier(7.8284, 7.8284)(6.6569, 9.0)(5.0, 9.0)
+\qbezier(5.0, 9.0)(3.3431, 9.0)(2.1716, 7.8284)
+\qbezier(2.1716, 7.8284)(1.0, 6.6569)(1.0, 5.0)
+\qbezier(1.0, 5.0)(1.0, 3.3431)(2.1716, 2.1716)
+\qbezier(2.1716, 2.1716)(3.3431, 1.0)(5.0, 1.0)
+\qbezier(5.0, 1.0)(6.6569, 1.0)(7.8284, 2.1716)
+\qbezier(7.8284, 2.1716)(9.0, 3.3431)(9.0, 5.0)
+
+\drawline          (1,5)(9,5) % MN
+\drawline          (1,5)(1,12)(6.985,1.527) % MSB
+% 1,12 extended through 5,5 by length=4
+% slope = 4/7
+% 16 = x^2 + (.5714x)^2
+% x = 3.473
+% y = 1.985
+% y/x = 4/7
+% y = .5714x
+% (ax)^2 = 
+
+\put( 0.1  , 4.7){$\scriptstyle M$}
+\put( 3.0  , 9.0){$\scriptstyle C$}
+\put( 9.0  , 4.7){$\scriptstyle N$}
+\put( 7.2  , 0.7){$\scriptstyle B$}
+\put( 0.8  , 12.1){$\scriptstyle S$}
+
+\end{picture}
+\quad
+\begin{picture}   (17, 9)
+
+% SB = base = 12
+% SC = alti =  4
+\dashline[80]{0.4}(1,1)(13,1)(16,5)(4,5)(1,1) % R
+\dashline[80]{0.2}(8,5)(8,1)
+
+%\dashline{0.2}
+
+\put( 4.9  , 2.9 ){$\scriptstyle R'$}
+
+\end{picture}
+
+\PGrestore

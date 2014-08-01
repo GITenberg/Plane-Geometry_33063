@@ -1,0 +1,21 @@
+\PGset[0.8em]
+\begin{picture}(21,11)
+
+% 538x257
+% 19x9
+
+\drawline(8,10)(1,1)(20,1)(8,10) % ABCA
+
+\drawline(2.555,3)(17.333,3)        % EF
+\dashline[80]{0.2}(2.555,3)(16.667,3.5) % EH
+
+
+\put(  7.7, 10.1 ){$\scriptstyle A$}
+\put(  0.2,  0.7 ){$\scriptstyle B$}
+\put( 20.1,  0.7 ){$\scriptstyle C$}
+\put(  1.6,  2.8 ){$\scriptstyle E$}
+\put( 17.6,  2.8 ){$\scriptstyle F$}
+\put( 16.8,  3.6 ){$\scriptstyle H$}
+
+\end{picture}
+\PGrestore

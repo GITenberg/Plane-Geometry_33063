@@ -1,0 +1,41 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 127aa308.tex
+% Pt.308. Fig.a.   ( 8.2,12.8 )
+\PGset[0.8em]
+\begin{picture}    ( 8.2,12.8 )
+\drawline     ( 6.5  ,12.1   )( 1    , 9.1   )( 7.7  , 9.1   ) %ur-A-lr
+\drawline     ( 4.6  , 5.8   )( 1    , 1.4   )( 8.1  , 1.4   ) %ur-B-lr
+\qbezier[12]  ( 3.530,12.7   )( 4.849,11.773 )( 5.257,10.214 ) %arc from A top   half
+\qbezier[12]  ( 5.257,10.214 )( 5.665, 8.654 )( 4.969, 7.2   ) %arc from A right half
+\qbezier[12]  ( 2.3  , 5.604 )( 4.041, 5.065 )( 4.892, 3.453 ) %arc from B top   half
+\qbezier[12]  ( 4.892, 3.453 )( 5.742, 1.841 )( 5.204, 0.1   ) %arc from B right half
+\put(  0.1 ,  9.1 ){$\scriptstyle A$}   %A
+\put(  0.1 ,  1.4 ){$\scriptstyle B$}   %B
+\end{picture}
+\PGrestore
+%
+\qquad
+% 127bb308.tex
+% Pt.308. Fig.b.   (14.4,12.8 )
+\PGset[0.8em]
+\begin{picture}    (14.4,12.8 )
+\drawline          ( 1    , 1.9   )(13.6  , 1.9   ) %E(H)F
+\dashline[80]{0.4}     ( 6.1  , 1.9   )( 7.552, 9.6   ) %HR
+\dashline[80]{0.2}( 6.1  , 1.9   )(12.7  , 5.5   ) %H-ur
+%\qbezier[24]  ( 6.1  , 1.9   )( 9.4  , 3.7   )(12.7  , 5.5   ) %H-ur
+\qbezier[12]  ( 3.719, 5.6   )( 5.193, 6.549 )( 6.915, 6.224 ) %arc from H left   part
+\qbezier[12]  ( 6.915, 6.224 )( 8.502, 5.925 )( 9.519, 4.670 ) %arc from H middle part
+\qbezier[12]  ( 9.519, 4.670 )(10.536, 3.415 )(10.499, 1.8   ) %arc from H right  part
+%\qbezier[12]  ( 8.993, 3.467 )( 9.834, 4.276 )(10.973, 4.022 ) %arc for  a (geom. accurate, but uninstructive)
+\qbezier[ 8]  ( 8.993, 3.767 )( 9.834, 4.376 )(10.973, 4.022 ) %arc for  a (helpful - matches inaccurate diagram)
+\qbezier[12]  ( 6.302, 4.9   )( 6.664, 6.387 )( 7.961, 7.2   ) %arc for  b
+\put(  0.2 ,  1.5 ){$\scriptstyle E$}   %E
+\put( 13.6 ,  1.5 ){$\scriptstyle F$}   %F
+\put(  5.6 ,  1.1 ){$\scriptstyle H$}   %H
+\put(  7.1 ,  9.8 ){$\scriptstyle R$}   %R
+\put(  7.5 ,  2   ){\emph{a}}           %a
+\put(  6.4 ,  2.6 ){\emph{b}}           %b
+\put(  5.3 ,  2.1 ){\emph{c}}           %c
+\end{picture}
+\PGrestore

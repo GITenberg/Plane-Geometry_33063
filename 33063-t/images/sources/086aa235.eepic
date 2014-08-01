@@ -1,0 +1,27 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  &  eepic  packages   ***
+% 086aa235.tex
+% Pt.235. Fig.a.   (12,13 )
+\PGset[0.8em]
+\begin{picture}    (12,13 )
+
+% Ellipse:  u = 6.0  v = 6.5  a = 5.5  b = 5.5  phi = 0.0 Grad
+\qbezier(11.5, 6.5)(11.5, 8.7782)(9.8891, 10.3891)
+\qbezier(9.8891, 10.3891)(8.2782, 12.0)(6.0, 12.0)
+\qbezier(6.0, 12.0)(3.7218, 12.0)(2.1109, 10.3891)
+\qbezier(2.1109, 10.3891)(0.5, 8.7782)(0.5, 6.5)
+\qbezier(0.5, 6.5)(0.5, 4.2218)(2.1109, 2.6109)
+\qbezier(2.1109, 2.6109)(3.7218, 1.0)(6.0, 1.0)
+\qbezier(6.0, 1.0)(8.2782, 1.0)(9.8891, 2.6109)
+\qbezier(9.8891, 2.6109)(11.5, 4.2218)(11.5, 6.5)
+
+\drawline     ( 1.75 , 3.009 )(10.25 , 3.009 )                  %HK
+\dashline[80]{0.2}( 6    , 6.5   )( 6    , 1     )                  %OP
+\dashline[80]{0.2}( 1.75 , 3.009 )( 6    , 6.5   )(10.25 , 3.009 )  %HOP
+\put(  0.7 ,  2.4 ){$\scriptstyle H$}   %H
+\put( 10.4 ,  2.4 ){$\scriptstyle K$}   %K
+\put(  5.5 , 12.2 ){$\scriptstyle M$}   %M
+\put(  5.7 ,  6.7 ){$\scriptstyle O$}   %O
+\put(  5.5 ,  0.1 ){$\scriptstyle P$}   %P
+\end{picture}
+\PGrestore

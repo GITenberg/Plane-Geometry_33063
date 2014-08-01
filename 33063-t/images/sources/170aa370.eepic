@@ -1,0 +1,25 @@
+\PGset[0.8em]
+\begin{picture}(12,7)
+
+% 312x206
+% 11x7
+% Ellipse:  u = 6.0  v = 1.0  a = 5.0  b = 5.0  phi = 0.0 Grad
+\qbezier(11.0, 1.0)(11.0, 3.0711)(9.5355, 4.5355)
+\qbezier(9.5355, 4.5355)(8.0711, 6.0)(6.0, 6.0)
+\qbezier(6.0, 6.0)(3.9289, 6.0)(2.4645, 4.5355)
+\qbezier(2.4645, 4.5355)(1.0, 3.0711)(1.0, 1.0)
+
+\drawline(1,1)(11,1) % AB
+
+\drawline(4.14,1)(4.14,5.641) % DC
+
+\dashline[80]{0.2}(4.14,5.641)(1,1) % CA
+\dashline[80]{0.2}(4.14,5.641)(11,1) % CB
+
+\put( 0.6, 0.2 ){$\scriptstyle A$}
+\put(11.1, 0.7 ){$\scriptstyle B$}
+\put( 3.8, 6.0 ){$\scriptstyle C$}
+\put( 3.8, 0.2 ){$\scriptstyle D$}
+
+\end{picture}
+\PGrestore

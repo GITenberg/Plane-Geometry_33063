@@ -1,0 +1,13 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% 025aaZ86.tex
+% Pt.86. Fig.a. (20, 9 )
+\PGset[0.8em]
+\begin{picture} (20, 9 )
+\put( 1     ,  1   ){\line  ( 1, 0 ){18   }}  %A(O)B
+\put(10     ,  1   ){\line  ( 5, 6 ){ 6   }}  %OD
+\put( 0.2   ,  1   ){$\scriptstyle A$}   %A
+\put(19.1   ,  1   ){$\scriptstyle B$}   %B
+\put(16     ,  7.9 ){$\scriptstyle D$}   %D
+\put( 9.6   ,  0.2 ){$\scriptstyle O$}   %O
+\end{picture}
+\PGrestore

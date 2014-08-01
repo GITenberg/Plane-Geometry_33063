@@ -1,0 +1,40 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 051aa154.tex
+% Pt.154. Fig.a.  ( 9,14 )
+\PGset[0.8em]
+\begin{picture}   ( 9,14 )
+\drawline     ( 1  , 8 )( 8  , 1 )( 5,13 )( 1 , 8 )            %AEBA
+\put( 0.1   ,  7.7 ){$\scriptstyle A$}   %A
+\put( 4.6   , 13.2 ){$\scriptstyle B$}   %B
+\put( 7.7   ,  0.2 ){$\scriptstyle E$}   %E
+\end{picture}
+\PGrestore
+%
+\hspace{-1.5em}
+% 051bb154.tex
+% Pt.154. Fig.b.  (17,14 )
+\PGset[0.8em]
+\begin{picture}   (17,14 )
+\drawline     ( 1  , 8 )(15  , 8 )( 5,13 )( 1, 8 )    %A(F)CBA
+\drawline     ( 1  , 8 )( 8  , 1 )( 5,13 )            %AEB
+\dashline[80]{0.2}( 5  ,13 )( 9  , 8 )( 8, 1 )            %BFE
+\put( 0.1   ,  7.7 ){$\scriptstyle A$}   %A
+\put( 4.6   , 13.2 ){$\scriptstyle B$}   %B
+\put(15.2   ,  7.6 ){$\scriptstyle C$}   %C
+\put( 7.7   ,  0.2 ){$\scriptstyle E$}   %E
+\put( 9     ,  7.2 ){$\scriptstyle F$}   %F
+\end{picture}
+\PGrestore
+%
+\hspace{-1.5em}
+% 051cc154.tex
+% Pt.154. Fig.c.  (16,14 )
+\PGset[0.8em]
+\begin{picture}   (16,14 )
+\drawline     ( 1  , 8 )(15  , 8 )( 5,13 )( 1, 8 )    %ACBA
+\put( 0.8   ,  7.2 ){$\scriptstyle A$}   %A
+\put( 4.6   , 13.2 ){$\scriptstyle B$}   %B
+\put(14.5   ,  7.2 ){$\scriptstyle C$}   %C
+\end{picture}
+\PGrestore

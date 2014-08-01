@@ -1,0 +1,38 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 023bbZ80.tex
+% Pt.80. Fig.20. (32,10 )
+\PGset[0.8em]
+\begin{picture}  (32,10 )
+\drawline( 5,  9   )( 1, 2 )(10  , 2 )         %FED left
+\drawline(22,  9   )(22, 2 )(31  , 2 )         %CBA
+\drawline(14,  6   )(22, 2 )(25.8, 8.65 )         %HBF right
+\put(31     ,  1.8 ){$\scriptstyle A$}   %A
+\put(21.6   ,  1.2 ){$\scriptstyle B$}   %B
+\put(21.7   ,  9.2 ){$\scriptstyle C$}   %C
+\put(10.1   ,  1.9 ){$\scriptstyle D$}   %D
+\put( 0.2   ,  1.7 ){$\scriptstyle E$}   %E
+\put( 5     ,  8.8 ){$\scriptstyle F$}   %F left
+\put(25.7   ,  8.8 ){$\scriptstyle F$}   %F right
+\put(13.2   ,  6   ){$\scriptstyle H$}   %H
+\put(14     ,  0.2 ){{\footnotesize \textsc{Fig. 20.}}}
+\end{picture}
+\PGrestore
+%
+% ***  Uses  epic  package   ***
+% 023ccZ80.tex
+% Pt.80. Fig.21. ( 8, 9 )
+\PGset[0.8em]
+\begin{picture}  ( 8, 9 )
+\drawline( 1,  7.5 )( 1, 2 )( 7  , 2 )         %DBA
+\drawline( 3,  7   )( 1, 2 )( 6  , 4 )         %PBM
+\drawline(1,2)(5,6) % BC
+\put( 6.6   ,  1.2 ){$\scriptstyle A$}   %A
+\put( 0.6   ,  1.2 ){$\scriptstyle B$}   %B
+\put( 5.1   ,  6   ){$\scriptstyle C$}   %C
+\put( 0.6   ,  7.6 ){$\scriptstyle D$}   %D
+\put( 6     ,  3.8 ){$\scriptstyle M$}   %M
+\put( 2.8   ,  7.2 ){$\scriptstyle P$}   %P
+\put( 2     ,  0.2 ){{\footnotesize \textsc{Fig. 21.}}}
+\end{picture}
+\PGrestore

@@ -1,0 +1,30 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 021aaZ72.tex
+% Pt.72. Fig.15. (11,13 )
+\PGset[0.8em]
+\begin{picture}  (11,13 )
+\drawline( 2  , 11   )( 5.5, 7.5 )( 9.5, 9.5 )  %DOC
+\drawline(1,7.5)(10,7.5) % A'A
+\drawline(5.5,3)(5.5,12) % B'B
+
+% Ellipse:  u = 5.5  v = 7.5  a = 2.5  b = 2.5  phi = 0.0 Grad
+\qbezier[15](8.0, 7.5)(8.0, 8.5355)(7.2678, 9.2678)
+\qbezier[15](7.2678, 9.2678)(6.5355, 10.0)(5.5, 10.0)
+\qbezier[15](5.5, 10.0)(4.4645, 10.0)(3.7322, 9.2678)
+\qbezier[15](3.7322, 9.2678)(3.0, 8.5355)(3.0, 7.5)
+\qbezier[15](3.0, 7.5)(3.0, 6.4645)(3.7322, 5.7322)
+\qbezier[15](3.7322, 5.7322)(4.4645, 5.0)(5.5, 5.0)
+
+\drawline( 5   , 4.7 )( 5.5, 5   )( 5  , 5.4 )   %reflex arrow in Q3
+% end   rough solution
+\put(10.2   ,  7.4 ){$\scriptstyle A$}   %A
+\put( 5.1   , 12.2 ){$\scriptstyle B$}   %B
+\put( 9.6   ,  9.3 ){$\scriptstyle C$}   %C
+\put( 1.4   , 11.1 ){$\scriptstyle D$}   %D
+\put( 5.6   ,  6.7 ){$\scriptstyle O$}   %O
+\put( 0.1   ,  7.4 ){$\scriptstyle A'$}  %A'
+\put( 5     ,  2.2 ){$\scriptstyle B'$}  %B'
+\put( 3.5   ,  1   ){{\footnotesize \textsc{Fig. 15.}}}
+\end{picture}
+\PGrestore

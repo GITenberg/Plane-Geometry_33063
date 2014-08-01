@@ -1,0 +1,78 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 082eeZ78.tex
+% Ex.78. Fig.e.   (10,10 )
+\PGset[0.8em]
+\begin{picture}   (10,10 )
+\drawline( 1  , 1  )( 9  , 1  )( 7  , 9  )( 3  , 9  )( 1  , 1  )  %ABCDA
+\drawline( 5  , 1  )( 8  , 5  )( 5  , 9  )( 2  , 5  )( 5  , 1  )  %EFGHE
+\dashline[80]{0.2}      ( 8  , 1  )( 8  , 9  )   %PQ
+\dashline[80]{0.2}      ( 2  , 1  )( 2  , 9  )   %RS
+\dashline[80]{0.2}      ( 7  , 9  )( 8  , 9  )   %CQ
+\dashline[80]{0.2}      ( 3  , 9  )( 2  , 9  )   %DS
+\put(  0.3 ,  0.2 ){$\scriptstyle A$}   %A
+\put(  8.8 ,  0.2 ){$\scriptstyle B$}   %B
+\put(  6.5 ,  9.2 ){$\scriptstyle C$}   %C
+\put(  2.8 ,  9.2 ){$\scriptstyle D$}   %D
+\put(  4.5 ,  0.2 ){$\scriptstyle E$}   %E
+\put(  8.1 ,  4.7 ){$\scriptstyle F$}   %F
+\put(  4.6 ,  9.2 ){$\scriptstyle G$}   %G
+\put(  1   ,  4.7 ){$\scriptstyle H$}   %H
+\put(  7.5 ,  0.2 ){$\scriptstyle P$}   %P
+\put(  7.7 ,  9.2 ){$\scriptstyle Q$}   %Q
+\put(  1.5 ,  0.2 ){$\scriptstyle R$}   %R
+\put(  1.5 ,  9.2 ){$\scriptstyle S$}   %S
+\end{picture}
+\PGrestore
+%
+% 082ffZ78.tex
+% Ex.78. Fig.f.   ( 9, 6 )
+\PGset[0.8em]
+\begin{picture}   ( 9, 6 )
+\drawline( 2  , 1  )( 8  , 1  )( 7  , 5  )( 1  , 5  )( 2  , 1  )  %ABCDA
+\drawline( 2  , 1  )( 4.3  , 3.9  )( 8  , 1  )  %ALB
+\drawline( 1  , 5  )( 4.7  , 2.1  )( 7  , 5  )  %DFC
+\put(  1.3 ,  0.2 ){$\scriptstyle A$}   %A
+\put(  7.8 ,  0.2 ){$\scriptstyle B$}   %B
+\put(  6.7 ,  5.2 ){$\scriptstyle C$}   %C
+\put(  0.6 ,  5.2 ){$\scriptstyle D$}   %D
+\put(  3.1 ,  1.9 ){$\scriptstyle E$}   %E
+\put(  4.5 ,  1.2 ){$\scriptstyle F$}   %F
+\put(  3.8 ,  4   ){$\scriptstyle L$}   %L
+\put(  5.7 ,  2.8 ){$\scriptstyle K$}   %K
+\end{picture}
+\PGrestore
+%
+% 082ggZ78.tex
+% Ex.78. Fig.g.   (11, 7 )
+\PGset[0.8em]
+\begin{picture}   (11, 7 )
+\drawline( 1  , 1  )(10  , 1  )(10  , 6  )( 1  , 6  )( 1  , 1  )  %ABCDA
+\drawline( 1  , 1  )( 5.5  , 5.5  )(10  , 1  )  %ALB
+\drawline( 1  , 6  )( 5.5  , 1.5  )(10  , 6  )  %DFC
+\dashline[80]{0.2}      ( 5.5 ,  1.5  )( 6  , 1  )  %F-lr
+\put(  0.3 ,  0.2 ){$\scriptstyle A$}   %A
+\put(  9.8 ,  0.2 ){$\scriptstyle B$}   %B
+\put(  9.7 ,  6.2 ){$\scriptstyle C$}   %C
+\put(  0.6 ,  6.2 ){$\scriptstyle D$}   %D
+\put(  2.1 ,  3.2 ){$\scriptstyle E$}   %E
+\put(  4.1 ,  1.2 ){$\scriptstyle F$}   %F
+\put(  4.4 ,  5.1 ){$\scriptstyle L$}   %L
+\put(  8   ,  3.3 ){$\scriptstyle K$}   %K
+\end{picture}
+\PGrestore
+%
+% 082hhZ78.tex
+% Ex.78. Fig.h.   ( 8, 9 )
+\PGset[0.8em]
+\begin{picture}   ( 8, 9 )
+\drawline( 1   , 4    )( 2.5  , 2  )( 6.5  , 5  )( 5  , 7  )( 1  , 4  )  %ABCDA
+\drawline( 0   , 2    )( 8     , 2    )  %lower horiz
+\drawline( 0   , 7    )( 8     , 7    )  %upper horiz
+\drawline( 1.75, 0.5  )( 5.75  , 8.5  )  %ll-ur diag
+\put(  0.2 ,  3.8 ){$\scriptstyle A$}   %A
+\put(  2.3 ,  1.2 ){$\scriptstyle B$}   %B
+\put(  6.6 ,  4.7 ){$\scriptstyle C$}   %C
+\put(  4.3 ,  7.2 ){$\scriptstyle D$}   %D
+\end{picture}
+\PGrestore

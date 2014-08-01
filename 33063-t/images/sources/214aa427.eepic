@@ -1,0 +1,71 @@
+
+\PGset[0.8em]
+\begin{picture}   (9, 9)
+
+\drawline     (1,1)(8,1)(8,8)(1,8)(1,1) % R
+
+\put( 4.2  , 4.2){$\scriptstyle R$}
+
+\end{picture}
+\quad
+\PGset[0.8em]
+\begin{picture}   (6, 5)
+
+% m = 6, n = 4
+
+\drawline     (1,4)(7,4) % m
+\drawline     (1,2)(5,2) % n
+
+\put ( 0.2  , 3.7){$\scriptstyle m$}
+\put ( 0.2  , 1.7){$\scriptstyle n$}
+
+\end{picture}
+\quad
+\begin{picture}   (14, 14)
+
+\dashline[80]{0.2}(1,7)(12.668,7) % A(B)C
+
+\dashline[80]{0.2}(1,7)(13,1) % Ay, angle CAy = 45deg., y/x=0.5
+% AE = m = 6 = sqrt(x^2+y^2)
+% 36 = 4y^2 + y^2
+% Ey = 7-2.683, Ex = 1+5.366
+% E = (6.366, 4.317)
+
+% EF = n = 4 = sqrt(x^2+y^2)
+% 16 = 4y^2+y^2
+% Fy = 4.317-1.789, Fx = 6.366+3.578
+% F = (9.944, 2.528)
+
+% y = (13,1)
+
+\dashline[80]{0.2}(6.366, 4.317)(8,7) % EB, m=1.642
+
+% Cy=7, so y=4.472 = 1.642x, x = 2.724+Fx
+\dashline[80]{0.2}(9.944, 2.528)(12.668,7)   %FC, m=mEB
+
+% Ellipse:  u = 6.834  v = 7.0  a = 5.834  b = 5.834  phi = 0.0 Grad
+\qbezier[20](12.668, 7.0)(12.668, 9.4165)(10.9593, 11.1253)
+\qbezier[20](10.9593, 11.1253)(9.2505, 12.834)(6.834, 12.834)
+\qbezier[20](6.834, 12.834)(4.4175, 12.834)(2.7087, 11.1253)
+\qbezier[20](2.7087, 11.1253)(1.0, 9.4165)(1.0, 7.0)
+
+\dashline[80]{0.2}(8,7)(8,12.7) % BD
+
+
+\put( 0.2  , 6.7){$\scriptstyle A$}
+\put( 8.2  , 6.0){$\scriptstyle B$}
+\put(12.9  , 6.7){$\scriptstyle C$}
+\put( 8.2  ,12.9){$\scriptstyle D$}
+\put( 6.0  , 3.5){$\scriptstyle E$}
+\put( 9.5  , 1.7){$\scriptstyle F$}
+
+\put( 4.2  , 7.2){$\scriptstyle a$}
+\put(10.0  , 7.2){$\scriptstyle b$}
+\put( 3.0  , 5.1){$\scriptstyle m$}
+\put( 7.8  , 2.8){$\scriptstyle n$}
+\put( 7.2  , 9.0){$\scriptstyle x$}
+\put(13.3  , 1.0){$\scriptstyle y$}
+
+\end{picture}
+
+\PGrestore

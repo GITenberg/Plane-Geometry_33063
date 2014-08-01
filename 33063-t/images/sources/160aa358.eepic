@@ -1,0 +1,26 @@
+\PGset[0.8em]
+\begin{picture}(23,10)
+
+% 284x216
+% 10x8
+
+\drawline(7,9)(1,1)(11,1)(7,9) % ABCA
+
+\dashline[80]{0.2}(2.125,2.5)(10.25,2.5) % EH
+
+% 1.5 shorter
+
+\drawline(18.875,7.5)(14,1)(22.125,1)(18.875,7.5) % ABCA
+
+\put(  6.6,  9.1 ){$\scriptstyle A$}
+\put(  0.3,  0.8 ){$\scriptstyle B$}
+\put( 11.1,  0.8 ){$\scriptstyle C$}
+\put(  1.3,  2.3 ){$\scriptstyle E$}
+\put( 10.4,  2.3 ){$\scriptstyle H$}
+
+\put( 18.5,  7.6 ){$\scriptstyle A'$}
+\put( 13.1,  0.8 ){$\scriptstyle B'$}
+\put( 22.2,  0.8 ){$\scriptstyle C'$}
+
+\end{picture}
+\PGrestore

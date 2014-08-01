@@ -1,0 +1,17 @@
+\PGset[0.8em]
+\begin{picture}   (10, 7)
+
+\drawline     (1,1)(7,6)(9,1)(1,1) % ABCA
+\drawline     (7,1)(7,6)           % DB
+
+\put( 0.2  , 0.7){$\scriptstyle A$}
+\put( 6.7  , 6.2){$\scriptstyle B$}
+\put( 9.2  , 0.7){$\scriptstyle C$}
+\put( 6.7  , 0.2){$\scriptstyle D$}
+\put( 8.0  , 4.0){$\scriptstyle a$}
+\put( 3.7  , 0.2){$\scriptstyle b$}
+\put( 4.0  , 4.0){$\scriptstyle c$}
+\put( 6.2  , 2.5){$\scriptstyle h$}
+
+\end{picture}
+\PGrestore

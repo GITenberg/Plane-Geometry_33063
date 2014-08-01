@@ -1,0 +1,25 @@
+\PGset[0.8em]
+
+\begin{picture}   (12, 6 )
+\drawline     (  1, 1 )( 11, 1) ( 8.333, 5 )( 1, 1 ) % A(O)BCA
+\dashline[80]{0.2}( 8.333, 4.8 )( 8.333, 1) % CO
+
+\put( 0.7  , 0.2 ){$\scriptstyle A$}
+\put( 8.0  , 0.2 ){$\scriptstyle O$}
+\put( 8.0  , 5.2 ){$\scriptstyle C$}
+\put(10.3  , 0.2 ){$\scriptstyle B$}
+\end{picture}
+
+\quad
+
+\begin{picture}   (17, 8 )
+\drawline     (  1, 1 )( 16, 1 )( 12, 7 )( 1, 1 )     % A'(O')B'C'A'
+\dashline[80]{0.2}( 12, 6.8 )( 12, 1 ) % C'O'
+
+\put( 0.7  , 0.2 ){$\scriptstyle A'$}
+\put(11.7  , 0.2 ){$\scriptstyle O'$}
+\put(11.7  , 7.2 ){$\scriptstyle C'$}
+\put(15.3  , 0.2 ){$\scriptstyle B'$}
+\end{picture}
+
+\PGrestore

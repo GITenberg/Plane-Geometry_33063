@@ -1,0 +1,32 @@
+\PGset[0.8em]
+\begin{picture}(12,9)
+
+\drawline(1,4)(11.571,4)(6.5,7.857)(1,4) % ABCA
+
+% A =  1,     4
+% B = 11.571, 4      mBC =  -.761
+% C =  6.5,   7.857  mAC =   .701
+% G =  2.643, 2.036  mAG = -1.195
+% H =  3.786, 3.286  mGH =  1.094
+% O =  1.962, 4.674  mOG = -3.874
+\dashline[80]{0.2}(1,4)(2.643,2.036)(3.786,3.286)(1.962,4.674)(2.643,2.036)
+
+% D =  7.496, 4
+% E =  5.094, 6.87
+% F =  9.168, 5.829
+\dashline[80]{0.2}(6.5,7.857)(7.496,4) % CD
+\dashline[80]{0.2}(5.094,6.87)(7.496,4)(9.168,5.829) % EDF
+
+
+\put( 0.2, 3.7){$\scriptstyle A$}
+\put(11.7, 3.7){$\scriptstyle B$}
+\put( 6.2, 8.0){$\scriptstyle C$}
+\put( 6.9, 3.2){$\scriptstyle D$}
+\put( 4.5, 7.0){$\scriptstyle E$}
+\put( 9.2, 5.9){$\scriptstyle F$}
+\put( 2.4, 1.3){$\scriptstyle G$}
+\put( 3.9, 3.0){$\scriptstyle H$}
+\put( 1.6, 4.9){$\scriptstyle O$}
+
+\end{picture}
+\PGrestore

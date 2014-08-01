@@ -1,0 +1,22 @@
+\PGset[0.7em]
+\begin{picture}   (40, 10)
+
+\drawline     ( 1, 1)( 7, 1)( 7, 7)( 1, 7)( 1, 1) % R
+\drawline     (11, 1)(18, 1)(18, 8)(11, 8)(11, 1) % R'
+
+\dashline[80]{0.4}(31, 1)(39, 1)(39, 9)(31, 9)(31, 1) % S
+
+\dashline[80]{0.2}(21, 8)(21, 1)(29, 1) % BAC
+\dashline[80]{0.2}(21, 6)(27, 1)
+
+\put(  3.5  , 3.5 ) {$\scriptstyle R$}
+\put(  14  ,  4 ) {$\scriptstyle R'$}
+
+\put( 20.1, 5.5 ) {$\scriptstyle B$}
+\put( 20.1, .7 ) {$\scriptstyle A$}
+\put( 26.5, .2 ) {$\scriptstyle C$}
+
+\put( 34.5, 4.5 ) {$\scriptstyle S$}
+
+\end{picture}
+\PGrestore

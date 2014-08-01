@@ -1,0 +1,14 @@
+\PGset[0.8em]
+\begin{picture}( 7,8)
+
+\drawline(1,1)(6.6,1)(6.6,6.6)(1,6.6)(1,1)
+\drawline(1,1)(6.6,6.6)
+
+\put( 0.7, 0.2 ){$\scriptstyle A$}
+\put( 6.0, 0.2 ){$\scriptstyle B$}
+\put( 6.0, 6.7 ){$\scriptstyle C$}
+\put( 0.7, 6.7 ){$\scriptstyle D$}
+
+
+\end{picture}
+\PGrestore

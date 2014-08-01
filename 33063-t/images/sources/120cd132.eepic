@@ -1,0 +1,67 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  &  eepic  packages   ***
+% 120cc132.tex
+% Ex.132. Fig.c.   (12  , 9.4 )
+\PGset[0.8em]
+\begin{picture}    (12  , 9.4 )
+
+% Ellipse:  u = 6.0  v = 4.7  a = 2.95  b = 2.95  phi = 0.0 Grad
+\qbezier(8.95, 4.7)(8.95, 5.9219)(8.086, 6.786)
+\qbezier(8.086, 6.786)(7.2219, 7.65)(6.0, 7.65)
+\qbezier(6.0, 7.65)(4.7781, 7.65)(3.914, 6.786)
+\qbezier(3.914, 6.786)(3.05, 5.9219)(3.05, 4.7)
+\qbezier(3.05, 4.7)(3.05, 3.4781)(3.914, 2.614)
+\qbezier(3.914, 2.614)(4.7781, 1.75)(6.0, 1.75)
+\qbezier(6.0, 1.75)(7.2219, 1.75)(8.086, 2.614)
+\qbezier(8.086, 2.614)(8.95, 3.4781)(8.95, 4.7)
+
+\drawline     ( 4.25 , 2.325 )( 7.75 , 2.325 )( 7.75 , 7.075 )( 4.25 , 7.075 )( 4.25 , 2.325 ) %ABCDA
+\drawline     ( 6    , 1.036 )(10.973, 4.7   )( 6    , 8.364 )( 1.027, 4.7   )( 6    , 1.036 ) %E(B)F(C)G(D)H(A)E
+\dashline[80]{0.2}( 4.25 , 2.325 )( 7.75 , 7.075 )                                 %AC
+\dashline[80]{0.2}( 4.25 , 7.075 )( 7.75 , 2.325 )                                 %DB
+\put(  3.5 ,  1.6 ){$\scriptstyle A$}   %A
+\put(  7.7 ,  1.6 ){$\scriptstyle B$}   %B
+\put(  7.8 ,  7.2 ){$\scriptstyle C$}   %C
+\put(  3.4 ,  7.3 ){$\scriptstyle D$}   %D
+\put(  5.7 ,  0.1 ){$\scriptstyle E$}   %E
+\put( 11.1 ,  4.4 ){$\scriptstyle F$}   %F
+\put(  5.6 ,  8.6 ){$\scriptstyle G$}   %G
+\put(  0.1 ,  4.5 ){$\scriptstyle H$}   %H
+\put(  6.4 ,  4.4 ){$\scriptstyle O$}   %O
+\end{picture}
+\PGrestore
+%
+\qquad
+\quad
+% 120dd132.tex
+% Ex.132. Fig.c.   (16  ,13.7 )
+\PGset[0.8em]
+\begin{picture}    (16  ,13.7 )
+
+% Ellipse:  u = 4.4  v = 4.4  a = 3.4  b = 3.4  phi = 0.0 Grad
+\qbezier(7.8, 4.4)(7.8, 5.8083)(6.8042, 6.8042)
+\qbezier(6.8042, 6.8042)(5.8083, 7.8)(4.4, 7.8)
+\qbezier(4.4, 7.8)(2.9917, 7.8)(1.9958, 6.8042)
+\qbezier(1.9958, 6.8042)(1.0, 5.8083)(1.0, 4.4)
+\qbezier(1.0, 4.4)(1.0, 2.9917)(1.9958, 1.9958)
+\qbezier(1.9958, 1.9958)(2.9917, 1.0)(4.4, 1.0)
+\qbezier(4.4, 1.0)(5.8083, 1.0)(6.8042, 1.9958)
+\qbezier(6.8042, 1.9958)(7.8, 2.9917)(7.8, 4.4)
+
+\drawline     ( 2.577, 1.530 )(15.029, 4.844 )( 4.005, 7.777 ) %A(FD)G(CM)B
+\drawline     ( 1.029, 4.844 )(15.029, 4.844 )                 %H(IN)G
+\drawline     ( 2.577, 1.530 )( 5.140,12.738 )( 7.408, 2.816 ) %A(B)E(C)D
+\drawline     ( 5.140, 1.081 )( 5.140,12.738 )                 %F(IM)E
+\put(  1.9 ,  0.7 ){$\scriptstyle A$}   %A
+\put(  3.1 ,  7.9 ){$\scriptstyle B$}   %B
+\put(  6.6 ,  7.3 ){$\scriptstyle C$}   %C
+\put(  7.3 ,  2   ){$\scriptstyle D$}   %D
+\put(  4.9 , 12.9 ){$\scriptstyle E$}   %E
+\put(  4.8 ,  0.2 ){$\scriptstyle F$}   %F
+\put( 15.1 ,  4.5 ){$\scriptstyle G$}   %G
+\put(  0.1 ,  4.6 ){$\scriptstyle H$}   %H
+\put(  4.5 ,  4   ){$\scriptstyle I$}   %I
+\put(  5.15,  7.9 ){$\scriptstyle M$}   %M
+\put(  7.9 ,  5.1 ){$\scriptstyle N$}   %N
+\end{picture}
+\PGrestore

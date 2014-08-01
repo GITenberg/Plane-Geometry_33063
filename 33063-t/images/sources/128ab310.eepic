@@ -1,0 +1,38 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 128aa310.tex
+% Pt.310. Fig.a.   (20,10.2 )
+\PGset[0.8em]
+\begin{picture}    (20,10.2 )
+\drawline     ( 7.7  ,10.1   )( 1    , 3.4   )( 8.3  , 3.4   ) %ur-A-lr
+\drawline     (11    , 7.4   )(19    , 3.4   )(11.5  , 3.4   ) %ul-B-ll
+\drawline     ( 3.7  , 1     )(14.7  , 1     )                 %left(c)right
+\qbezier[12]  ( 3.63 , 8.457 )( 5.467, 7.501 )( 6.263, 5.589 ) %arc from A top    half
+\qbezier[12]  ( 6.263, 5.589 )( 7.058, 3.677 )( 6.441, 1.7   ) %arc from A bottom half
+\qbezier[10]  (16.421, 7.13  )(15.118, 6.226 )(14.661, 4.701 ) %arc from B top    half
+\qbezier[10]  (14.661, 4.701 )(14.204, 3.176 )(14.801, 1.7   ) %arc from B bottom half
+\put(  0.1 ,  3.4 ){$\scriptstyle A$}   %A
+\put( 19.1 ,  3.4 ){$\scriptstyle B$}   %B
+\put(  9.8 ,  0.2 ){\emph{c}}           %c
+\end{picture}
+\PGrestore
+%
+\qquad
+\quad
+% 128bb310.tex
+% Pt.310. Fig.b.   (15.4,10.2 )
+\PGset[0.8em]
+\begin{picture}    (15.4,10.2 )
+\dashline[80]{0.4}( 7.03 , 8.93  )( 1    , 2.9   )(14.3  , 2.9   )( 4.3  , 8.9   ) %ur(OH)EC(KO)ul
+\qbezier[12]  ( 3.263, 8.457 )( 5.449, 7.567 )( 6.443, 5.426 ) %arc from E top    half
+\qbezier[12]  ( 6.443, 5.426 )( 7.436, 3.284 )( 6.704, 1.04  ) %arc from E bottom half
+\qbezier[ 8]  (11.025, 6.03  )(10.081, 5.043 )( 9.841, 3.698 ) %arc from C top    half
+\qbezier[ 8]  ( 9.841, 3.698 )( 9.600, 2.353 )(10.143, 1.1   ) %arc from C bottom half
+\put( 14.6 ,  2.7 ){$\scriptstyle C$}   %C
+\put(  0.1 ,  2.7 ){$\scriptstyle E$}   %E
+\put(  3.8 ,  6.8 ){$\scriptstyle H$}   %H
+\put( 11.3 ,  5.1 ){$\scriptstyle K$}   %K
+\put(  5.55,  8.4 ){$\scriptstyle O$}   %O
+\put(  7.9 ,  3.2 ){\emph{c}}           %c
+\end{picture}
+\PGrestore

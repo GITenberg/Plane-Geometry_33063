@@ -1,0 +1,35 @@
+\PGset[0.8em]
+
+\begin{picture}   (15, 13.6 )
+             %     A          E              D         C         B      A
+\drawline     (  1, 6.8 )( 6.33, 12.6 ) ( 14, 6.8 )( 11, 1 )( 4, 1 )( 1, 6.8 )
+
+\dashline[80]{0.2}( 6.33, 12.6 )(  4, 1 )
+\dashline[80]{0.2}( 6.33, 12.6 )( 11, 1 )
+
+\put( 0.3  , 6.6 ){$\scriptstyle A$}
+\put( 3.7  , 0.2 ){$\scriptstyle B$}
+\put(10.3  , 0.2 ){$\scriptstyle C$}
+\put(14    , 6.6 ){$\scriptstyle D$}
+\put( 6    ,12.8 ){$\scriptstyle E$}
+\end{picture}
+
+\quad
+
+\PGset[0.6em]
+
+\begin{picture}   (15, 13.6 )
+             %     A          E              D         C         B      A
+\drawline     (  1, 6.8 )( 6.33, 12.6 ) ( 14, 6.8 )( 11, 1 )( 4, 1 )( 1, 6.8 )
+
+\dashline[80]{0.2}( 6.33, 12.6 )(  4, 1 )
+\dashline[80]{0.2}( 6.33, 12.6 )( 11, 1 )
+
+\put( 0    , 6.6 ){$\scriptstyle A'$}
+\put( 3.7  , 0.1 ){$\scriptstyle B'$}
+\put(10.3  , 0.1 ){$\scriptstyle C'$}
+\put(14    , 6.6 ){$\scriptstyle D'$}
+\put( 6    ,12.8 ){$\scriptstyle E'$}
+\end{picture}
+
+\PGrestore

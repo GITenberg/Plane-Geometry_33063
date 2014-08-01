@@ -1,0 +1,38 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 127cc309.tex
+% Pt.309. Fig.c.   (15.7,13.9 )
+\PGset[0.8em]
+\begin{picture}    (15.7,13.9 )
+\drawline     ( 6.8  , 6.95  )( 0.5  , 1.7   )( 9.5  , 1.7   ) %ur-E-lr
+\drawline     ( 1.5  , 9.2   )(15.6  , 9.2   )                 %left(c)right
+\drawline     ( 2.3  ,12.1   )(14.6  ,12.1   )                 %left(b)right
+\qbezier[12]  ( 3.661, 6.8   )( 5.286, 5.792 )( 6.029, 4.030 ) %arc from E top    half
+\qbezier[12]  ( 6.029, 4.030 )( 6.772, 2.267 )( 6.357, 0.4   ) %arc from E bottom half
+\put(  0.1 ,  0.9 ){$\scriptstyle E$}   %E
+\put(  8.3 , 12.2 ){\emph{b}}           %b
+\put(  8.3 ,  9.3 ){\emph{c}}           %c
+\end{picture}
+\PGrestore
+%
+% 127dd309.tex
+% Pt.309. Fig.d.   (21,13.9 )
+\PGset[0.8em]
+\begin{picture}    (21,13.9 )
+\dashline[80]{0.4}     ( 0.5  , 1.7   )(14.6  , 1.7   ) %A(c)B
+\dashline[80]{0.2}(14.6  , 1.7   )(20.9  , 1.7   ) %B-lr
+\dashline[80]{0.4}     ( 0.5  , 1.7   )( 9.949, 9.574 ) %A(b)C *** ROUGH C ***
+\dashline[80]{0.2}( 9.949, 9.574 )(14.66 ,13.5   ) %CD    *** ROUGH C ***
+\dashline[80]{0.4}     ( 9.949, 9.574 )(14.6  , 1.7   ) %CB    *** ROUGH C ***
+\qbezier[12]  ( 3.661, 6.8   )( 5.359, 5.747 )( 6.087, 3.887 ) %arc from A for angle E - top    part
+\qbezier[12]  ( 6.087, 3.887 )( 6.816, 2.026 )( 6.283, 0.1   ) %arc from A for angle E - bottom part
+\qbezier[10]  ( 3.840, 4.8   )( 5.363, 6.108 )( 7.330, 5.7   ) %short arc  for angle E
+\qbezier[20]  ( 7.662,11.7   )( 9.926,10.079 )(11.271, 7.64  ) %arc from A @ C for length b
+\put(  0.1 ,  0.8 ){$\scriptstyle A$}   %A
+\put( 14.2 ,  0.8 ){$\scriptstyle B$}   %B
+\put( 10.4 ,  9.2 ){$\scriptstyle C$}   %C
+\put( 14.7 , 13.1 ){$\scriptstyle D$}   %D
+\put(  6.3 ,  7.3 ){\emph{b}}           %b
+\put(  8   ,  0.9 ){\emph{c}}           %c
+\end{picture}
+\PGrestore

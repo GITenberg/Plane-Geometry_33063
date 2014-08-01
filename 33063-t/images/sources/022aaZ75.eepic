@@ -1,0 +1,14 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% 022aaZ75.tex
+% Pt.75. Fig.16. ( 8, 5 )
+\PGset[0.8em]
+\begin{picture}  ( 8, 8 )
+\put( 1     ,  3.5 ){\line  ( 2, 1 ){6   }}  %ll-ur
+\put( 1     ,  6.5 ){\line  ( 2,-1 ){6   }}  %ul-lr
+\put( 2.2   ,  4.7 ){\emph{a}}   %a
+\put( 5     ,  4.55 ){\emph{b}}   %b
+\put( 3.7   ,  5.4 ){\emph{c}}   %c
+\put( 3.5   ,  3.8 ){\emph{d}}   %d
+\put( 2.2   ,  1.0 ){{\footnotesize \textsc{Fig. 16.}}}
+\end{picture}
+\PGrestore

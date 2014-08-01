@@ -1,0 +1,29 @@
+
+\PGset[0.7em]
+\begin{picture}   (36, 10)
+
+\drawline     ( 1, 1)( 7, 1)( 7, 7)( 1, 7)( 1, 1) % R
+\drawline     (11, 1)(18, 1)(18, 8)(11, 8)(11, 1) % R'
+
+\dashline[80]{0.4}(31, 1)(35, 1)(35, 5)(31, 5)(31, 1) % S
+
+\dashline[80]{0.2}(21, 8)(21, 1)(28, 1) % (B)A(C)X
+\dashline[80]{0.2}(21, 6)(27, 1) % BC
+
+%\drawline (21,6)(28,3.5)
+%\drawline (21,6)(25,0)
+% arc P1 = (28.0/3.5)  P2 = (21.0/6.0)(B)  P3 = (25.0/0.0)  r = 7.81 (BC)
+\qbezier(28.355, 3.3732)(27.4849, 0.9368)(25.3322, -0.4983)
+
+\put(  3.5  , 3.5 ) {$\scriptstyle R$}
+\put(  14  ,  4 ) {$\scriptstyle R'$}
+
+\put( 20.1, 5.5 ) {$\scriptstyle B$}
+\put( 20.1, .7 ) {$\scriptstyle A$}
+\put( 26.8, .2 ) {$\scriptstyle C$}
+\put( 28, .7 ) {$\scriptstyle X$}
+
+\put( 32.5, 2.5 ) {$\scriptstyle S$}
+
+\end{picture}
+\PGrestore

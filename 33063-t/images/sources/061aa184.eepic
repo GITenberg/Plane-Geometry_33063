@@ -1,0 +1,16 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 061aa184.tex
+% Pt.184. Fig.a.  (24,11 )
+\PGset[0.8em]
+\begin{picture}   (24,11 )
+\drawline     ( 1  , 1 )(19.9, 1   )(23.5,10 )( 4.6,10 )( 1, 1 )  %AECBA
+\drawline     ( 1  , 1 )(23.5,10 )                            %A(O)C
+\drawline     ( 4.6,10 )(19.9, 1 )                            %B(O)E
+\put( 0.7   ,  0.2 ){$\scriptstyle A$}   %A
+\put( 4.5   , 10.2 ){$\scriptstyle B$}   %B
+\put(23.2   , 10.2 ){$\scriptstyle C$}   %C
+\put(19.2   ,  0.2 ){$\scriptstyle E$}   %E
+\put(11.95  ,  5.7 ){$\scriptstyle O$}   %O
+\end{picture}
+\PGrestore

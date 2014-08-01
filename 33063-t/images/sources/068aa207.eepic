@@ -1,0 +1,22 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% 068aa207.tex
+% Pt.207. Fig.a.  (17,18 )
+\PGset[0.8em]
+\begin{picture}   (17,18 )
+\put( 4     ,  2.5  ){\line  ( 1, 0 ){12    }}        %ABext
+\put(13.93  ,  2.5  ){\line  ( 1, 5 ){ 2.3  }}        %BCext
+\put(15.65  , 11.11 ){\line  (-4, 3 ){ 9    }}        %CDext
+\put( 9     , 16.1  ){\line  (-5,-4 ){ 9    }}        %DEext
+\put( 2.34  , 10.78 ){\line  ( 1,-5 ){ 2.15 }}        %EAext
+\put( 4.1   ,  2.7 ){$\scriptstyle A$}   %A
+\put(13     ,  2.7 ){$\scriptstyle B$}   %B
+\put(14.5   , 10.5 ){$\scriptstyle C$}   %C
+\put( 8.5   , 15   ){$\scriptstyle D$}   %D
+\put( 2.8   , 10.3 ){$\scriptstyle E$}   %E
+\put( 4.3   ,  1.7 ){\emph{a}}   %a
+\put(14.2   ,  2.7 ){\emph{b}}   %b
+\put(15.0   , 11.7 ){\emph{c}}   %c
+\put( 7.5   , 15.5 ){\emph{d}}   %d
+\put( 1.7   ,  9.6 ){\emph{e}}   %e
+\end{picture}
+\PGrestore

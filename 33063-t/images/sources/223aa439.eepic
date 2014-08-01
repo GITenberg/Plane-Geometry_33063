@@ -1,0 +1,40 @@
+\PGset[0.8em]
+\begin{picture}(14,15)
+
+% inner radius = 6, center = 7,8
+% outer radius = 7.416
+
+% x=7+6cos(theta), y=8+6sin(theta) for theta=234+72
+% ABCDEA
+\drawline(3.472,3.146)(10.522,3.152)(12.706,9.854)(7.000,14.000)(1.300,9.848)(3.472,3.146)
+
+% x=7+7.416cos(theta), y=8+7.416sin(theta) for theta=270+72
+% FGHJKF
+\drawline(7.000,.584)(14.045,5.716)(11.360,13.999)(2.647,13.992)(-.052,5.709)(7.000,.584)
+
+\put ( 2.8, 2.5 ){$\scriptstyle A$}
+\put (10.5, 2.5 ){$\scriptstyle B$}
+\put (12.7, 9.8 ){$\scriptstyle C$}
+\put ( 6.6,14.1 ){$\scriptstyle D$}
+\put ( 0.4, 9.5 ){$\scriptstyle E$}
+
+\put ( 6.6, 0.0 ){$\scriptstyle F$}
+\put (14.1, 5.4 ){$\scriptstyle G$}
+\put (11.0,14.1 ){$\scriptstyle H$}
+\put ( 2.6,14.1 ){$\scriptstyle J$}
+\put (-0.7, 5.4 ){$\scriptstyle K$}
+
+% Ellipse:  u = 7.0  v = 8.0  a = 6.0  b = 6.0  phi = 0.0 Grad
+\qbezier(13.0, 8.0)(13.0, 10.4853)(11.2426, 12.2426)
+\qbezier(11.2426, 12.2426)(9.4853, 14.0)(7.0, 14.0)
+\qbezier(7.0, 14.0)(4.5147, 14.0)(2.7574, 12.2426)
+\qbezier(2.7574, 12.2426)(1.0, 10.4853)(1.0, 8.0)
+\qbezier(1.0, 8.0)(1.0, 5.5147)(2.7574, 3.7574)
+\qbezier(2.7574, 3.7574)(4.5147, 2.0)(7.0, 2.0)
+\qbezier(7.0, 2.0)(9.4853, 2.0)(11.2426, 3.7574)
+\qbezier(11.2426, 3.7574)(13.0, 5.5147)(13.0, 8.0)
+
+
+
+\end{picture}
+\PGrestore

@@ -1,0 +1,24 @@
+\PGset[0.8em]
+\begin{picture}(33,11)
+
+% pentagon Q' radius = 5
+% sidelen = 5.877, P = 29.385
+% area = 2.5 x P = 73.4625
+% square Q radius = 8
+% square Q' radius = 7.346
+
+\drawline(11.0000,6.0000)(8.5005,10.3300)(3.5010,10.3300)(1.0005,6.0000)(3.4995,1.6700)(8.4990,1.6700)(11.0000,6.0000) % Q'
+
+\drawline(14,1.67)(22,1.67)(22,9.67)(14,9.67)(14,1.67) % Q
+
+\drawline(25,1.67)(32.35,1.67)(32.35,9.02)(25,9.02)(25,1.67) % Q''
+
+
+\put(  5.7,  5.7 ){$\scriptstyle Q$}
+\put( 17.7,  5.4 ){$\scriptstyle Q'$}
+\put( 28.3,  5.2 ){$\scriptstyle Q''$}
+
+
+
+\end{picture}
+\PGrestore

@@ -1,0 +1,21 @@
+\PGset[0.8em]
+\begin{picture}(11,6)
+
+\dashline[80]{0.2}(1,1)(11,1)(6,4.8)(1,1) % EFCE
+\dashline[80]{0.2}(6,4.8)(6,1) % CD
+
+% midEC = 3.5, 2.9
+% mEC = 0.76
+\dashline[80]{0.2}(3.5,2.9)(4.944,1) % A
+\dashline[80]{0.4}(4.944,1)(6,4.8)(7.056,1) % ACB
+\dashline[80]{0.2}(7.056,1)(8.5,2.9) % B
+
+\put( 4.5, 0.2){$\scriptstyle A$}
+\put( 6.7, 0.2){$\scriptstyle B$}
+\put( 5.8, 5.0){$\scriptstyle C$}
+\put( 5.6, 0.2){$\scriptstyle D$}
+\put( 0.8, 0.2){$\scriptstyle E$}
+\put(10.4, 0.2){$\scriptstyle F$}
+
+\end{picture}
+\PGrestore

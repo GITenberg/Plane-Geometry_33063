@@ -1,0 +1,27 @@
+\PGset[0.8em]
+\begin{picture}(6,6)
+
+% 158
+% P = 1    1
+% Q = 4.5, 1
+% R = 4.9, 3
+% r = 2.6
+\dashline[80]{0.2}(1,1)(4.5,1) % PQ
+\dashline[80]{0.2}(2.75,1)(2.75,5.1) % perp bisector
+\dashline[80]{0.2}(4.9,3)(2.3,3) % Rd
+
+% Ellipse:  u = 4.9  v = 3.0  a = 2.6  b = 2.6  phi = 30.0 Grad
+\qbezier[15](3.6, 5.2517)(2.6673, 4.7132)(2.3886, 3.6729)
+\qbezier[15](2.3886, 3.6729)(2.1099, 2.6327)(2.6483, 1.7)
+\qbezier[15](2.6483, 1.7)(3.1868, 0.7673)(4.2271, 0.4886)
+
+\put( 0.7, 0.2){$\scriptstyle P$}
+\put( 4.5, 0.4){$\scriptstyle Q$}
+\put( 5.0, 2.7){$\scriptstyle R$}
+\put( 2.9, 4.1){$\scriptstyle X$}
+\put( 2.9, 1.6){$\scriptstyle X'$}
+\put( 3.8, 3.2){$\scriptstyle d$}
+
+
+\end{picture}
+\PGrestore

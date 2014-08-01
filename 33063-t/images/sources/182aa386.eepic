@@ -1,0 +1,41 @@
+\PGset[0.8em]
+\begin{picture}(18,12)
+
+% 259x240
+% 9x8.5
+
+\drawline(3,10.5)(16,10.5) % Ax
+\drawline(3,10.5)(12,2) % Ay
+
+% m = 7.3
+% n = 5.4
+% p = 4.3
+\drawline(1,3.0)(8.3,3.0) % m
+\drawline(1,2.0)(6.4,2.0) % n
+\drawline(1,1.0)(5.3,1.0) % p
+
+% mAy = -.944
+% mBD = .707
+\dashline[80]{0.2}(10.3,10.5)(6.127,7.548) % BD
+
+\dashline[80]{0.2}(15.7,10.5)(8.438,5.366) % CF
+      
+\put( 2.6,10.7){$\scriptstyle A$}
+\put(10.0,10.7){$\scriptstyle B$}
+\put(15.4,10.7){$\scriptstyle C$}
+\put( 5.5, 6.8){$\scriptstyle D$}
+\put( 7.8, 4.6){$\scriptstyle F$}
+
+\put(16.2,10.2){$\scriptstyle x$}
+\put(12.2, 1.6){$\scriptstyle y$}
+
+\put( 6.3,10.7){$\scriptstyle m$}
+\put(12.7,10.7){$\scriptstyle n$}
+\put( 3.8, 8.7){$\scriptstyle p$}
+
+\put( 0.2, 2.7){$\scriptstyle m$}
+\put( 0.3, 1.7){$\scriptstyle n$}
+\put( 0.3, 0.7){$\scriptstyle p$}
+
+\end{picture}
+\PGrestore

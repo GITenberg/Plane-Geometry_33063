@@ -1,0 +1,66 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 083aaZ83.tex
+% Ex.83. Fig.a.   (10, 9 )
+\PGset[0.8em]
+\begin{picture}   (10, 9 )
+\drawline       ( 1  , 1  )( 9  , 1  )( 8  , 8  )( 3  , 8  )( 1  , 1  )  %ABCDA
+\drawline       ( 1  , 1  )( 8  , 8  )  %AC
+\drawline       ( 9  , 1  )( 3  , 8  )  %BD
+\drawline       ( 4.5, 4.5)( 6  , 4.5)  %EF
+\dashline[80]{0.2}  ( 4  , 1  )( 8  , 8  )  %GC
+\put(  0.3 ,  0.2 ){$\scriptstyle A$}   %A
+\put(  8.8 ,  0.2 ){$\scriptstyle B$}   %B
+\put(  7.7 ,  8.2 ){$\scriptstyle C$}   %C
+\put(  2.6 ,  8.2 ){$\scriptstyle D$}   %D
+\put(  3.5 ,  4.2 ){$\scriptstyle E$}   %E
+\put(  6.2 ,  4.2 ){$\scriptstyle F$}   %F
+\put(  3.5 ,  0.2 ){$\scriptstyle G$}   %G
+\end{picture}
+\PGrestore
+%
+\hspace{-0.5em} %keeps these diagrams within margins
+%
+% 083bbZ83.tex
+% Ex.83. Fig.b.   (10, 6 )
+\PGset[0.8em]
+\begin{picture}   (10, 6 )
+\drawline       ( 1  , 1  )(9  , 1  )( 8  , 5  )( 2  , 5  )( 1  , 1  )  %ABDCA
+\dashline[80]{0.2}  ( 2  , 5  )( 3  , 1  )  %CE
+\put(  0.3 ,  0.2 ){$\scriptstyle A$}   %A
+\put(  8.8 ,  0.2 ){$\scriptstyle B$}   %B
+\put(  1.7 ,  5.2 ){$\scriptstyle C$}   %C
+\put(  7.6 ,  5.2 ){$\scriptstyle D$}   %D
+\put(  2.5 ,  0.2 ){$\scriptstyle E$}   %E
+\end{picture}
+\PGrestore
+%
+\hspace{-0.5em} %keeps these diagrams within margins
+%
+% 083ccZ83.tex
+% Ex.83. Fig.c.   (12, 7 )
+\PGset[0.8em]
+\begin{picture}   (12, 7 )
+\drawline       ( 1  , 1  )(11  , 1  )( 9  , 6  )( 3  , 6  )( 1  , 1  )  %ABCDA
+\put(  0.3 ,  0.2 ){$\scriptstyle A$}   %A
+\put( 10.8 ,  0.2 ){$\scriptstyle B$}   %B
+\put(  8.7 ,  6.2 ){$\scriptstyle C$}   %C
+\put(  2.6 ,  6.2 ){$\scriptstyle D$}   %D
+\end{picture}
+\PGrestore
+%
+\hspace{-0.5em} %keeps these diagrams within margins
+%
+% 083ddZ83.tex
+% Ex.83. Fig.d.   (11, 6 )
+\PGset[0.8em]
+\begin{picture}   (11, 6 )
+\drawline       ( 1  , 1  )(10  , 1  )( 8  , 5  )( 3  , 5  )( 1  , 1  )  %ABCDA
+\drawline       ( 1  , 1  )( 8  , 5  )  %AC
+\drawline       (10  , 1  )( 3  , 5  )  %BD
+\put(  0.3 ,  0.2 ){$\scriptstyle A$}   %A
+\put(  9.8 ,  0.2 ){$\scriptstyle B$}   %B
+\put(  7.7 ,  5.2 ){$\scriptstyle C$}   %C
+\put(  2.6 ,  5.2 ){$\scriptstyle D$}   %D
+\end{picture}
+\PGrestore

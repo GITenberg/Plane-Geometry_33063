@@ -1,0 +1,32 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 071aa213.tex
+% Pt.213. Fig.a.  (24,16 )
+\PGset[0.8em]
+\begin{picture}   (24,16 )
+\drawline     ( 4,11 )( 9,13 )(15,13 )(20,11 )(20, 5 )(15, 3 )( 9, 3 )( 4, 5 )( 4,11 )   %A(I)BC(N)DEFG(L)HA
+\drawline(1,8)(23,8) % X'X
+\drawline(12,1)(12,15) % Y'Y
+\dashline[80]{0.2}( 6.5, 4 )( 6.5,12 )(17.5,12 )( 6.5, 4 )   %L(K)I(M)N(O)L
+\dashline[80]{0.2}( 6.5, 8 )(12  ,12 )                       %KM
+
+\put( 3.2   , 11.2 ){$\scriptstyle A$}   %A
+\put( 8.5   , 13.2 ){$\scriptstyle B$}   %B
+\put(14.6   , 13.2 ){$\scriptstyle C$}   %C
+\put(20     , 11.2 ){$\scriptstyle D$}   %D
+\put(19.9   ,  4.1 ){$\scriptstyle E$}   %E
+\put(14.5   ,  2.1 ){$\scriptstyle F$}   %F
+\put( 8.5   ,  2.1 ){$\scriptstyle G$}   %G
+\put( 3.1   ,  4.1 ){$\scriptstyle H$}   %H
+\put( 6.2   , 12.2 ){$\scriptstyle I$}   %I
+\put( 5.5   ,  7.1 ){$\scriptstyle K$}   %K
+\put( 6     ,  3.1 ){$\scriptstyle L$}   %L
+\put(10.9   , 12.1 ){$\scriptstyle M$}   %M
+\put(17.5   , 12.2 ){$\scriptstyle N$}   %N
+\put(12.2   ,  7.1 ){$\scriptstyle O$}   %O
+\put(23.1   ,  7.7 ){$\scriptstyle X$}   %X
+\put( 0.1   ,  7.8 ){$\scriptstyle X'$}   %X'
+\put(11.7   , 15.2 ){$\scriptstyle Y$}   %Y
+\put(11.6   ,  0.1 ){$\scriptstyle Y'$}   %Y'
+\end{picture}
+\PGrestore

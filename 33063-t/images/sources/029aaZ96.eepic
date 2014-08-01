@@ -1,0 +1,17 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 029aaZ96.tex
+% Pt.96. Fig.a.  (10,14 )
+\PGset[0.8em]
+\begin{picture}  (10,14 )
+\drawline(1,7)(9,7) % AB
+\drawline     ( 2,  7   )( 6,13 )( 6  , 7 )    %DPC
+\dashline[80]{0.2}( 2,  7   )( 6, 1 )( 6  , 7 )    %DP'C
+\put( 0.2   ,  7   ){$\scriptstyle A$}   %A
+\put( 9.1   ,  6.5 ){$\scriptstyle B$}   %B
+\put( 6.1   ,  6.2 ){$\scriptstyle C$}   %C
+\put( 1.2   ,  6.2 ){$\scriptstyle D$}   %D
+\put( 5.6   , 13.1 ){$\scriptstyle P$}   %P
+\put( 5.5   ,  0.2 ){$\scriptstyle P'$}  %P'
+\end{picture}
+\PGrestore

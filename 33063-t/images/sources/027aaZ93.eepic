@@ -1,0 +1,14 @@
+%figshell.tex  REMOVE this line for actual diagram file
+% 027aaZ93.tex
+% Pt.93. Fig.a. (18,10 )
+\PGset[0.8em]
+\begin{picture} (18,10 )
+\put( 1     ,  1   ){\line  ( 2, 1 ){16   }}  %ACB
+\put( 1     ,  9   ){\line  ( 2,-1 ){16   }}  %OCP
+\put( 0.2   ,  0.8 ){$\scriptstyle A$}   %A
+\put(17     ,  8.7 ){$\scriptstyle B$}   %B
+\put( 8.5   ,  4   ){$\scriptstyle C$}   %C
+\put(17.1   ,  0.6 ){$\scriptstyle P$}   %P
+\put( 0.2   ,  8.7 ){$\scriptstyle O$}   %O
+\end{picture}
+\PGrestore

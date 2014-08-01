@@ -1,0 +1,81 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  &  eepic  packages   ***
+% 115aa296.tex
+% Pt.296. Fig.a.   ( 8.8,12.5 )
+\PGset[0.8em]
+\begin{picture}    ( 8.8,12.5 )
+
+% Ellipse:  u = 4.4  v = 4.9  a = 3.9  b = 3.9  phi = 0.0 Grad
+\qbezier(8.3, 4.9)(8.3, 6.5154)(7.1577, 7.6577)
+\qbezier(7.1577, 7.6577)(6.0154, 8.8)(4.4, 8.8)
+\qbezier(4.4, 8.8)(2.7846, 8.8)(1.6423, 7.6577)
+\qbezier(1.6423, 7.6577)(0.5, 6.5154)(0.5, 4.9)
+\qbezier(0.5, 4.9)(0.5, 3.2846)(1.6423, 2.1423)
+\qbezier(1.6423, 2.1423)(2.7846, 1.0)(4.4, 1.0)
+\qbezier(4.4, 1.0)(6.0154, 1.0)(7.1577, 2.1423)
+\qbezier(7.1577, 2.1423)(8.3, 3.2846)(8.3, 4.9)
+
+\drawline     ( 1.4  , 2.408 )( 4.4  ,11.5   )( 7.4  , 2.408 )  %E(C)O(B)A
+\dashline[80]{0.2}( 2.891, 1.304 )( 5.328, 8.688 )  %PB
+\put(  7.3 ,  1.7 ){$\scriptstyle A$}   %A
+\put(  5.3 ,  8.9 ){$\scriptstyle B$}   %B
+\put(  2.6 ,  8.9 ){$\scriptstyle C$}   %C
+\put(  0.7 ,  1.6 ){$\scriptstyle E$}   %E
+\put(  4.1 , 11.6 ){$\scriptstyle O$}   %O
+\put(  2.5 ,  0.4 ){$\scriptstyle P$}   %P
+\end{picture}
+\PGrestore
+%
+\qquad
+% 115bb296.tex
+% Pt.296. Fig.b.   (11,12.5 )
+\PGset[0.8em]
+\begin{picture}    (11,12.5 )
+
+% Ellipse:  u = 4.4  v = 4.9  a = 3.9  b = 3.9  phi = 0.0 Grad
+\qbezier(8.3, 4.9)(8.3, 6.5154)(7.1577, 7.6577)
+\qbezier(7.1577, 7.6577)(6.0154, 8.8)(4.4, 8.8)
+\qbezier(4.4, 8.8)(2.7846, 8.8)(1.6423, 7.6577)
+\qbezier(1.6423, 7.6577)(0.5, 6.5154)(0.5, 4.9)
+\qbezier(0.5, 4.9)(0.5, 3.2846)(1.6423, 2.1423)
+\qbezier(1.6423, 2.1423)(2.7846, 1.0)(4.4, 1.0)
+\qbezier(4.4, 1.0)(6.0154, 1.0)(7.1577, 2.1423)
+\qbezier(7.1577, 2.1423)(8.3, 3.2846)(8.3, 4.9)
+
+\drawline     ( 1.254, 7.205 )( 4.4  ,11.5   )(10     , 3.855 )  %BO(A)E
+\dashline[80]{0.2}( 3.152, 1.205 )( 7.546, 7.205 )  %PA
+\put(  7.65,  7.2 ){$\scriptstyle A$}   %A
+\put(  0.4 ,  7.2 ){$\scriptstyle B$}   %B
+\put( 10   ,  3.1 ){$\scriptstyle E$}   %E
+\put(  6.7 ,  1.0 ){$\scriptstyle M$}   %M
+\put(  4.1 , 11.6 ){$\scriptstyle O$}   %O
+\put(  2.5 ,  0.4 ){$\scriptstyle P$}   %P
+\end{picture}
+\PGrestore
+%
+\quad
+% 115cc296.tex
+% Pt.296. Fig.c.   (11.3,12.5 )
+\PGset[0.8em]
+\begin{picture}    (11.3,12.5 )
+
+% Ellipse:  u = 4.4  v = 4.9  a = 3.9  b = 3.9  phi = 0.0 Grad
+\qbezier(8.3, 4.9)(8.3, 6.5154)(7.1577, 7.6577)
+\qbezier(7.1577, 7.6577)(6.0154, 8.8)(4.4, 8.8)
+\qbezier(4.4, 8.8)(2.7846, 8.8)(1.6423, 7.6577)
+\qbezier(1.6423, 7.6577)(0.5, 6.5154)(0.5, 4.9)
+\qbezier(0.5, 4.9)(0.5, 3.2846)(1.6423, 2.1423)
+\qbezier(1.6423, 2.1423)(2.7846, 1.0)(4.4, 1.0)
+\qbezier(4.4, 1.0)(6.0154, 1.0)(7.1577, 2.1423)
+\qbezier(7.1577, 2.1423)(8.3, 3.2846)(8.3, 4.9)
+
+\drawline     ( 1.4  , 2.408 )( 4.4  ,11.5   )(10.3  , 3.445 )  %C(B)O(A)E
+\dashline[80]{0.2}( 5.557, 1.176 )( 7.546, 7.205 )  %PA
+\put(  7.65,  7.25){$\scriptstyle A$}   %A
+\put(  2.6 ,  8.9 ){$\scriptstyle B$}   %B
+\put(  0.7 ,  1.5 ){$\scriptstyle C$}   %C
+\put( 10.3 ,  2.8 ){$\scriptstyle E$}   %E
+\put(  4.1 , 11.6 ){$\scriptstyle O$}   %O
+\put(  5.4 ,  0.4 ){$\scriptstyle P$}   %P
+\end{picture}
+\PGrestore

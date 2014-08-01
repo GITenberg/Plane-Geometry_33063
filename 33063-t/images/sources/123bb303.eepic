@@ -1,0 +1,29 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  &  eepic  packages   ***
+% 123bb303.tex
+% Pt.303. Fig.b.   ( 15.8 ,13.8 )
+\PGset[0.8em]
+\begin{picture}    ( 15.8 ,13.8 )
+\put( 8,2.128){\arc{16.943}{3.740}{5.685}}     %arc ACB
+%\spline( 1    , 6.9   )( 2    , 8.109 )( 4    , 9.596 )( 8    ,10.6   )(12    , 9.596 )(14    , 8.109 )(15    , 6.9   ) %arc ACB
+\dashline[80]{0.2}( 1    , 6.9   )(15    , 6.9   ) %AB
+\dashline[80]{0.2}( 8    , 1.4   )( 8    ,12.4   ) %E(C)D
+\put( 1,6.9){\arc{17.804}{5.531}{5.753}} %arc A @ D
+\put( 1,6.9){\arc{17.804}{0.556}{0.779}} %arc A @ E
+\put(15,6.9){\arc{17.804}{3.689}{3.907}} %arc B @ D
+\put(15,6.9){\arc{17.804}{2.376}{2.600}} %arc B @ E
+%\spline( 7.5  ,12.983 )( 8    ,12.4   )( 8.681,11.4   ) %arc A @ D
+%\spline( 8.560, 2.2   )( 8    , 1.4   )( 7.334, 0.645 ) %arc A @ E
+%\spline( 7.4  ,11.536 )( 8    ,12.4   )( 8.580,13.067 ) %arc B @ D
+%\spline( 8.579, 0.734 )( 8    , 1.4   )( 7.37 , 2.314 ) %arc B @ E
+%\drawline( 7.5  ,12.983 )( 8    ,12.4   )( 8.681,11.4   ) %arc A @ D
+%\drawline( 8.560, 2.2   )( 8    , 1.4   )( 7.334, 0.645 ) %arc A @ E
+%\drawline( 7.4  ,11.536 )( 8    ,12.4   )( 8.580,13.067 ) %arc B @ D
+%\drawline( 8.579, 0.734 )( 8    , 1.4   )( 7.37 , 2.314 ) %arc B @ E
+\put(  0.1 ,  6.6 ){$\scriptstyle A$}   %A
+\put( 15   ,  6.9 ){$\scriptstyle B$}   %B
+\put(  8.2 ,  9.6 ){$\scriptstyle C$}   %C
+\put(  7.65, 13.1 ){$\scriptstyle D$}   %D
+\put(  7.5 ,  0.1 ){$\scriptstyle E$}   %E
+\end{picture}
+\PGrestore

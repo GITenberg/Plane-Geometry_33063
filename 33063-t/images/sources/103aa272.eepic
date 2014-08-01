@@ -1,0 +1,16 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% 103aa272.tex
+% Pt.272. Fig.a.   (28.2, 2.3 )
+\PGset[0.8em]
+\begin{picture}    (28.2, 2.3 )
+\drawline(0.1,1.1)(28.1,1.1) % AB
+\drawline(13.6,1.1)(13.6,0.1) % M
+\drawline(20.267,1.1)(20.267,0.1) % M'
+\drawline(24.767,1.1)(24.767,0.1) % M''
+\put(  0.1 ,  1.5 ){$\scriptstyle A$}   %A
+\put( 27.4 ,  1.5 ){$\scriptstyle B$}   %B
+\put( 13.2 ,  1.5 ){$\scriptstyle M$}   %M
+\put( 19.7 ,  1.5 ){$\scriptstyle M'$}   %M'
+\put( 24.1 ,  1.5 ){$\scriptstyle M''$}   %M''
+\end{picture}
+\PGrestore

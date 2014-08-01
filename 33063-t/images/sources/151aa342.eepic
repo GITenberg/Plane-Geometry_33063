@@ -1,0 +1,50 @@
+\PGset[0.8em]
+\begin{picture}(38,11)
+
+% 12x9
+
+\drawline(7,10)(1,1)(13,1)(7,10) % ABCA
+
+%  6/7 = 0.857
+%  9/7 = 1.286
+
+\dashline[80]{0.2}(1.857,2.286)(12.043,2.286)
+\dashline[80]{0.2}(2.714,3.572)(11.186,3.572)
+
+\drawline     (3.571,4.858)(10.429,4.858) % EF
+
+\dashline[80]{0.2}(4.428,6.144)( 9.472,6.144)
+\dashline[80]{0.2}(5.285,7.430)( 8.615,7.430)
+\dashline[80]{0.2}(6.142,8.716)( 7.758,8.716)
+
+% 21x8.357
+% Ax = Bx + 7
+
+\drawline(23,9.357)(16,1)(37,1)(23,9.357) % ABCA
+
+% Ey=Fy=4.858-.643 = 4.215
+% Ex = 19.53, Fx = 
+\drawline(18.693,4.215)(31.614,4.215) % EF
+
+% Ky = 1.643
+\dashline[80]{0.2}(16.538,1.643)(35.923,1.643) % KH
+
+\put(  6.6, 10.1 ){$\scriptstyle A$}
+\put(  0.7,  0.2 ){$\scriptstyle B$}
+\put( 12.4,  0.2 ){$\scriptstyle C$}
+\put(  2.7,  4.5 ){$\scriptstyle E$}
+\put( 10.7,  4.5 ){$\scriptstyle F$}
+\put(  0.7,  2.0 ){$\scriptstyle M$}
+
+\put( 22.6,  9.5 ){$\scriptstyle A$}
+\put( 15.3,  0.7 ){$\scriptstyle B$}
+\put( 37.2,  0.7 ){$\scriptstyle C$}
+\put( 17.9,  4.2 ){$\scriptstyle E$}
+\put( 31.9,  4.2 ){$\scriptstyle F$}
+\put( 15.8,  1.5 ){$\scriptstyle K$}
+\put( 36.2,  1.5 ){$\scriptstyle H$}
+
+
+
+\end{picture}
+\PGrestore

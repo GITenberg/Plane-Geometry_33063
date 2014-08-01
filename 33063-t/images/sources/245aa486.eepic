@@ -1,0 +1,29 @@
+\PGset[0.8em]
+\begin{picture}(24,11)
+
+% MN = 22
+\drawline(1,1)(23,1) % MN
+
+% Ellipse:  u = 12.0  v = 1.0  a = 9.0  b = 9.0  phi = 0.0 Grad
+\qbezier(21.0, 1.0)(21.0, 4.7279)(18.364, 7.364)
+\qbezier(18.364, 7.364)(15.7279, 10.0)(12.0, 10.0)
+\qbezier(12.0, 10.0)(8.2721, 10.0)(5.636, 7.364)
+\qbezier(5.636, 7.364)(3.0, 4.7279)(3.0, 1.0)
+
+% B = 135, C = 95, D = 30
+\drawline(3,1)(5.6379,7.3639)(11.2179,9.9649)(19.7949,5.5)(21,1) % ABCDE
+
+\dashline[80]{0.2}(3,1)(11.2179,9.9649)(21,1) % ACE
+
+
+\put( 2.5, 0.2 ){$\scriptstyle A$}
+\put( 4.8, 7.2 ){$\scriptstyle B$}
+\put(10.9,10.2 ){$\scriptstyle C$}
+\put(19.9, 5.5 ){$\scriptstyle D$}
+\put(20.5, 0.2 ){$\scriptstyle E$}
+
+\put( 0.0, 0.7 ){$\scriptstyle M$}
+\put(23.1, 0.7 ){$\scriptstyle N$}
+
+\end{picture}
+\PGrestore

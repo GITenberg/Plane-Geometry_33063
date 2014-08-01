@@ -1,0 +1,27 @@
+\PGset[0.8em]
+\begin{picture}   (20, 12)
+
+%               A    B    C      D      H     E    A
+\drawline     (4,1)(1,6)(4,11)(10,11)(13,6)(10,1)(4,1)
+
+\dashline{0.2}(4,1)(4,11)        % AC
+\dashline{0.2}(1,6)(1,1)         % BI
+\dashline{0.2}(10,11)(10,1)      % DE
+\dashline{0.2}(13,6)(13,1)(4,11) % HFC
+\dashline{0.4}(4,1)(1,1)(4,11)(19,1)(10,1)  % AICKE
+
+\dashline{0.2}(19,1)(10,11)(13,1)% KDF
+
+\put( 3.9  , 0.2 ){$\scriptstyle A$}
+\put( 0.2  , 5.7 ){$\scriptstyle B$}
+\put( 3.9  ,11.2 ){$\scriptstyle C$}
+\put( 9.3  ,11.2 ){$\scriptstyle D$}
+\put( 9.3  , 0.2 ){$\scriptstyle E$}
+\put(12.6  , 0.2 ){$\scriptstyle F$}
+\put(13.1  , 5.7 ){$\scriptstyle H$}
+\put( 0.7  , 0.2 ){$\scriptstyle I$}
+\put(19.0  , 0.7 ){$\scriptstyle K$}
+
+\end{picture}
+
+\PGrestore

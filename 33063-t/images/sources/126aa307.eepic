@@ -1,0 +1,17 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 126aa307.tex
+% Pt.307. Fig.a.   ( 28.8,11.8 )
+\PGset[0.8em]
+\begin{picture}    ( 28.8,11.8 )
+\drawline          ( 1    ,11.4   )(28    ,11.4   )                 %AB
+\dashline[80]{0.2}     ( 1    ,11.4   )(28    , 0.6   )                 %A(C)O
+\dashline[80]{0.2}     (10    ,11.4   )( 8.5  , 8.4   )                 %first  slant
+\dashline[80]{0.2}     (19    ,11.4   )(16    , 5.4   )                 %second slant
+\dashline[80]{0.2}     (28    ,11.4   )(23.5  , 2.4   )                 %BC     slant
+\put(  0.1 , 11.1 ){$\scriptstyle A$}   %A
+\put( 28   , 11   ){$\scriptstyle B$}   %B
+\put( 22.9 ,  1.6 ){$\scriptstyle C$}   %C
+\put( 28   ,  0.1 ){$\scriptstyle O$}   %O
+\end{picture}
+\PGrestore

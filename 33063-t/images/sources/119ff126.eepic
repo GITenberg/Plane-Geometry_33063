@@ -1,0 +1,29 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  &  eepic  packages   ***
+% 119ff126.tex
+% Ex.126. Fig.f.   ( 9.5, 6.6 )
+\PGset[0.8em]
+\begin{picture}    ( 9.5, 6.6 )
+
+% Ellipse:  u = 2.9  v = 2.9  a = 2.8  b = 2.8  phi = 0.0 Grad
+\qbezier(5.7, 2.9)(5.7, 4.0598)(4.8799, 4.8799)
+\qbezier(4.8799, 4.8799)(4.0598, 5.7)(2.9, 5.7)
+\qbezier(2.9, 5.7)(1.7402, 5.7)(0.9201, 4.8799)
+\qbezier(0.9201, 4.8799)(0.1, 4.0598)(0.1, 2.9)
+\qbezier(0.1, 2.9)(0.1, 1.7402)(0.9201, 0.9201)
+\qbezier(0.9201, 0.9201)(1.7402, 0.1)(2.9, 0.1)
+\qbezier(2.9, 0.1)(4.0598, 0.1)(4.8799, 0.9201)
+\qbezier(4.8799, 0.9201)(5.7, 1.7402)(5.7, 2.9)
+
+\drawline     ( 0.1  , 5.7   )( 8.6  , 5.7   )                  %left(AK)C
+\drawline     ( 2.9  , 5.7   )( 5.277, 1.421 )                  %A(H)B
+\drawline     ( 4.089, 3.560 )( 5.348, 4.260 )( 5.348, 5.7   )  %HMK
+\dashline[80]{0.2}( 2.9  , 5.7   )( 5.348, 4.260 )                  %AM
+\put(  2.3 ,  5.8 ){$\scriptstyle A$}   %A
+\put(  5.2 ,  0.7 ){$\scriptstyle B$}   %B
+\put(  8.7 ,  5.4 ){$\scriptstyle C$}   %C
+\put(  2.9 ,  3   ){$\scriptstyle H$}   %H
+\put(  5   ,  5.9 ){$\scriptstyle K$}   %K
+\put(  5.5 ,  4.3 ){$\scriptstyle M$}   %M
+\end{picture}
+\PGrestore

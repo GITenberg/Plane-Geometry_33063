@@ -1,0 +1,13 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% 018ccZ57.tex
+% Pt.57. Fig.7. ( 9, 9 )
+\PGset[0.8em]
+\begin{picture} ( 9, 9 )
+\put( 1     ,  2   ){\line  ( 1, 0 ){7   }}  %ED
+\put( 1     ,  2   ){\line  ( 1, 2 ){3   }}  %EF
+\put( 8.1   ,  1.7 ){$\scriptstyle D$}   %D
+\put( 0.1   ,  1.7 ){$\scriptstyle E$}   %E
+\put( 4.1   ,  7.7 ){$\scriptstyle F$}   %F
+\put( 3     ,  0.2 ){{\footnotesize \textsc{Fig. 7.}}}
+\end{picture}
+\PGrestore

@@ -1,0 +1,31 @@
+\PGset[0.8em]
+\begin{picture}(11,8)
+
+% 238x185
+% 9x7
+
+\drawline(1,1)(10,1) % BD
+\drawline(1,3.5)(10,3.5) % HK
+\drawline(1,5.5)(10,5.5) % FG
+\drawline(1,7)(10,7) % AC
+
+
+\drawline(3,7)(2,1) % AB
+\drawline(6,7)(8,1) % CD
+\dashline[80]{0.2}(3,7)(5,1) % AN
+
+
+\put(  2.7,  7.1 ){$\scriptstyle A$}
+\put(  1.5,  0.2 ){$\scriptstyle B$}
+\put(  5.7,  7.1 ){$\scriptstyle C$}
+\put(  7.7,  0.2 ){$\scriptstyle D$}
+\put(  2.0,  5.6 ){$\scriptstyle F$}
+\put(  6.6,  5.6 ){$\scriptstyle G$}
+\put(  1.5,  3.6 ){$\scriptstyle H$}
+\put(  7.2,  3.6 ){$\scriptstyle K$}
+\put(  3.6,  5.6 ){$\scriptstyle L$}
+\put(  4.2,  3.6 ){$\scriptstyle M$}
+\put(  4.7,  0.2 ){$\scriptstyle N$}
+
+\end{picture}
+\PGrestore

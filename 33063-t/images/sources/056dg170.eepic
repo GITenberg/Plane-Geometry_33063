@@ -1,0 +1,40 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 056dd170.tex
+% Pt.170. Square.  ( 5, 6.5 )
+\PGset[0.8em]
+\begin{picture}    ( 5, 6.5 )
+\drawline  ( 0, 1.5 )( 5, 1.5 )( 5, 6.5 )( 0, 6.5 )( 0, 1.5 )    %Square
+\put       ( 1, 0.2 ){{\footnotesize Square.}}
+\end{picture}
+\PGrestore
+%
+\quad
+% 056ee170.tex
+% Pt.170. Rectangle.  (10, 6.5 )
+\PGset[0.8em]
+\begin{picture}       (10, 6.5 )
+\drawline  ( 0, 1.5 )(10, 1.5 )(10, 6.5 )( 0, 6.5 )( 0, 1.5 )    %Rectangle
+\put       ( 2.5, 0.2 ){{\footnotesize Rectangle.}}
+\end{picture}
+\PGrestore
+%
+\quad
+% 056ff170.tex
+% Pt.166. Rhombus.  (10, 6.5 )
+\PGset[0.8em]
+\begin{picture}     (10, 6.5 )
+\drawline  ( 0, 1.5 )( 6, 1.5 )(10, 6.5 )( 4, 6.5 )( 0, 1.5 )    %Rhombus
+\put       ( 1, 0.2 ){{\footnotesize Rhombus.}}
+\end{picture}
+\PGrestore
+%
+\hspace{-2.5em}
+% 056gg170.tex
+% Pt.166. Rhomboid.  (13, 6.5 )
+\PGset[0.8em]
+\begin{picture}      (13, 6.5 )
+\drawline  ( 0, 1.5 )( 9, 1.5 )(13, 6.5 )( 4, 6.5 )( 0, 1.5 )    %Rhomboid
+\put       ( 4, 0.2 ){{\footnotesize Rhomboid.}}
+\end{picture}
+\PGrestore

@@ -1,0 +1,23 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 012bbZ14.tex
+% Pt.14. Fig.3. (14,10 )
+\PGset[0.8em]
+\begin{picture} (14,10 )
+\drawline       ( 1  , 7  )( 1  , 2  )( 2  , 4 )( 2  , 9  )( 1  , 7  )  %ABCDA
+\drawline       (12  , 7  )(12  , 2  )(13  , 4 )(13  , 9  )(12  , 7  )  %EFGHE
+\dashline[80]{0.2}  ( 1  , 7  )(12  , 7  )  %AE
+\dashline[80]{0.2}  ( 1  , 2  )(12  , 2  )  %BF
+\dashline[80]{0.2}  ( 2  , 4  )(13  , 4  )  %CG
+\dashline[80]{0.2}  ( 2  , 9  )(13  , 9  )  %DH
+\put(  0   ,  6.6 ){$\scriptstyle A$}   %A
+\put(  0   ,  1.6 ){$\scriptstyle B$}   %B
+\put(  2.2 ,  4.2 ){$\scriptstyle C$}   %C
+\put(  1.5 ,  9.2 ){$\scriptstyle D$}   %D
+\put( 11.2 ,  7.2 ){$\scriptstyle E$}   %E
+\put( 12.2 ,  1.6 ){$\scriptstyle F$}   %F
+\put( 13.2 ,  3.5 ){$\scriptstyle G$}   %G
+\put( 12.5 ,  9.2 ){$\scriptstyle H$}   %H
+\put(  5   ,  0.2 ){{\footnotesize \textsc{Fig. 3.}}}
+\end{picture}
+\PGrestore

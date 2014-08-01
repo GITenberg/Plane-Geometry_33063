@@ -1,0 +1,29 @@
+\PGset[0.8em]
+\vspace{-1ex}
+\begin{picture}(6,4.5)
+
+\drawline(1,1)(6,1)(2,3.5)(1,1) % BCAB
+
+\drawline(3.65,3.5)(6,3.5) % d
+
+% D = 3.35, 1
+% mAC = -0.625, mAB = 2.5
+% e1: (y-3.5)/(Ex-2) = 2.5$
+% e2: (y-3.5)/(Fx-2) = -0.625$
+% e3: Ex-Fx = 2.35$
+
+% [[y = 2.325, Ex = 3.88, Fx = 1.53]]
+\dashline[80]{0.2}(1.53,2.325)(3.88,2.325)(3.35,1) % FED
+
+\put( 1.7, 3.6){$\scriptstyle A$}
+\put( 0.7, 0.2){$\scriptstyle B$}
+\put( 5.4, 0.2){$\scriptstyle C$}
+\put( 3.0, 0.2){$\scriptstyle D$}
+\put( 4.0, 2.3){$\scriptstyle E$}
+\put( 1.0, 2.3){$\scriptstyle F$}
+
+\put( 4.5, 3.6){$\scriptstyle d$}
+
+
+\end{picture}
+\PGrestore

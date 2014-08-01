@@ -1,0 +1,20 @@
+\PGset[0.8em]
+\begin{picture}(17,9)
+
+\dashline[80]{0.2}(1,6)(1,1)(5,1) % EDB
+\dashline[80]{0.2}(9,7)(9,1)      % ED
+
+\drawline(5,1)(1,6)(16,1) % BEC
+\drawline(5,1)(5,8)(16,1) % BAC
+\drawline(5,1)(9,7)(16,1)(5,1) % BECB
+
+\put( 4.7, 8.1 ){$\scriptstyle A$}
+\put( 4.5, 0.2 ){$\scriptstyle B$}
+\put(16.2, 0.2 ){$\scriptstyle C$}
+\put( 0.5, 0.2 ){$\scriptstyle D$}
+\put( 8.5, 0.2 ){$\scriptstyle D$}
+\put( 0.7, 6.1 ){$\scriptstyle E$}
+\put( 8.7, 7.1 ){$\scriptstyle E$}
+
+\end{picture}
+\PGrestore

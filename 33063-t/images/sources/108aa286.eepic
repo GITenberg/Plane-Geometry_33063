@@ -1,0 +1,26 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% 108aa286.tex
+% Pt.286. Fig.a.   (27.1, 6.5 )
+\PGset[0.8em]
+\begin{picture}    (27.1, 6.5 )
+\drawline(0.9,4.7)(26.3,4.7) % AB
+\drawline(7.9,1.5)(19.2,1.5) 
+\drawline(11.9,4.7)(11.9,5.7)
+\drawline(23.2,4.7)(23.2,5.45) % E
+\drawline(25,4.7)(25,5.45) % H
+\drawline(7.9,1.5)(7.9,2.3) % C
+\drawline(11,1.5)(11,0.9)
+\drawline(14.1,1.5)(14.1,0.9)
+\drawline(17.2,1.5)(17.2,0.9) % F
+\drawline(18.5,1.5)(18.5,2.3) % K
+\drawline(19.2,1.5)(19.2,2.3) % D
+\put(  0.1 ,  4.3 ){$\scriptstyle A$}   %A
+\put( 26.2 ,  4.4 ){$\scriptstyle B$}   %B
+\put(  6.9 ,  1.2 ){$\scriptstyle C$}   %C
+\put( 19.5 ,  1.1 ){$\scriptstyle D$}   %D
+\put( 22.9 ,  5.7 ){$\scriptstyle E$}   %E
+\put( 16.8 ,  0.1 ){$\scriptstyle F$}   %F
+\put( 24.7 ,  5.7 ){$\scriptstyle H$}   %H
+\put( 18.3 ,  2.4 ){$\scriptstyle K$}   %K
+\end{picture}
+\PGrestore

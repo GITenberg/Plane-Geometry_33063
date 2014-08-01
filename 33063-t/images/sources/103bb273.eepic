@@ -1,0 +1,31 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  &  eepic  packages   ***
+% 103bb273.tex
+% Pt.273. Fig.b.   (15.4,15.4 )
+\PGset[0.8em]
+\begin{picture}    (15.4,15.4 )
+
+% Ellipse:  u = 7.7  v = 7.7  a = 6.7  b = 6.7  phi = 0.0 Grad
+\qbezier(14.4, 7.7)(14.4, 10.4752)(12.4376, 12.4376)
+\qbezier(12.4376, 12.4376)(10.4752, 14.4)(7.7, 14.4)
+\qbezier(7.7, 14.4)(4.9248, 14.4)(2.9624, 12.4376)
+\qbezier(2.9624, 12.4376)(1.0, 10.4752)(1.0, 7.7)
+\qbezier(1.0, 7.7)(1.0, 4.9248)(2.9624, 2.9624)
+\qbezier(2.9624, 2.9624)(4.9248, 1.0)(7.7, 1.0)
+\qbezier(7.7, 1.0)(10.4752, 1.0)(12.4376, 2.9624)
+\qbezier(12.4376, 2.9624)(14.4, 4.9248)(14.4, 7.7)
+
+\drawline     ( 2.962,12.438 )(12.438,12.438 )(12.438, 2.962 )         %ABC
+\drawline     (12.438, 2.962 )( 2.962, 2.962 )( 2.962,12.438 )         %CDA
+\dashline[80]{0.2}( 2.962,12.438 )( 7.7,14.4 )(12.438,12.438 )(14.4 , 7.7 )(12.438, 2.962 ) %AEBFC
+\dashline[80]{0.2}(12.438, 2.962 )( 7.7, 1   )( 2.962, 2.962 )( 1   , 7.7 )( 2.962,12.438 ) %CHDKA
+\put(  2.1 , 12.45 ){$\scriptstyle A$}   %A
+\put( 12.6 , 12.45 ){$\scriptstyle B$}   %B
+\put( 12.6 ,  2.4 ){$\scriptstyle C$}   %C
+\put(  2.1 ,  2.3 ){$\scriptstyle D$}   %D
+\put(  7.3 , 14.6 ){$\scriptstyle E$}   %E
+\put( 14.6 ,  7.4 ){$\scriptstyle F$}   %F
+\put(  7.2 ,  0.2 ){$\scriptstyle H$}   %H
+\put(  0.2 ,  7.4 ){$\scriptstyle K$}   %K
+\end{picture}
+\PGrestore

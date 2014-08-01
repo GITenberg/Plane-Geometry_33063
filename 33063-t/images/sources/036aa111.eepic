@@ -1,0 +1,22 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 036aa111.tex
+% Pt.111. Fig.a.  (24,15 )
+\PGset[0.8em]
+\begin{picture}   (24,15 )
+\put( 1     ,  5   ){\line  ( 1, 0 ){22   }}      %C(K)D
+\put( 1     , 10   ){\line  ( 1, 0 ){22   }}      %A(H)B
+\put( 6.5   ,  1   ){\line  ( 4, 5 ){10.4 }}      %F(KH)E
+\dashline[80]{0.2}( 1, 13   )(23  , 7.9 )             %M(H)N
+\put( 0.1   ,  9.7 ){$\scriptstyle A$}   %A
+\put(23     ,  9.7 ){$\scriptstyle B$}   %B
+\put( 0.1   ,  4.6 ){$\scriptstyle C$}   %C
+\put(23     ,  4.6 ){$\scriptstyle D$}   %D
+\put(16.9   , 13.5 ){$\scriptstyle E$}   %E
+\put( 5.7   ,  0.7 ){$\scriptstyle F$}   %F
+\put(13.2   , 10.4 ){$\scriptstyle H$}   %H
+\put( 9.6   ,  4.1 ){$\scriptstyle K$}   %K
+\put( 0.01   , 12.7 ){$\scriptstyle M$}   %M
+\put(23.1   ,  7.6 ){$\scriptstyle N$}   %N
+\end{picture}
+\PGrestore

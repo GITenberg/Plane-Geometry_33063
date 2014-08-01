@@ -1,0 +1,33 @@
+\PGset[0.8em]
+\begin{picture}(35,11)
+
+% m =  7.5
+% n = 10.3
+% m+n = 17.8
+\drawline(24,4)(31.5,4) % m
+\drawline(24,2)(34.3,2) % n
+
+\dashline[80]{0.2}(1,1)(20.8,1) % A(B)E
+
+% Ellipse:  u = 9.9  v = 1.0  a = 8.9  b = 8.9  phi = 0.0 Grad
+\qbezier[20](18.8, 1.0)(18.8, 4.6865)(16.1933, 7.2933)
+\qbezier[20](16.1933, 7.2933)(13.5865, 9.9)(9.9, 9.9)
+\qbezier[20](9.9, 9.9)(6.2135, 9.9)(3.6067, 7.2933)
+\qbezier[20](3.6067, 7.2933)(1.0, 4.6865)(1.0, 1.0)
+
+\dashline[80]{0.4}(8.5,1)(8.5,9.789) % CH
+
+\put( 0.3, 0.7){$\scriptstyle A$}
+\put(18.5, 0.2){$\scriptstyle B$}
+\put( 8.2, 0.2){$\scriptstyle C$}
+\put( 8.2,10.0){$\scriptstyle H$}
+\put(20.9, 0.7){$\scriptstyle E$}
+
+\put( 4.2, 0.2){$\scriptstyle m$}
+\put(13.3, 0.2){$\scriptstyle n$}
+
+\put(27.7, 4.2){$\scriptstyle m$}
+\put(29.1, 2.2){$\scriptstyle n$}
+
+\end{picture}
+\PGrestore

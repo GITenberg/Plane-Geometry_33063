@@ -1,0 +1,34 @@
+\PGset[0.8em]
+\begin{picture}(38,8)
+
+% AB = 21, AO = 3, AD = 6
+\drawline(1,1)(22,1)(22,7)(1,7)(1,1) % ABCD
+
+% AE = 12, AO = 3, AD = 6
+\drawline(25,1)(37,1)(37,7)(25,7)(25,1) % AEFD
+
+\dashline[80]{0.2}(4,1)(4,7)
+\dashline[80]{0.2}(7,1)(7,7)
+\dashline[80]{0.2}(10,1)(10,7)
+\dashline[80]{0.2}(13,1)(13,7)
+\dashline[80]{0.2}(16,1)(16,7)
+\dashline[80]{0.2}(19,1)(19,7)
+
+\dashline[80]{0.2}(28,1)(28,7)
+\dashline[80]{0.2}(31,1)(31,7)
+\dashline[80]{0.2}(34,1)(34,7)
+
+\put( 0.3, 0.5){$\scriptstyle A$}
+\put(22.1, 0.5){$\scriptstyle B$}
+\put(22.1, 6.7){$\scriptstyle C$}
+\put( 0.2, 6.7){$\scriptstyle D$}
+\put( 3.7, 0.2){$\scriptstyle O$}
+
+\put(24.3, 0.5){$\scriptstyle A$}
+\put(37.1, 0.5){$\scriptstyle E$}
+\put(37.1, 6.7){$\scriptstyle F$}
+\put(24.2, 6.7){$\scriptstyle D$}
+\put(27.7, 0.2){$\scriptstyle O$}
+
+\end{picture}
+\PGrestore

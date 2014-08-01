@@ -1,0 +1,37 @@
+\PGset[0.8em]
+\begin{picture}(15,13)
+
+% 354x316
+% 13x11
+
+\drawline(1,7)(3,1)(10.75,1)(14,6.5)(6.5,12)(1,7)
+
+\dashline[80]{0.2}(3,1)(6.5,12)(10.75,1) % BEC
+
+\put( 0.3, 6.7){$\scriptstyle A$}
+\put( 2.7, 0.2){$\scriptstyle B$}
+\put(10.4, 0.2){$\scriptstyle C$}
+\put(14.1, 6.2){$\scriptstyle D$}
+\put( 6.2,12.2){$\scriptstyle E$}
+
+\end{picture}
+\PGrestore
+\quad
+\PGset[0.6em]
+\begin{picture}(15,13)
+
+% 354x316
+% 13x11
+
+\drawline(1,7)(3,1)(10.75,1)(14,6.5)(6.5,12)(1,7)
+
+\dashline[80]{0.2}(3,1)(6.5,12)(10.75,1) % BEC
+
+\put( 0.1, 6.7){$\scriptstyle A$}
+\put( 2.7, 0.0){$\scriptstyle B$}
+\put(10.4, 0.0){$\scriptstyle C$}
+\put(14.1, 6.2){$\scriptstyle D$}
+\put( 6.1,12.2){$\scriptstyle E$}
+
+\end{picture}
+\PGrestore

@@ -1,0 +1,22 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 115ee297.tex
+% Pt.297. Fig.e.   (11,12.6 )
+\PGset[0.8em]
+\begin{picture}    (11,12.6 )
+\drawline     ( 8.2 ,11.7  )( 1   , 6.3   )( 8.2 , 0.9  )   %BCB'
+\drawline(1,6.3)(10,6.3)
+\qbezier      ( 8.2 ,11.7  )(10   , 9.3   )(10   , 6.3  )   %B-control-A
+\qbezier      ( 8.2 , 0.9  )(10   , 3.3   )(10   , 6.3  )   %B'-control-A
+\qbezier [ 8] ( 3.88, 8.46 )( 4.6 , 7.5   )( 4.6 , 6.3  )   %upper dotted arc
+\qbezier [ 8] ( 4.28, 3.84 )( 5.1 , 4.933 )( 5.1 , 6.3  )   %lower dotted arc
+%\drawline     ( 4.3 , 4.3  )( 4.3, 3.9    )( 4.7  , 3.9 )   %lower arrow
+%\drawline     ( 3.9 , 7.9  )( 3.9, 8.4    )( 4.3  , 8.4 )   %upper arrow
+\put(  3.9 ,  8.5 ){\vector(-3, 4 ){0.001}}   %upper arrow
+\put(  4.3 ,  3.9 ){\vector(-3,-4 ){0.001}}   %lower arrow
+\put( 10.3 ,  6   ){$\scriptstyle A$}   %A
+\put(  8.2 , 11.8 ){$\scriptstyle B$}   %B
+\put(  0.1 ,  6   ){$\scriptstyle C$}   %C
+\put(  8.2 ,  0.2 ){$\scriptstyle B'$}   %B'
+\end{picture}
+\PGrestore

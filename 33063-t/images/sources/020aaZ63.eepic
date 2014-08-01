@@ -1,0 +1,14 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% 020aaZ63.tex
+% Pt.63. Fig.11. (10, 9 )
+\PGset[0.8em]
+\begin{picture}  (10, 9 )
+\put( 1     ,  3   ){\line  ( 1, 0 ){8   }}  %A(C)B
+\put( 5     ,  3   ){\line  ( 0, 1 ){5   }}  %CD
+\put( 0.8   ,  2.2 ){$\scriptstyle A$}   %A
+\put( 8.5   ,  2.2 ){$\scriptstyle B$}   %B
+\put( 4.6   ,  2.2 ){$\scriptstyle C$}   %C
+\put( 4.6   ,  8.2 ){$\scriptstyle D$}   %D
+\put( 3     ,  1   ){{\footnotesize \textsc{Fig. 11.}}}
+\end{picture}
+\PGrestore

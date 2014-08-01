@@ -1,0 +1,24 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 125cc306.tex
+% Pt.306. Fig.c.   ( 22,13.3 )
+\PGset[0.8em]
+\begin{picture}    ( 22,13.3 )
+\drawline          ( 1    , 1.4   )(20    , 1.4   )                 %A(D)B
+\dashline[80]{0.2}     ( 3.4  , 7.4   )(21    , 7.4   )                 %H(C)F
+\dashline[80]{0.2}     ( 9    , 1.4   )(12.032,12.1   )                 %D(C)E
+%\dottedline[.]{0.4}( 9    , 1.4   )(12.032,12.1   )                 %D(C)E
+\qbezier[12]  ( 7.7  , 4.864 )( 9.931, 5.701 )(11.616, 4.016 ) %arc from D top   half
+\qbezier[12]  (11.616, 4.016 )(13.301, 2.331 )(12.464, 0.1   ) %arc from D right half
+\qbezier[12]  ( 9.9  ,11.012 )(12.050,11.489 )(13.494, 9.825 ) %arc from C top   half
+\qbezier[12]  (13.494, 9.825 )(14.938, 8.162 )(14.164, 6.1   ) %arc from C right half
+\qbezier[12]  (13.5  , 6.872 )(14.436, 7.283 )(15.1  , 8.059 ) %small arc on CF
+\put(  0.2 ,  1.35){$\scriptstyle A$}   %A
+\put( 20   ,  1.35){$\scriptstyle B$}   %B
+\put(  9.8 ,  7.7 ){$\scriptstyle C$}   %C
+\put(  8.5 ,  0.5 ){$\scriptstyle D$}   %D
+\put( 11.8 , 12.5 ){$\scriptstyle E$}   %E
+\put( 21.1 ,  7   ){$\scriptstyle F$}   %F
+\put(  2.5 ,  7.1 ){$\scriptstyle H$}   %H
+\end{picture}
+\PGrestore

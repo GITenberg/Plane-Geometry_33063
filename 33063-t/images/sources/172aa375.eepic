@@ -1,0 +1,30 @@
+\PGset[0.8em]
+\begin{picture}(30.5,12)
+
+% 300x262
+% 11x9
+\drawline(6.5,10)(1,1)(12,1)(6.5,10) % ABCA
+
+\dashline[80]{0.2}(6.5,10)(6.5,1) % AD
+
+
+% 436x290
+% 15(5.5)x10
+\drawline(15,11)(20.5,1)(30,1)(15,11) % ABCA
+
+\dashline[80]{0.2}(15,11)(15,1)(20.5,1) % ADB
+
+
+\put( 6.2,10.1 ){$\scriptstyle A$}
+\put( 0.3, 0.8 ){$\scriptstyle B$}
+\put(12.1, 0.8 ){$\scriptstyle C$}
+\put( 6.1, 0.2 ){$\scriptstyle D$}
+
+\put(14.7,11.1 ){$\scriptstyle A$}
+\put(20.2, 0.2 ){$\scriptstyle B$}
+\put(29.7, 0.2 ){$\scriptstyle C$}
+\put(14.7, 0.2 ){$\scriptstyle D$}
+
+
+\end{picture}
+\PGrestore

@@ -1,0 +1,17 @@
+\PGset[0.8em]
+\begin{picture}(25,3)
+
+% 23
+
+\dashline[80]{0.2}( 1,1)(12,1) % M'A
+\drawline     (12,1)(24,1) % AB
+\drawline     (12,1)(12,0.6) % A
+\drawline     (16,1)(16,0.6) % M
+
+\put( 11.6, -0.2 ){$\scriptstyle A$}
+\put( 24.1,  0.9 ){$\scriptstyle B$}
+\put( 15.5, -0.2 ){$\scriptstyle M$}
+\put(  0.0,  0.9 ){$\scriptstyle M'$}
+
+\end{picture}
+\PGrestore

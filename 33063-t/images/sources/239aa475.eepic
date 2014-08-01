@@ -1,0 +1,37 @@
+\PGset[0.8em]
+\begin{picture}(12,12)
+
+% Ellipse:  u = 6.0  v = 6.0  a = 5.0  b = 5.0  phi = 0.0 Grad
+\qbezier(11.0, 6.0)(11.0, 8.0711)(9.5355, 9.5355)
+\qbezier(9.5355, 9.5355)(8.0711, 11.0)(6.0, 11.0)
+\qbezier(6.0, 11.0)(3.9289, 11.0)(2.4645, 9.5355)
+\qbezier(2.4645, 9.5355)(1.0, 8.0711)(1.0, 6.0)
+\qbezier(1.0, 6.0)(1.0, 3.9289)(2.4645, 2.4645)
+\qbezier(2.4645, 2.4645)(3.9289, 1.0)(6.0, 1.0)
+\qbezier(6.0, 1.0)(8.0711, 1.0)(9.5355, 2.4645)
+\qbezier(9.5355, 2.4645)(11.0, 3.9289)(11.0, 6.0)
+
+% radius = 5, side of decagon = 3.0899, side of pentedecagon = 2.0785
+
+% Ey = Hy, EH = 5, both on the circle r=5, Ex = 6-2.5, Hx = 6+2.5
+% Ey = Hy = 6-4.33 = 1.67
+\dashline[80]{0.2}(3.5,1.67)(8.5,1.67)(6.523,1.029)(3.5,1.67) % EHFE
+
+
+\dashline[80]{0.2}(8.4990,1.6700)(10.0445,3.0615)(10.8905,4.9605)(10.8905,7.0395)(10.0455,8.9385)
+
+\put(  5.7, 5.7  ){$\scriptstyle Q$}
+
+\put( 10.0, 2.5  ){$\scriptstyle A$}
+\put( 11.0, 4.8  ){$\scriptstyle B$}
+\put( 11.0, 6.8  ){$\scriptstyle C$}
+\put( 10.3, 8.7  ){$\scriptstyle D$}
+
+\put(  2.8, 0.9  ){$\scriptstyle E$}
+\put(  6.2, 0.2  ){$\scriptstyle F$}
+\put(  8.5, 0.9  ){$\scriptstyle H$}
+
+
+
+\end{picture}
+\PGrestore

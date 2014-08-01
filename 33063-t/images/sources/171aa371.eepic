@@ -1,0 +1,19 @@
+\PGset[0.8em]
+\begin{picture}(16.5,9)
+
+% 312x206
+% 11x7
+\drawline(1,1)(16.456,1)(12,8)(1,1) % ABCA
+
+% -1/mAC = -1.571
+\dashline[80]{0.2}(12,1)(12,8) % FC
+
+
+\put( 0.7, 0.2 ){$\scriptstyle A$}
+\put(15.8, 0.2 ){$\scriptstyle B$}
+\put(11.7, 8.1 ){$\scriptstyle C$}
+\put(11.7, 0.2 ){$\scriptstyle F$}
+
+
+\end{picture}
+\PGrestore

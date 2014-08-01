@@ -1,0 +1,19 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 129dd311.tex
+% Pt.311. Fig.d.   (16.3, 9.5 )
+\PGset[0.8em]
+\begin{picture}    (16.3, 9.5 )
+\drawline          ( 0.1  , 1     )(15.4  , 1     )                 %left(A)E
+\dashline[80]{0.4}     ( 2.3  , 1     )( 8.8  , 6.6   )                 %AB
+\dashline[80]{0.2}( 8.8  , 6.6   )(11.238, 8.7   )                 %BD
+\dashline[80]{0.4}     ( 8.8  , 6.6   )(10.049, 2.8   )                 %B-arc
+\qbezier[24]       (11.751, 3.9   )(10.007, 1.993 )( 7.551, 2.8   ) %arc from B
+\put(  1.8 ,  0.1 ){$\scriptstyle A$}   %A
+\put(  7.9 ,  6.6 ){$\scriptstyle B$}   %B
+\put( 11.5 ,  8.75){$\scriptstyle D$}   %D
+\put( 15.4 ,  0.6 ){$\scriptstyle E$}   %E
+\put(  9.6 ,  4.5 ){\emph{a}}           %a
+\put(  4.8 ,  3.8 ){\emph{b}}           %b
+\end{picture}
+\PGrestore

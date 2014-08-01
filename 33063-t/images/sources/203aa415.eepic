@@ -1,0 +1,28 @@
+\PGset[0.8em]
+
+\begin{picture}   (14, 18 )
+
+\drawline     (  9, 11 )( 3, 8 )( 10, 8 )( 9, 11 ) % ABCA
+\drawline     (  9, 11 )( 6.88, 17.37)( 1.12, 14.37)( 3, 8 ) % AGFB
+\drawline     (  9, 11 )(11.83, 12.41)(12.83, 9.41)(10,8) % AHKC
+\drawline     (  3, 8 )(3, 1)(10,1)(10,8) % BDEC
+
+\dashline[80]{0.2}(  9, 11)(3,1) % AD
+\dashline[80]{0.2}(  9, 11)(9,1) % AL
+\dashline[80]{0.2}( 10,  8)(1.12, 14.37) % CF
+
+\put(  9  , 11.5 ) {$\scriptstyle A$}
+\put(  2  ,  7.7) {$\scriptstyle B$}
+\put( 10.2  ,  7.5 ) {$\scriptstyle C$}
+\put(  2.7  ,  .2 ) {$\scriptstyle D$}
+\put( 9.5  ,  .2 ) {$\scriptstyle E$}
+\put(0.62,14.37) {$\scriptstyle F$}
+\put(6.88,17.37) {$\scriptstyle G$}
+\put(11.83,12.41){$\scriptstyle H$}
+\put(12.83,9.41) {$\scriptstyle K$}
+\put(  8.5  ,  .2 ) {$\scriptstyle L$}
+
+
+\end{picture}
+
+\PGrestore

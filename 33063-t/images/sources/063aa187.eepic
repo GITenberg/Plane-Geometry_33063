@@ -1,0 +1,28 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 063aa187.tex
+% Pt.187. Fig.a.  (24.5,17.5 )
+\PGset[0.8em]
+\begin{picture}   (24.5,17.5 )
+\drawline(0, 4.5)(24.5, 4.5) % DGP
+\drawline(3.5,7.5)(24.5,7.5) % CFM
+\drawline(5,10.5)(23.7,10.5) % BEK
+\drawline(8.2,13.5)(22.7,13.5) % AH
+\drawline(1,1.5)(15.5,16) % DCBA
+\drawline(22.9,0)(19.4,17.5) % PMKH
+\dashline[80]{0.2}( 7, 7.5 )( 7.6, 4.5 )               %CG
+\dashline[80]{0.2}(10,10.5 )(10.6, 7.5 )               %BF
+\dashline[80]{0.2}(13,13.5 )(13.6,10.5 )               %AE
+\put(12.3   , 13.7 ){$\scriptstyle A$}   %A
+\put( 9.3   , 10.7 ){$\scriptstyle B$}   %B
+\put( 6.3   ,  7.7 ){$\scriptstyle C$}   %C
+\put( 3.3   ,  4.7 ){$\scriptstyle D$}   %D
+\put(13.3   ,  9.7 ){$\scriptstyle E$}   %E
+\put(10.3   ,  6.7 ){$\scriptstyle F$}   %F
+\put( 7.3   ,  3.7 ){$\scriptstyle G$}   %G
+\put(20.3   , 13.7 ){$\scriptstyle H$}   %H
+\put(20.9   , 10.7 ){$\scriptstyle K$}   %K
+\put(21.5   ,  7.7 ){$\scriptstyle M$}   %M
+\put(22.1   ,  4.7 ){$\scriptstyle P$}   %P
+\end{picture}
+\PGrestore

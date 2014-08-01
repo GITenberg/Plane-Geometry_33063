@@ -1,0 +1,12 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  package   ***
+% 020ccZ68.tex
+% Pt.68. Fig.13. ( 9, 9 )
+\vspace{-2ex}
+\PGset[0.8em]
+\begin{picture}  ( 9, 6 )
+\drawline( 8 , 5.5 )( 1, 2 )( 8, 2 )  %ur A lr
+\put( 0.1   ,  1.7 ){$\scriptstyle A$}   %A
+\put( 2.5   ,  0.2 ){{\footnotesize \textsc{Fig. 13.}}}
+\end{picture}
+\PGrestore

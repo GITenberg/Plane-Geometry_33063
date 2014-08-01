@@ -1,0 +1,10 @@
+% figures
+% Create \savelength to use in saving and restoring \unitlength
+%    just in case some other value is being used between diagrams
+\newlength{\PGsavelength}
+
+% \PGset saves current \unitlength in \PGsavelength, and sets \unitlength to {arg}
+\newcommand{\PGset}[1][\unitlength]{\setlength{\PGsavelength}{\unitlength}\setlength{\unitlength}{#1}}
+
+% \PGrestore sets \unitlength back to the value saved in \PGsavelength
+\newcommand{\PGrestore}{\setlength{\unitlength}{\PGsavelength}}

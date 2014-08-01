@@ -1,0 +1,18 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% 078ccZ46.tex
+% Ex.46. Fig.c.   (10, 7 )
+\PGset[0.8em]
+\begin{picture}   (10, 7 )
+\put( 1   ,  1   ){\line  ( 3, 4 ){ 3.75 }}         %B(H)A
+\put( 1   ,  1   ){\line  ( 2, 1 ){ 8    }}         %B(P)D
+\put( 1   ,  1   ){\line  ( 1, 0 ){ 8    }}         %BC
+\put( 3.25,  4   ){\line  ( 1, 0 ){ 5.75 }}         %H(P)K
+\put( 4.4   ,  6.2 ){$\scriptstyle A$}   %A
+\put( 0.1   ,  0.3 ){$\scriptstyle B$}   %B
+\put( 8.2   ,  0.2 ){$\scriptstyle C$}   %C
+\put( 8.6   ,  5.2 ){$\scriptstyle D$}   %D
+\put( 2.4   ,  3.9 ){$\scriptstyle H$}   %H
+\put( 9.0   ,  3.7 ){$\scriptstyle K$}   %K
+\put( 6.8   ,  3.2 ){$\scriptstyle P$}   %P
+\end{picture}
+\PGrestore

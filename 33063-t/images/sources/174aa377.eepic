@@ -1,0 +1,23 @@
+\PGset[0.8em]
+\begin{picture}(22,8)
+
+% 575x176
+% 20x6
+\drawline(14,7)(1,1)(21,1)(14,7) % ABCA
+
+\drawline(14,7)(11,1) % AM
+
+
+\dashline[80]{0.2}(14,7)(14,1) % AD
+
+
+
+\put(13.7, 7.1 ){$\scriptstyle A$}
+\put( 0.2, 0.7 ){$\scriptstyle B$}
+\put(21.1, 0.7 ){$\scriptstyle C$}
+\put(13.7, 0.2 ){$\scriptstyle D$}
+\put(10.5, 0.2 ){$\scriptstyle M$}
+
+
+\end{picture}
+\PGrestore

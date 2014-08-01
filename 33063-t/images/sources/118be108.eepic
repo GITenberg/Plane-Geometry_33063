@@ -1,0 +1,128 @@
+% Diagram by nilrem for PGDP project: Plane Geometry by G.A. Wentworth
+% ***  Uses  epic  &  eepic  packages   ***
+% 118bb108.tex
+% Ex.108. Fig.b.   (7.2, 9.7 )
+\PGset[0.8em]
+\begin{picture}    (7.2, 9.7 )
+
+% Ellipse:  u = 3.4  v = 3.8  a = 2.8  b = 2.8  phi = 0.0 Grad
+\qbezier(6.2, 3.8)(6.2, 4.9598)(5.3799, 5.7799)
+\qbezier(5.3799, 5.7799)(4.5598, 6.6)(3.4, 6.6)
+\qbezier(3.4, 6.6)(2.2402, 6.6)(1.4201, 5.7799)
+\qbezier(1.4201, 5.7799)(0.6, 4.9598)(0.6, 3.8)
+\qbezier(0.6, 3.8)(0.6, 2.6402)(1.4201, 1.8201)
+\qbezier(1.4201, 1.8201)(2.2402, 1.0)(3.4, 1.0)
+\qbezier(3.4, 1.0)(4.5598, 1.0)(5.3799, 1.8201)
+\qbezier(5.3799, 1.8201)(6.2, 2.6402)(6.2, 3.8)
+
+\drawline     ( 3.4  , 1     )( 3.4  , 6.6   )    %bottom(OP)top
+\drawline     ( 1.175, 5.5   )( 5.625, 5.5   )    %A(P)B
+\drawline     ( 2.258, 6.357 )( 6.174, 3.419 )    %C(PQ)D
+\dashline[80]{0.2}( 3.4  , 3.8   )( 4.216, 4.888 )    %OQ
+\put(  0.3 ,  5.3 ){$\scriptstyle A$}   %A
+\put(  5.65,  5.5 ){$\scriptstyle B$}   %B
+\put(  1.7 ,  6.5 ){$\scriptstyle C$}   %C
+\put(  6.3 ,  3   ){$\scriptstyle D$}   %D
+\put(  2.5 ,  3.4 ){$\scriptstyle O$}   %O 3.4,3.8
+\put(  3.5 ,  5.6 ){$\scriptstyle P$}   %P 3.4,5.5
+\put(  4.4 ,  4.75){$\scriptstyle Q$}   %Q
+\end{picture}
+\PGrestore
+%
+\qquad
+% 118cc108.tex
+% Ex.108. Fig.c.   (7.6, 9.7 )
+\PGset[0.8em]
+\begin{picture}    (7.6, 9.7 )
+
+% Ellipse:  u = 3.8  v = 3.8  a = 2.8  b = 2.8  phi = 0.0 Grad
+\qbezier(6.6, 3.8)(6.6, 4.9598)(5.7799, 5.7799)
+\qbezier(5.7799, 5.7799)(4.9598, 6.6)(3.8, 6.6)
+\qbezier(3.8, 6.6)(2.6402, 6.6)(1.8201, 5.7799)
+\qbezier(1.8201, 5.7799)(1.0, 4.9598)(1.0, 3.8)
+\qbezier(1.0, 3.8)(1.0, 2.6402)(1.8201, 1.8201)
+\qbezier(1.8201, 1.8201)(2.6402, 1.0)(3.8, 1.0)
+\qbezier(3.8, 1.0)(4.9598, 1.0)(5.7799, 1.8201)
+\qbezier(5.7799, 1.8201)(6.6, 2.6402)(6.6, 3.8)
+
+\drawline     ( 1.296, 2.548 )( 6.304, 5.052 )    %H(OC)K
+\drawline     ( 1.680, 5.630 )( 6.531, 4.417 )    %A(MC)B
+\drawline     ( 5.932, 5.615 )( 3.992, 1.007 )    %D(CN)E
+\dashline[80]{0.2}( 4.106, 5.023 )( 3.8  , 3.8   )( 4.962, 3.311 )    %MON
+\put(  0.7 ,  5.6 ){$\scriptstyle A$}   %A
+\put(  6.7 ,  3.9 ){$\scriptstyle B$}   %B
+\put(  4.9 ,  4.9 ){$\scriptstyle C$}   %C 5.533, 4.667
+\put(  5.8 ,  5.9 ){$\scriptstyle D$}   %D
+\put(  3.6 ,  0.2 ){$\scriptstyle E$}   %E
+\put(  0.2 ,  1.9 ){$\scriptstyle H$}   %H
+\put(  6.5 ,  4.9 ){$\scriptstyle K$}   %K
+\put(  3.6 ,  5.2 ){$\scriptstyle M$}   %M
+\put(  5.1 ,  2.9 ){$\scriptstyle N$}   %N
+\put(  2.9 ,  3.8 ){$\scriptstyle O$}   %O 
+\end{picture}
+\PGrestore
+%
+\qquad
+% 118dd108.tex
+% Ex.108. Fig.d.   (9.2, 9.7 )
+\PGset[0.8em]
+\begin{picture}    (9.2, 9.7 )
+
+% Ellipse:  u = 3.8  v = 4.6  a = 2.8  b = 2.8  phi = 0.0 Grad
+\qbezier(6.6, 4.6)(6.6, 5.7598)(5.7799, 6.5799)
+\qbezier(5.7799, 6.5799)(4.9598, 7.4)(3.8, 7.4)
+\qbezier(3.8, 7.4)(2.6402, 7.4)(1.8201, 6.5799)
+\qbezier(1.8201, 6.5799)(1.0, 5.7598)(1.0, 4.6)
+\qbezier(1.0, 4.6)(1.0, 3.4402)(1.8201, 2.6201)
+\qbezier(1.8201, 2.6201)(2.6402, 1.8)(3.8, 1.8)
+\qbezier(3.8, 1.8)(4.9598, 1.8)(5.7799, 2.6201)
+\qbezier(5.7799, 2.6201)(6.6, 3.4402)(6.6, 4.6)
+
+\drawline     ( 1    , 7.7   )( 1    , 1     )( 3.8  , 4.6   )  %A(L)DO
+\drawline     ( 1    , 1     )( 8.325, 2.860 )( 3.8  , 4.6   )  %D(K)CO
+\drawline     ( 8.325, 2.860 )( 5.397, 7.252 )( 3.8  , 4.6   )  %C(H)BO
+\drawline     ( 5.397, 7.252 )( 1    , 7.7   )( 3.8  , 4.6   )  %B(G)AO
+\dashline[80]{0.2}( 3.8  , 4.6   )( 1    , 4.35  )                  %OL
+\dashline[80]{0.2}( 3.8  , 4.6   )( 4.489, 1.886 )                  %OK
+\dashline[80]{0.2}( 3.8  , 4.6   )( 6.130, 6.153 )                  %OH
+\dashline[80]{0.2}( 3.8  , 4.6   )( 4.084, 7.386 )                  %OG
+\put(  0.1 ,  7.6 ){$\scriptstyle A$}   %A
+\put(  5.5 ,  7.2 ){$\scriptstyle B$}   %B
+\put(  8.4 ,  2.5 ){$\scriptstyle C$}   %C
+\put(  0.5 ,  0.2 ){$\scriptstyle D$}   %D
+\put(  3.8 ,  7.6 ){$\scriptstyle G$}   %G
+\put(  6.2 ,  6.1 ){$\scriptstyle H$}   %H
+\put(  4.2 ,  1   ){$\scriptstyle K$}   %K
+\put(  0.2 ,  4   ){$\scriptstyle L$}   %L
+\put(  4.2 ,  4.6 ){$\scriptstyle O$}   %O 
+\end{picture}
+\PGrestore
+%
+\qquad
+% 118ee108.tex
+% Ex.108. Fig.e.   (9.8, 9.7 )
+\PGset[0.8em]
+\begin{picture}    (9.8, 9.7 )
+
+% Ellipse:  u = 5.034  v = 3.56  a = 2.56  b = 2.56  phi = 0.0 Grad
+\qbezier(7.594, 3.56)(7.594, 4.6204)(6.8442, 5.3702)
+\qbezier(6.8442, 5.3702)(6.0944, 6.12)(5.034, 6.12)
+\qbezier(5.034, 6.12)(3.9736, 6.12)(3.2238, 5.3702)
+\qbezier(3.2238, 5.3702)(2.474, 4.6204)(2.474, 3.56)
+\qbezier(2.474, 3.56)(2.474, 2.4996)(3.2238, 1.7498)
+\qbezier(3.2238, 1.7498)(3.9736, 1.0)(5.034, 1.0)
+\qbezier(5.034, 1.0)(6.0944, 1.0)(6.8442, 1.7498)
+\qbezier(6.8442, 1.7498)(7.594, 2.4996)(7.594, 3.56)
+
+\drawline     ( 5.034, 8.68  )( 0.6  , 1     )( 9.468, 1     )( 5.034, 8.68  )  %A(E)B(D)CA
+\drawline     ( 5.034, 1     )( 5.034, 8.68  )                                  %D(OF)A
+\dashline[80]{0.2}( 5.034, 6.12  )( 2.817, 4.84  )( 5.034, 3.56  )                  %FEO
+\put(  4.7 ,  8.9 ){$\scriptstyle A$}   %A
+\put(  0.1 ,  0.1 ){$\scriptstyle B$}   %B
+\put(  8.9 ,  0.1 ){$\scriptstyle C$}   %C
+\put(  4.5 ,  0.1 ){$\scriptstyle D$}   %D
+\put(  1.9 ,  4.8 ){$\scriptstyle E$}   %E
+\put(  5.1 ,  6.3 ){$\scriptstyle F$}   %F
+\put(  5.2 ,  3.1 ){$\scriptstyle O$}   %O 
+\end{picture}
+\PGrestore
